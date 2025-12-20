@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-1" value="中医养生经验交流与产品购买平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
-          <mxGeometry x="283" y="79" width="201" height="39" as="geometry" />
+          <mxGeometry x="313" y="64" width="201" height="39" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-2" value="养生经验交流平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
           <mxGeometry x="112" y="148" width="112" height="31" as="geometry" />
@@ -14,10 +14,10 @@
           <mxGeometry x="568" y="148" width="112" height="31" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-5" value="养生知识管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
-          <mxGeometry x="49" y="242" width="94" height="34" as="geometry" />
+          <mxGeometry x="31" y="225" width="94" height="34" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-6" value="经验交流管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
-          <mxGeometry x="199" y="242" width="94" height="34" as="geometry" />
+          <mxGeometry x="201" y="225" width="94" height="34" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-7" value="产品管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
           <mxGeometry x="386" y="242" width="94" height="34" as="geometry" />
