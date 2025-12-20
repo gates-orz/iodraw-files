@@ -83,7 +83,7 @@
           <mxGeometry x="752" y="312" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-28" value="&lt;font face=&quot;SimSun&quot;&gt;订单状态管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="793" y="312" width="24" height="133" as="geometry" />
+          <mxGeometry x="860" y="305" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-29" value="&lt;font face=&quot;SimSun&quot;&gt;订单支付管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="903" y="307" width="24" height="133" as="geometry" />
