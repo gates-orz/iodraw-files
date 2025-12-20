@@ -55,8 +55,8 @@
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-18" value="&lt;font face=&quot;SimSun&quot;&gt;产品信息管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="312" width="24" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-19" value="&lt;font face=&quot;SimSun&quot;&gt;养生文章管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="112" y="392" width="24" height="133" as="geometry" />
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-19" value="&lt;font face=&quot;SimSun&quot;&gt;产品分类管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="312" width="24" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
