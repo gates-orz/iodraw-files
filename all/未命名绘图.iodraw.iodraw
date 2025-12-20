@@ -71,22 +71,22 @@
           <mxGeometry x="592" y="307" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-24" value="&lt;font face=&quot;SimSun&quot;&gt;投诉与建议管理&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20face%3D%26quot%3BSimSun%26quot%3B%26gt%3B%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22555%22%20y%3D%22312%22%20width%3D%2224%22%20height%3D%22133%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="636" y="307" width="24" height="133" as="geometry" />
+          <mxGeometry x="692" y="307" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-25" value="&lt;font face=&quot;SimSun&quot;&gt;评价管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="738" y="305" width="24" height="133" as="geometry" />
+          <mxGeometry x="747" y="305" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-26" value="&lt;font face=&quot;SimSun&quot;&gt;购物车管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="778" y="305" width="24" height="133" as="geometry" />
+          <mxGeometry x="787" y="305" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-27" value="&lt;font face=&quot;SimSun&quot;&gt;订单信息管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="821" y="305" width="24" height="133" as="geometry" />
+          <mxGeometry x="830" y="305" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-28" value="&lt;font face=&quot;SimSun&quot;&gt;订单状态管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="860" y="305" width="24" height="133" as="geometry" />
+          <mxGeometry x="869" y="305" width="24" height="133" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-29" value="&lt;font face=&quot;SimSun&quot;&gt;订单支付管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="903" y="305" width="24" height="133" as="geometry" />
+          <mxGeometry x="912" y="305" width="24" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
