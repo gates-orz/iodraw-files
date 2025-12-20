@@ -10,7 +10,7 @@
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-2" value="养生经验交流平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="117" y="161" width="112" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-4" value="产品购买平台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-4" value="产品购买平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
           <mxGeometry x="527" y="161" width="112" height="31" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-5" value="养生知识管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
