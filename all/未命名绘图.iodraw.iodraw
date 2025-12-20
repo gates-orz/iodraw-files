@@ -22,8 +22,11 @@
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-7" value="产品管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
           <mxGeometry x="386" y="242" width="94" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-8" value="用户管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-8" value="&lt;font face=&quot;SimSun&quot;&gt;用户管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="504" y="242" width="94" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-9" value="&lt;font face=&quot;SimSun&quot;&gt;用户管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="514" y="252" width="94" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
