@@ -14,10 +14,10 @@
           <mxGeometry x="527" y="161" width="112" height="31" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-5" value="养生知识管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
-          <mxGeometry x="31" y="242" width="94" height="34" as="geometry" />
+          <mxGeometry x="49" y="242" width="94" height="34" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-6" value="经验交流管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
-          <mxGeometry x="145" y="242" width="94" height="34" as="geometry" />
+          <mxGeometry x="199" y="242" width="94" height="34" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-7" value="产品管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=SimSun;" vertex="1" parent="1">
           <mxGeometry x="386" y="242" width="94" height="34" as="geometry" />
