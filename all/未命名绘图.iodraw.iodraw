@@ -79,7 +79,7 @@
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-26" value="&lt;font face=&quot;SimSun&quot;&gt;购物车管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="708" y="312" width="24" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-27" value="&lt;font face=&quot;SimSun&quot;&gt;权限管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-27" value="&lt;font face=&quot;SimSun&quot;&gt;订单信息管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="752" y="312" width="24" height="133" as="geometry" />
         </mxCell>
       </root>
