@@ -123,7 +123,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-21" value="&lt;font face=&quot;SimSun&quot; style=&quot;font-size: 17px;&quot;&gt;用户基本信息管理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
-          <mxGeometry x="509" y="305" width="29" height="138" as="geometry" />
+          <mxGeometry x="509" y="305" width="31" height="166" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=17;" parent="1" source="0mZY2ysda1P1hOe6Rd3q-22" target="0mZY2ysda1P1hOe6Rd3q-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
