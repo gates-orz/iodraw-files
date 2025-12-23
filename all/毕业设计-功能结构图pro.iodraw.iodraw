@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="TUM37JTTSGP2aiBQEOhl">
-    <mxGraphModel dx="1563" dy="735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12,25 +12,27 @@
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;中医养生经验交流与产品购买平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="1" vertex="1">
           <mxGeometry x="270" y="17" width="201" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Simsun;fontSize=18;" parent="1" source="0mZY2ysda1P1hOe6Rd3q-2" target="0mZY2ysda1P1hOe6Rd3q-1" edge="1">
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=none;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Simsun;fontSize=18;" parent="1" target="0mZY2ysda1P1hOe6Rd3q-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="337.00005086263036" y="130.33333333333337" as="targetPoint" />
+            <mxPoint x="137.5" y="136" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-2" value="养生经验交流平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=18;" parent="1" vertex="1">
-          <mxGeometry x="62" y="136" width="151" height="36" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-4" value="产品购买平台" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="555" y="136" width="151" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Simsun;fontSize=18;" parent="1" source="0mZY2ysda1P1hOe6Rd3q-5" target="0mZY2ysda1P1hOe6Rd3q-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Simsun;fontSize=18;" parent="1" source="0mZY2ysda1P1hOe6Rd3q-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137.5" y="172" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-5" value="养生知识管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-5.5" y="214" width="105" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="0mZY2ysda1P1hOe6Rd3q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Simsun;fontSize=18;" parent="1" source="0mZY2ysda1P1hOe6Rd3q-6" target="0mZY2ysda1P1hOe6Rd3q-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="0mZY2ysda1P1hOe6Rd3q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontFamily=Simsun;fontSize=18;" parent="1" source="0mZY2ysda1P1hOe6Rd3q-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="137.5" y="172" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-6" value="经验交流管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="165" y="214" width="105" height="49" as="geometry" />
