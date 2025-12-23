@@ -5,7 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;中医养生经验交流与产品购买平台&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="1" vertex="1">
-          <mxGeometry x="270" y="17" width="201" height="39" as="geometry" />
+          <mxGeometry x="367" y="76" width="201" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="N7HhMW6J9LgEhuRPMANn-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="0mZY2ysda1P1hOe6Rd3q-5" target="0mZY2ysda1P1hOe6Rd3q-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0mZY2ysda1P1hOe6Rd3q-5" value="养生知识管理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="-5.5" y="214" width="105" height="49" as="geometry" />
