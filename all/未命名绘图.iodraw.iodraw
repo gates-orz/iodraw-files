@@ -414,7 +414,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-144" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
-          <mxGeometry x="147" y="4816" width="291.47" height="284" as="geometry" />
+          <mxGeometry x="167" y="4825" width="291.47" height="284" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-145" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=black;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.redshift_query_editor_v20_light;" vertex="1" parent="1">
           <mxGeometry x="644" y="4046" width="213" height="213" as="geometry" />
@@ -433,7 +433,7 @@
             <mxPoint x="283" y="4581" as="sourcePoint" />
             <mxPoint x="211" y="4445" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="297" y="4483" />
+              <mxPoint x="323" y="4463" />
             </Array>
           </mxGeometry>
         </mxCell>
