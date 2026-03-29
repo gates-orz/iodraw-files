@@ -417,7 +417,7 @@
           <mxGeometry x="175" y="4826" width="291.47" height="284" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-145" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=black;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.redshift_query_editor_v20_light;" vertex="1" parent="1">
-          <mxGeometry x="624" y="4039" width="213" height="213" as="geometry" />
+          <mxGeometry x="624" y="4030" width="213" height="213" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-146" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.globe;" vertex="1" parent="1">
           <mxGeometry x="641" y="4376" width="173" height="173" as="geometry" />
@@ -452,7 +452,7 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-156" value="&lt;font style=&quot;font-size: 40px;&quot; face=&quot;Simsun&quot;&gt;用户端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1080" y="5130" width="138" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-157" value="" style="endArrow=classic;html=1;rounded=0;endSize=14;" edge="1" parent="1" source="1PXIYOc5EDeA94t92qVS-146" target="1PXIYOc5EDeA94t92qVS-145">
+        <mxCell id="1PXIYOc5EDeA94t92qVS-157" value="" style="endArrow=classic;html=1;rounded=0;endSize=20;" edge="1" parent="1" source="1PXIYOc5EDeA94t92qVS-146" target="1PXIYOc5EDeA94t92qVS-145">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="69" y="4504" as="sourcePoint" />
             <mxPoint x="650" y="4309" as="targetPoint" />
