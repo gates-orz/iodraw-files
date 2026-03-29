@@ -8,7 +8,7 @@
           <mxGeometry x="91" y="754.5" width="113" height="256" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-2" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="228" y="163" width="1519" height="1433" as="geometry" />
+          <mxGeometry x="217" y="184" width="1519" height="1433" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-4" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;登录/登出&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="325" y="253" width="237" height="109" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="325" y="1046" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-16" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;售后管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1196" width="237" height="109" as="geometry" />
+          <mxGeometry x="330" y="1190" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-17" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;个人资料&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="330" y="1334" width="237" height="109" as="geometry" />
