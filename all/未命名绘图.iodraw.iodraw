@@ -428,18 +428,6 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-149" value="&lt;font style=&quot;font-size: 40px;&quot; face=&quot;Simsun&quot;&gt;web服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="641" y="4577" width="198" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-150" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="793" y="4643" as="sourcePoint" />
-            <mxPoint x="843" y="4593" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-151" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="1PXIYOc5EDeA94t92qVS-144">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="203.9991092835237" y="4649" as="sourcePoint" />
-            <mxPoint x="470.3799999999999" y="4226" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
