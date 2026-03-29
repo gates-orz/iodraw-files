@@ -277,7 +277,7 @@
           <mxGeometry x="774" y="2428" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-115" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;收藏&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="769" y="2550" width="237" height="109" as="geometry" />
+          <mxGeometry x="785" y="2629" width="237" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
