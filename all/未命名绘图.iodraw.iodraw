@@ -138,13 +138,8 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="1PXIYOc5EDeA94t92qVS-13" target="1PXIYOc5EDeA94t92qVS-21">
+        <mxCell id="1PXIYOc5EDeA94t92qVS-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="1PXIYOc5EDeA94t92qVS-13" target="1PXIYOc5EDeA94t92qVS-21">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-50" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1PXIYOc5EDeA94t92qVS-49">
-          <mxGeometry x="-0.0142" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="-1" as="offset" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
