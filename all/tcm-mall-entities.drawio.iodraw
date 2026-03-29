@@ -68,13 +68,13 @@
         <mxCell id="p-a1" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="480" y="120" width="80" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="p-a2" value="category_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="p-a2" value="category_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="200" y="220" width="110" height="44" as="geometry" />
         </mxCell>
         <mxCell id="p-a3" value="name" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="720" y="220" width="80" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="p-a4" value="price" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="p-a4" value="price" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="140" y="340" width="72" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p-a5" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
