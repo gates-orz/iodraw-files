@@ -273,8 +273,8 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-113" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;养生文章&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="769" y="2306" width="237" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-114" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;养生知识&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="458" y="2435" width="237" height="109" as="geometry" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-114" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;专家讲座&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="774" y="2428" width="237" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
