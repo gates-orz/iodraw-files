@@ -305,16 +305,10 @@
         <mxCell id="ent_trade_order_e8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_trade_order_a8" target="ent_trade_order_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_trade_order_a9" value="remark" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_trade_order_a9" value="备注" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="376" y="635.2" width="156" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_trade_order_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_trade_order_a9" target="ent_trade_order_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_trade_order_a10" value="create_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="309.7" y="459.4" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_trade_order_e10" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_trade_order_a10" target="ent_trade_order_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_trade_order_a11" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
