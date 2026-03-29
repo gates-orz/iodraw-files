@@ -49,8 +49,8 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-18" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;养生主题&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="832" y="573" width="237" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-19" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;产品介绍&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="850" y="464" width="237" height="109" as="geometry" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-19" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;帖子&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="830" y="702" width="237" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
