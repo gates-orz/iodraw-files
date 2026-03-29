@@ -449,6 +449,9 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-155" value="&lt;font style=&quot;font-size: 40px;&quot; face=&quot;Simsun&quot;&gt;管理员端&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="206" y="5126" width="178" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="1PXIYOc5EDeA94t92qVS-156" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1109" y="5147" width="40" height="26" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
