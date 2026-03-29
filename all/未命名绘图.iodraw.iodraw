@@ -37,8 +37,11 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-11" value="下单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="618" y="546" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="353" y="567" width="120" height="60" as="geometry" />
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-12" value="评论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362" y="667" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="667" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
