@@ -142,10 +142,10 @@
           <mxGeometry x="257" y="870" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-37" value="养生文章" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="509" y="1003" width="120" height="60" as="geometry" />
+          <mxGeometry x="434" y="1019" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-38" value="专家讲座" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="661" y="992" width="120" height="60" as="geometry" />
+          <mxGeometry x="638" y="1019" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-39" value="帖子" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="830" y="996" width="120" height="60" as="geometry" />
