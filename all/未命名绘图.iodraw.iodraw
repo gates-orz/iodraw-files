@@ -423,7 +423,7 @@
           <mxGeometry x="641" y="4376" width="173" height="173" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-148" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
-          <mxGeometry x="1006" y="4855" width="291.47" height="284" as="geometry" />
+          <mxGeometry x="1001" y="4836" width="291.47" height="284" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-149" value="&lt;font style=&quot;font-size: 40px;&quot; face=&quot;Simsun&quot;&gt;web服务器&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="641" y="4577" width="198" height="60" as="geometry" />
