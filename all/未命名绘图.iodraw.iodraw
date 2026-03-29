@@ -246,8 +246,8 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-81" value="维护分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1715" y="733" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1652" y="955" width="120" height="60" as="geometry" />
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-82" value="商品分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="878" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
