@@ -19,8 +19,11 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-8" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;养生文章&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="616" y="340" width="237" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-9" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;养生知识管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="345" y="435" width="237" height="109" as="geometry" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-9" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;专家讲座&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="616" y="460" width="237" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="1PXIYOc5EDeA94t92qVS-10" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;养生知识管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="355" y="445" width="237" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
