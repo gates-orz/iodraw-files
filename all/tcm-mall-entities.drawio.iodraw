@@ -455,7 +455,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ent_health_category" name="11-知识分类">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -463,13 +463,13 @@
           <mxGeometry x="620" y="470" width="197" height="62" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_category_a0" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="715" y="291" width="140" height="52" as="geometry" />
+          <mxGeometry x="616" y="344" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_category_e0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_category_a0" target="ent_health_category_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_category_a1" value="biz_type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="903.8" y="228.9" width="192" height="52" as="geometry" />
+          <mxGeometry x="841" y="386" width="192" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_category_e1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_category_a1" target="ent_health_category_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -484,12 +484,6 @@
           <mxGeometry x="672" y="634" width="174" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_category_e6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_category_a6" target="ent_health_category_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_health_category_a7" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="398.6" y="609.1" width="156" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_health_category_e7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_category_a7" target="ent_health_category_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
