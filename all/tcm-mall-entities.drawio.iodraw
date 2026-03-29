@@ -299,12 +299,6 @@
         <mxCell id="ent_trade_order_e6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_trade_order_a6" target="ent_trade_order_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_trade_order_a7" value="pay_type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="615.5" y="863.2" width="192" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_trade_order_e7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_trade_order_a7" target="ent_trade_order_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ent_trade_order_a8" value="pay_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="458.6" y="780.9" width="192" height="52" as="geometry" />
         </mxCell>
