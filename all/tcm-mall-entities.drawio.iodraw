@@ -1,4 +1,4 @@
-<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17" pages="24">
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17" pages="23">
   <diagram id="readme" name="00-使用说明">
     <mxGraphModel dx="1221" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
@@ -169,52 +169,11 @@
         <mxCell id="KUZyAY-Z_Zu_5Lbh6VzS-15" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="KUZyAY-Z_Zu_5Lbh6VzS-14" target="KUZyAY-Z_Zu_5Lbh6VzS-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="42ttQN38bUktwLDQWgyo-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="42ttQN38bUktwLDQWgyo-1" target="KUZyAY-Z_Zu_5Lbh6VzS-1">
+        <mxCell id="42ttQN38bUktwLDQWgyo-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="42ttQN38bUktwLDQWgyo-1" target="KUZyAY-Z_Zu_5Lbh6VzS-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="42ttQN38bUktwLDQWgyo-1" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Simsun&quot;&gt;库存&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-296" y="403" width="188" height="85" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="ent_product_stock" name="05-商品库存">
-    <mxGraphModel dx="821" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="ent_product_stock_ent" value="商品库存" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="697" y="471" width="191" height="67" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_a0" value="id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="722.5" y="272" width="140" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_e0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_stock_a0" target="ent_product_stock_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_a1" value="product_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="928.4" y="310.7" width="228" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_e1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_stock_a1" target="ent_product_stock_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_a2" value="total_stock" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="979.2" y="573" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_e2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_stock_a2" target="ent_product_stock_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_a3" value="available_stock" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="775.5" y="783.3" width="318" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_e3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_stock_a3" target="ent_product_stock_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_a4" value="locked_stock" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="458.5" y="765" width="264" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_stock_e4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_stock_a4" target="ent_product_stock_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
