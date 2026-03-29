@@ -358,11 +358,62 @@
         <mxCell id="sDw57cYwMB4CbVfdbCDI-21" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="sDw57cYwMB4CbVfdbCDI-20" target="sDw57cYwMB4CbVfdbCDI-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-1" value="购物车项" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="712" y="495" width="183" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-2" value="&lt;u&gt;id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="619" y="370" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-2" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-4" value="用户id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="810" y="367" width="174" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-4" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-6" value="商品id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="914" y="429" width="228" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-6" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-8" value="商品名" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="883" y="567" width="264" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-8" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-10" value="商品描述" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="815" y="646" width="264" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-11" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-10" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-12" value="商品主图" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="643" y="687" width="228" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-13" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-12" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-14" value="价格" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="633" y="591" width="140" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-15" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-14" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-16" value="数量" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="477" y="470" width="192" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="k81z9d9KcNjTDCgzd4o_-17" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" edge="1" parent="1" source="k81z9d9KcNjTDCgzd4o_-16" target="k81z9d9KcNjTDCgzd4o_-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ent_cart_item" name="06-购物车项">
-    <mxGraphModel dx="1436" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1036" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -412,7 +463,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_cart_item_a7" value="数量" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="380.6" y="609.1" width="192" height="52" as="geometry" />
+          <mxGeometry x="477" y="470" width="192" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_cart_item_e7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_cart_item_a7" target="ent_cart_item_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
