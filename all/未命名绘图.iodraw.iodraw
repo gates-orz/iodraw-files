@@ -300,8 +300,14 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-122" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;退换货&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="830" y="3458" width="237" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-123" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;退换货&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="840" y="3468" width="237" height="109" as="geometry" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-123" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;投诉与建议&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="861" y="3621" width="237" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="1PXIYOc5EDeA94t92qVS-124" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277" y="2472" as="sourcePoint" />
+            <mxPoint x="327" y="2422" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
