@@ -49,7 +49,7 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-15" value="专家" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="618" y="708" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-16" value="知识分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="758" y="708" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
