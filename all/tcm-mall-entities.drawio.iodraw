@@ -136,13 +136,13 @@
           <mxGeometry x="620" y="470" width="195" height="74" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_a0" value="&lt;u&gt;id&lt;/u&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="417" y="324" width="140" height="52" as="geometry" />
+          <mxGeometry x="442" y="339" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_e0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a0" target="ent_product_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_a1" value="分类id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="645" y="312" width="246" height="52" as="geometry" />
+          <mxGeometry x="636" y="336" width="246" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_e1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a1" target="ent_product_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -153,13 +153,8 @@
         <mxCell id="ent_product_e2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a2" target="ent_product_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_product_e3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" target="ent_product_ent" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="972.523463928952" y="486.97936121290945" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ent_product_a4" value="主图" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="913" y="572" width="228" height="52" as="geometry" />
+          <mxGeometry x="914" y="495" width="228" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_e4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a4" target="ent_product_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -177,7 +172,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_a9" value="商品描述" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="377" y="594" width="282" height="52" as="geometry" />
+          <mxGeometry x="357" y="570" width="282" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_product_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a9" target="ent_product_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
