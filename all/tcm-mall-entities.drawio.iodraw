@@ -656,7 +656,7 @@
         <mxCell id="ent_after_sale_request_e5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_after_sale_request_a5" target="ent_after_sale_request_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_after_sale_request_a6" value="apply_type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_after_sale_request_a6" value="退换货类型" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="774.5" y="863.2" width="228" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_after_sale_request_e6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_after_sale_request_a6" target="ent_after_sale_request_ent" edge="1">
