@@ -44,7 +44,7 @@
           <mxGeometry x="235" y="567" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-10" value="点赞" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="567" width="80" height="80" as="geometry" />
+          <mxGeometry x="358" y="590" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-11" value="下单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="471" y="567" width="80" height="80" as="geometry" />
@@ -82,10 +82,16 @@
             <mxPoint x="256" y="864" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="FTVxGOCOlCLzWiAA1Els-3">
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-27" value="1" style="endArrow=none;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-10" target="FTVxGOCOlCLzWiAA1Els-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="299" y="952" as="sourcePoint" />
             <mxPoint x="349" y="902" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-28" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369" y="950" as="sourcePoint" />
+            <mxPoint x="419" y="900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
