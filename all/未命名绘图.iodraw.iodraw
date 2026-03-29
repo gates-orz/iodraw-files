@@ -47,7 +47,7 @@
           <mxGeometry x="358" y="590" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-11" value="下单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="471" y="567" width="80" height="80" as="geometry" />
+          <mxGeometry x="780" y="586" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-12" value="评论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="161" y="708" width="120" height="60" as="geometry" />
@@ -92,6 +92,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="369" y="950" as="sourcePoint" />
             <mxPoint x="419" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="483" y="594" as="sourcePoint" />
+            <mxPoint x="533" y="544" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
