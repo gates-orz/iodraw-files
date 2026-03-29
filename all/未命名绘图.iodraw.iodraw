@@ -162,6 +162,9 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-48" value="归类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="819" y="820" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-51" value="主讲" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="813" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
