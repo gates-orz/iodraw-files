@@ -59,7 +59,7 @@
           <mxGeometry x="396" y="506" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-10" value="点赞" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="515" y="542" width="80" height="80" as="geometry" />
+          <mxGeometry x="584" y="506" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-11" value="下单" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="1072" y="528" width="80" height="80" as="geometry" />
@@ -71,25 +71,25 @@
           <mxGeometry x="133" y="703" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-13" value="收藏" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="334" y="708" width="120" height="60" as="geometry" />
+          <mxGeometry x="331" y="652" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-14" value="点赞" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="485" y="708" width="120" height="60" as="geometry" />
+          <mxGeometry x="487" y="652" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-15" value="专家" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="618" y="708" width="120" height="60" as="geometry" />
+          <mxGeometry x="647" y="652" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-46" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=30;fontFamily=Simsun;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-16" target="FTVxGOCOlCLzWiAA1Els-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-16" value="知识分类" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="758" y="708" width="120" height="60" as="geometry" />
+          <mxGeometry x="794" y="655" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-49" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=30;fontFamily=Simsun;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-17" target="FTVxGOCOlCLzWiAA1Els-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-17" value="主题板块" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="911" y="708" width="120" height="60" as="geometry" />
+          <mxGeometry x="935" y="657" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-18" value="订单" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="1064" y="706" width="120" height="60" as="geometry" />
@@ -242,6 +242,9 @@
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-74" value="挂载" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="155" y="824" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-18" target="FTVxGOCOlCLzWiAA1Els-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
