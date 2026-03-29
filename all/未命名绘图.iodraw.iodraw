@@ -154,10 +154,10 @@
           <mxGeometry x="257" y="870" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-37" value="养生文章" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="434" y="1019" width="120" height="60" as="geometry" />
+          <mxGeometry x="374" y="1111" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-38" value="专家讲座" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="638" y="1019" width="120" height="60" as="geometry" />
+          <mxGeometry x="610" y="1142" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-39" value="帖子" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="829" y="1019" width="120" height="60" as="geometry" />
@@ -217,7 +217,7 @@
           <mxGeometry x="1221" y="1119" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-67" value="库存" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="1268" y="1326" width="120" height="60" as="geometry" />
+          <mxGeometry x="1201" y="1339" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-73" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=30;fontFamily=Simsun;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-70" target="FTVxGOCOlCLzWiAA1Els-71">
           <mxGeometry relative="1" as="geometry" />
@@ -226,7 +226,7 @@
           <mxGeometry x="1447" y="1126" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-71" value="购物车" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="1433" y="1329" width="120" height="60" as="geometry" />
+          <mxGeometry x="1427" y="1353" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-76" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=30;fontFamily=Simsun;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-74" target="FTVxGOCOlCLzWiAA1Els-37">
           <mxGeometry relative="1" as="geometry" />
