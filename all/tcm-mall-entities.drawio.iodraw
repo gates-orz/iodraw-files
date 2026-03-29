@@ -542,12 +542,6 @@
         <mxCell id="ent_health_article_e6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_article_a6" target="ent_health_article_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_health_article_a8" value="keywords" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1119.7" y="744" width="192" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_health_article_e8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_article_a8" target="ent_health_article_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ent_health_article_a9" value="author_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1034.4" y="843.4" width="210" height="52" as="geometry" />
         </mxCell>
