@@ -253,7 +253,7 @@
           <mxGeometry x="1740" y="581" width="149" height="121" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-82" value="商品分类" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="1751" y="870" width="120" height="60" as="geometry" />
+          <mxGeometry x="1751" y="870" width="136" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-83" value="归属" style="rhombus;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="1763" y="1035" width="105" height="107" as="geometry" />
