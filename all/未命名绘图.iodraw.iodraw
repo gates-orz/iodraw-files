@@ -37,19 +37,19 @@
           <mxGeometry x="325" y="587" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-13" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;产品管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="325" y="750" width="237" height="109" as="geometry" />
+          <mxGeometry x="325" y="848" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-14" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;订单管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="325" y="1083" width="237" height="109" as="geometry" />
+          <mxGeometry x="322" y="1086" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-15" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;用户管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="307" y="1218" width="237" height="109" as="geometry" />
+          <mxGeometry x="310" y="1292" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-16" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;售后管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="317" y="1387" width="237" height="109" as="geometry" />
+          <mxGeometry x="313" y="1522" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-17" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;个人资料&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="305" y="1596" width="237" height="109" as="geometry" />
+          <mxGeometry x="317" y="1792" width="237" height="109" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-18" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;养生主题&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="1089" y="406" width="237" height="109" as="geometry" />
