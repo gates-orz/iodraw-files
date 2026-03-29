@@ -416,19 +416,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_a6" value="商品主图" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="623" y="645" width="228" height="52" as="geometry" />
+          <mxGeometry x="597" y="621" width="228" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_e6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_order_item_a6" target="ent_order_item_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_a7" value="价格" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="550" y="815.8" width="140" height="52" as="geometry" />
+          <mxGeometry x="442" y="612" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_e7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_order_item_a7" target="ent_order_item_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_a8" value="数量" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="392.2" y="684" width="192" height="52" as="geometry" />
+          <mxGeometry x="332" y="512" width="192" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_e8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_order_item_a8" target="ent_order_item_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
