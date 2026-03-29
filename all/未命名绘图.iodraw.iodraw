@@ -58,6 +58,9 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-21" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;产品信息&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="830" y="944" width="237" height="109" as="geometry" />
         </mxCell>
+        <mxCell id="1PXIYOc5EDeA94t92qVS-22" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;评论&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="832" y="1070" width="237" height="109" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
