@@ -417,7 +417,10 @@
           <mxGeometry x="732" y="4083" width="180" height="213" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-144" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.client;" vertex="1" parent="1">
-          <mxGeometry x="1019" y="4580" width="78" height="76" as="geometry" />
+          <mxGeometry x="142" y="4647" width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="1PXIYOc5EDeA94t92qVS-145" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.redshift_query_editor_v20_light;" vertex="1" parent="1">
+          <mxGeometry x="1019" y="4579" width="213" height="213" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
