@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="QhrIF-gCaozD_8NVHvGX">
-    <mxGraphModel dx="3889" dy="2303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3489" dy="2303" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -244,10 +244,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-101" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 35px;&quot;&gt;user&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-142" y="2912" width="174" height="389" as="geometry" />
+          <mxGeometry x="43" y="2937" width="174" height="389" as="geometry" />
         </mxCell>
         <mxCell id="1PXIYOc5EDeA94t92qVS-105" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Simsun;fontSize=35;" vertex="1" parent="1">
           <mxGeometry x="224.5" y="2186" width="1286" height="1936" as="geometry" />
+        </mxCell>
+        <mxCell id="1PXIYOc5EDeA94t92qVS-106" value="&lt;font style=&quot;font-size: 33px;&quot; face=&quot;Simsun&quot;&gt;登录/登出&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="335" y="263" width="237" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
