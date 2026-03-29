@@ -10,7 +10,7 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-19" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-1" target="FTVxGOCOlCLzWiAA1Els-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-1" target="FTVxGOCOlCLzWiAA1Els-36">
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-40" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-1" target="FTVxGOCOlCLzWiAA1Els-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-1" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Simsun&quot;&gt;管理员&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -120,6 +120,9 @@
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-33" value="退换货申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1" y="998" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-36" target="FTVxGOCOlCLzWiAA1Els-37">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-36" value="审核" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="870" width="80" height="80" as="geometry" />
