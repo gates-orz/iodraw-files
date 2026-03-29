@@ -1,0 +1,178 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17" pages="4">
+  <diagram id="readme" name="0-使用说明">
+    <mxGraphModel dx="1221" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="txt1" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;b&gt;tcm-mall 实体图（draw.io / diagrams.net 格式）&lt;/b&gt;&lt;br&gt;&lt;br&gt;• 本文件为 &lt;b&gt;.drawio&lt;/b&gt;，可用 &lt;a href=&quot;https://app.diagrams.net&quot;&gt;diagrams.net&lt;/a&gt; 或 &lt;b&gt;VS Code Draw.io Integration&lt;/b&gt; 插件打开、编辑、导出 PNG/SVG/PDF。&lt;br&gt;&lt;br&gt;• &lt;b&gt;ioDraw&lt;/b&gt;：若产品支持「导入 draw.io / diagrams.net / .drawio」，请选择本文件；若无导入入口，可将本页复制到 diagrams.net 或导出为图片后粘贴。&lt;br&gt;&lt;br&gt;• 完整 Chen 椭圆图（全部表字段）见同目录 &lt;b&gt;entity-chen-diagrams.md&lt;/b&gt;（Mermaid）。&lt;br&gt;&lt;br&gt;• 多页签：1-用户、2-商品、3-订单；可在软件中复制页签继续画其它实体。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="920" height="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="chen-user" name="1-用户_sys_user">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u-ent" value="用户" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a1" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a2" value="username" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a3" value="password" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="740" y="200" width="100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a4" value="role" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a5" value="enabled" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="848" y="330" width="88" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a6" value="avatar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a7" value="phone" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="760" y="460" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a8" value="create_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="380" y="520" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u-a9" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="590" y="520" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a1" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a2" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a3" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a4" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a5" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a6" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a7" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a8" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-u9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="u-a9" target="u-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="chen-product" name="2-商品_product">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p-ent" value="商品" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a1" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a2" value="category_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="220" width="110" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a3" value="name" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="220" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a4" value="price" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a5" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="820" y="340" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a6" value="subtitle / main_image / spec …" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="280" y="460" width="200" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="p-a7" value="create_time / update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="560" y="460" width="200" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a1" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a2" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a3" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a4" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a5" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a6" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-p7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="p-a7" target="p-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="chen-order" name="3-订单_trade_order">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o-ent" value="订单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="o-a1" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="o-a2" value="order_no" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="100" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="o-a3" value="user_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="88" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="o-a4" value="status / total_amount" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="400" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="o-a5" value="pay_type / pay_time / remark …" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="400" width="200" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="o-a6" value="user_deleted / 时间字段" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="e-o1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="o-a1" target="o-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-o2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="o-a2" target="o-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-o3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="o-a3" target="o-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-o4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="o-a4" target="o-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-o5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="o-a5" target="o-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e-o6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1" source="o-a6" target="o-ent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
