@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="txt1" value="&lt;div style=&quot;text-align:left&quot;&gt;&lt;b&gt;tcm-mall 实体图（draw.io / diagrams.net 格式）&lt;/b&gt;&lt;br&gt;&lt;br&gt;• 本文件为 &lt;b&gt;.drawio&lt;/b&gt;，可用 &lt;a href=&quot;https://app.diagrams.net&quot;&gt;diagrams.net&lt;/a&gt; 或 &lt;b&gt;VS Code Draw.io Integration&lt;/b&gt; 插件打开、编辑、导出 PNG/SVG/PDF。&lt;br&gt;&lt;br&gt;• &lt;b&gt;ioDraw&lt;/b&gt;：若产品支持「导入 draw.io / diagrams.net / .drawio」，请选择本文件；若无导入入口，可将本页复制到 diagrams.net 或导出为图片后粘贴。&lt;br&gt;&lt;br&gt;• 完整 Chen 椭圆图（全部表字段）见同目录 &lt;b&gt;entity-chen-diagrams.md&lt;/b&gt;（Mermaid）。&lt;br&gt;&lt;br&gt;• 多页签：1-用户、2-商品、3-订单；可在软件中复制页签继续画其它实体。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=13;" parent="1" vertex="1">
-          <mxGeometry x="80" y="80" width="920" height="320" as="geometry" />
+          <mxGeometry x="50" y="305" width="920" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
