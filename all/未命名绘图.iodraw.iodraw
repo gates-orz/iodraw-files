@@ -246,8 +246,8 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-101" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 35px;&quot;&gt;user&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
           <mxGeometry x="-142" y="2912" width="73" height="157" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-104" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="3023" width="120" height="60" as="geometry" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-105" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Simsun;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="243" y="119" width="1286" height="1936" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
