@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="363" width="113" height="256" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
