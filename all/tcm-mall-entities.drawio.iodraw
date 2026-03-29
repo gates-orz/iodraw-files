@@ -30,20 +30,11 @@
         <mxCell id="u-a4" value="身份" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="160" y="330" width="72" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u-a5" value="enabled" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="848" y="330" width="88" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u-a6" value="avatar" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="u-a6" value="头像" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="260" y="460" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="u-a7" value="phone" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="u-a7" value="电话号码" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="760" y="460" width="80" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u-a8" value="create_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="380" y="520" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="u-a9" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
-          <mxGeometry x="590" y="520" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="e-u1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a1" target="u-ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -57,19 +48,10 @@
         <mxCell id="e-u4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a4" target="u-ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e-u5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a5" target="u-ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="e-u6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a6" target="u-ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e-u7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a7" target="u-ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e-u8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a8" target="u-ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e-u9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" parent="1" source="u-a9" target="u-ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
