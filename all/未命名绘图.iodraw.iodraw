@@ -186,6 +186,9 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-59" value="上架" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1477" y="824" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="955" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
