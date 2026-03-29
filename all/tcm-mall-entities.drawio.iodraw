@@ -183,29 +183,10 @@
         <mxCell id="ent_product_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a9" target="ent_product_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_product_a10" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="351.5" y="588.6" width="156" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_e10" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a10" target="ent_product_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_a11" value="sort_order" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="315.5" y="419.4" width="228" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_e11" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a11" target="ent_product_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_a12" value="create_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="379.9" y="267.1" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_e12" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a12" target="ent_product_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_a13" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="512.1" y="161.6" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_product_e13" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_product_a13" target="ent_product_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ent_product_e11" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" target="ent_product_ent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="513.1479789171897" y="463.0647905787855" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
