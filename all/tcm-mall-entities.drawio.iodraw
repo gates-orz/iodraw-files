@@ -543,12 +543,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_article_a9" value="作者id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1034.4" y="843.4" width="210" height="52" as="geometry" />
+          <mxGeometry x="1068" y="628.2" width="210" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_article_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_article_a9" target="ent_health_article_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_health_article_a10" value="author_name" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_health_article_a10" value="作者名" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="917" y="919.7" width="246" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_article_e10" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_article_a10" target="ent_health_article_ent" edge="1">
