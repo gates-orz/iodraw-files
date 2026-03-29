@@ -198,11 +198,14 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-59" value="上架" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1477" y="824" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-60" target="FTVxGOCOlCLzWiAA1Els-66">
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-68" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-60" target="FTVxGOCOlCLzWiAA1Els-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-60" value="商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1375" y="955" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-66" target="FTVxGOCOlCLzWiAA1Els-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-66" value="记账" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1221" y="1119" width="80" height="80" as="geometry" />
