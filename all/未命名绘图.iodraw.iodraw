@@ -137,7 +137,7 @@
           <mxGeometry x="-139" y="845" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-33" value="退换货申请" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="1" y="998" width="120" height="60" as="geometry" />
+          <mxGeometry x="-155" y="1094" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-41" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=30;fontFamily=Simsun;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-36" target="FTVxGOCOlCLzWiAA1Els-37">
           <mxGeometry relative="1" as="geometry" />
@@ -154,7 +154,7 @@
           <mxGeometry x="257" y="870" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-37" value="养生文章" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="374" y="1111" width="120" height="60" as="geometry" />
+          <mxGeometry x="383" y="1219" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-38" value="专家讲座" style="rounded=0;whiteSpace=wrap;html=1;fontSize=30;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="638" y="1187" width="120" height="60" as="geometry" />
