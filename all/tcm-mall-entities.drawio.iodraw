@@ -433,17 +433,16 @@
         <mxCell id="ent_order_item_e8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_order_item_a8" target="ent_order_item_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_order_item_a9" value="subtotal_amount" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_order_item_a9" value="总价" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="281" y="504" width="318" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_order_item_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_order_item_a9" target="ent_order_item_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_order_item_a10" value="create_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="365.2" y="324" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_order_item_e10" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_order_item_a10" target="ent_order_item_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ent_order_item_e10" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" target="ent_order_item_ent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530.3362158939958" y="374.4267918226062" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ent_order_item_a11" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="497" y="192.2" width="246" height="52" as="geometry" />
