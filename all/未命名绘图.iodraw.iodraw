@@ -43,8 +43,8 @@
         <mxCell id="1PXIYOc5EDeA94t92qVS-16" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;售后管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="330" y="1196" width="237" height="109" as="geometry" />
         </mxCell>
-        <mxCell id="1PXIYOc5EDeA94t92qVS-17" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;养生知识管理&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="385" y="475" width="237" height="109" as="geometry" />
+        <mxCell id="1PXIYOc5EDeA94t92qVS-17" value="&lt;span style=&quot;font-size: 33px;&quot;&gt;个人资料&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1334" width="237" height="109" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
