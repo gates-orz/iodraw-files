@@ -19,7 +19,7 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-2" value="&lt;font style=&quot;font-size: 30px;&quot; face=&quot;Simsun&quot;&gt;管理&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="23" y="371" width="110" height="89" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-21" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-3" target="FTVxGOCOlCLzWiAA1Els-7">
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-21" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-3" target="FTVxGOCOlCLzWiAA1Els-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-3" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
