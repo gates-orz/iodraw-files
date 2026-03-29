@@ -530,7 +530,7 @@
         <mxCell id="ent_health_article_e3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_article_a3" target="ent_health_article_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_health_article_a5" value="summary" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_health_article_a5" value="摘要" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1176.6" y="379.8" width="174" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_article_e5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_article_a5" target="ent_health_article_ent" edge="1">
