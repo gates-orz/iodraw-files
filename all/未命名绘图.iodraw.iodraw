@@ -55,6 +55,9 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-17" value="主题板块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="911" y="708" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="706" y="601" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
