@@ -77,7 +77,7 @@
         <mxCell id="p-a4" value="price" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="140" y="340" width="72" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="p-a5" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="p-a5" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="820" y="340" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="p-a6" value="subtitle / main_image / spec …" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#9673a6;fontSize=10;" parent="1" vertex="1">
