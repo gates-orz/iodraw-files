@@ -31,6 +31,9 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-56" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-3" target="FTVxGOCOlCLzWiAA1Els-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-3" target="FTVxGOCOlCLzWiAA1Els-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-3" value="用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="629" y="502" width="120" height="60" as="geometry" />
         </mxCell>
@@ -186,7 +189,7 @@
         <mxCell id="FTVxGOCOlCLzWiAA1Els-58" value="购买" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1351" y="824" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FTVxGOCOlCLzWiAA1Els-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-59" target="FTVxGOCOlCLzWiAA1Els-60">
+        <mxCell id="FTVxGOCOlCLzWiAA1Els-62" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FTVxGOCOlCLzWiAA1Els-59" target="FTVxGOCOlCLzWiAA1Els-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTVxGOCOlCLzWiAA1Els-59" value="上架" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
