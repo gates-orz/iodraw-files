@@ -680,16 +680,10 @@
         <mxCell id="ent_community_topic_e4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a4" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_community_topic_a5" value="description" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_community_topic_a5" value="主题描述" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="775.6" y="839.8" width="246" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_e5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a5" target="ent_community_topic_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_a6" value="sort_no" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="614.4" y="839.8" width="174" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_e6" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a6" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_a7" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
