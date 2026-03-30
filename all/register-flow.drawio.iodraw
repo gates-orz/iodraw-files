@@ -10,9 +10,6 @@
         <mxCell id="lane_front" value="前端" style="swimlane;html=1;rounded=0;startSize=36;horizontal=0;childLayout=stackLayout;resizeParent=0;resizeLast=0;collapsible=0;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=22;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="40" y="70" width="500" height="880" as="geometry" />
         </mxCell>
-        <mxCell id="fe_input" value="输入用户名及密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=20;fontColor=#000000;" parent="lane_front" vertex="1">
-          <mxGeometry x="36" width="260" height="880" as="geometry" />
-        </mxCell>
         <mxCell id="lane_back" value="后端" style="swimlane;html=1;rounded=0;startSize=36;horizontal=0;childLayout=stackLayout;resizeParent=0;resizeLast=0;collapsible=0;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=22;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="540" y="70" width="520" height="880" as="geometry" />
         </mxCell>
@@ -24,6 +21,9 @@
         </mxCell>
         <mxCell id="fe_click" value="点击“注册”按钮" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="140" y="190" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fe_input" value="输入用户名及密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="140" y="270" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fe_submit" value="点击注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="170" y="480" width="200" height="60" as="geometry" />
