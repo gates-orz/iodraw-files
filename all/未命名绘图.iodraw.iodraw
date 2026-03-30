@@ -159,7 +159,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m9ZLxX4f5X80h_OfB1TR-26" value="&lt;font face=&quot;Simsun&quot;&gt;密码是否匹配&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="44" y="524" width="80" height="80" as="geometry" />
+          <mxGeometry x="44" y="524" width="119" height="62" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
