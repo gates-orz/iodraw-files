@@ -16,6 +16,9 @@
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-10" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-7">
           <mxGeometry x="30" y="45" width="60" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="KhKy9_Ion4Vb3T5hS0W1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhKy9_Ion4Vb3T5hS0W1-7" source="KhKy9_Ion4Vb3T5hS0W1-11" target="KhKy9_Ion4Vb3T5hS0W1-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-11" value="点击“注册”按钮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-7">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
