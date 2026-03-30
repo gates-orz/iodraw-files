@@ -22,6 +22,9 @@
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-11" value="点击“去注册”按钮" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-7">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="KhKy9_Ion4Vb3T5hS0W1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="KhKy9_Ion4Vb3T5hS0W1-7" source="KhKy9_Ion4Vb3T5hS0W1-13" target="KhKy9_Ion4Vb3T5hS0W1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-13" value="输入用户名密码并确认密码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-7">
           <mxGeometry x="26" y="185" width="67" height="42" as="geometry" />
         </mxCell>
@@ -33,6 +36,9 @@
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-9" value="数据库" style="swimlane;startSize=20;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-6">
           <mxGeometry x="255.99999999999955" y="20" width="120" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="KhKy9_Ion4Vb3T5hS0W1-18" value="" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="374" y="313" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
