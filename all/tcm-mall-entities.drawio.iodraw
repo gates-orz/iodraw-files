@@ -378,7 +378,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ent_health_category" name="11-知识分类">
+  <diagram id="ent_health_category" name="养生知识相关实体类">
     <mxGraphModel dx="2656" dy="1404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
