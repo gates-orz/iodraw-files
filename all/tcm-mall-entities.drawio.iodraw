@@ -643,7 +643,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ent_community_topic" name="17-主题版块">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -686,23 +686,10 @@
         <mxCell id="ent_community_topic_e5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a5" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_community_topic_a7" value="status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="457.5" y="733.2" width="156" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_e7" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a7" target="ent_community_topic_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_a8" value="is_deleted" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="339.6" y="553.8" width="228" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_e8" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a8" target="ent_community_topic_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_a9" value="create_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="358.6" y="358.6" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_community_topic_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a9" target="ent_community_topic_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ent_community_topic_e9" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" target="ent_community_topic_ent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="533.4659474530547" y="408.1754306604794" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ent_community_topic_a10" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="487.8" y="209.6" width="246" height="52" as="geometry" />
