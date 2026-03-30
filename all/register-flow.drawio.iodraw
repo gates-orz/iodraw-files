@@ -61,8 +61,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="e4" value="用户/管理员" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=14;fontColor=#000000;" parent="1" target="fe_submit" edge="1">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.6" y="58" relative="1" as="geometry">
             <mxPoint x="270" y="460" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e5" value="注册信息" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=14;fontColor=#000000;" parent="1" source="fe_submit" target="be_recv" edge="1">
