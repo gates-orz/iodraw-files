@@ -693,19 +693,19 @@
         <mxCell id="ent_favorite_ent" value="收藏" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="570" y="460" width="360" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ent_favorite_a0" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_favorite_a0" value="id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="730" y="194" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_favorite_e0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_favorite_a0" target="ent_favorite_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_favorite_a1" value="target_type" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_favorite_a1" value="目标类型" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="919.4" y="310.7" width="246" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_favorite_e1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_favorite_a1" target="ent_favorite_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_favorite_a2" value="target_id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_favorite_a2" value="目标id" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="997.2" y="573" width="210" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_favorite_e2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_favorite_a2" target="ent_favorite_ent" edge="1">
