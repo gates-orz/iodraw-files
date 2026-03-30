@@ -49,6 +49,9 @@
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-20" value="注册信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-9">
           <mxGeometry x="-10" y="341" width="66" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="KhKy9_Ion4Vb3T5hS0W1-25" value="点击“注册”" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-9">
+          <mxGeometry x="32.000000000000455" y="394" width="67" height="42" as="geometry" />
+        </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhKy9_Ion4Vb3T5hS0W1-6" source="KhKy9_Ion4Vb3T5hS0W1-16" target="KhKy9_Ion4Vb3T5hS0W1-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
