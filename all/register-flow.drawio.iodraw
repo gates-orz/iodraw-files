@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="flow_register" name="用户注册流程">
-    <mxGraphModel dx="1461" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,9 +24,6 @@
         </mxCell>
         <mxCell id="fe_input" value="输入用户名及密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="140" y="270" width="260" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="fe_choose" value="选择用户身份（角色）" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=18;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="185" y="350" width="170" height="110" as="geometry" />
         </mxCell>
         <mxCell id="fe_submit" value="点击注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=SimSun;fontSize=20;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="170" y="480" width="200" height="60" as="geometry" />
@@ -58,11 +55,15 @@
         <mxCell id="e2" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="fe_click" target="fe_input" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="fe_input" target="fe_choose" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e3" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;" parent="1" source="fe_input" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="e4" value="用户/管理员" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=14;fontColor=#000000;" parent="1" source="fe_choose" target="fe_submit" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e4" value="用户/管理员" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=14;fontColor=#000000;" parent="1" target="fe_submit" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="460" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e5" value="注册信息" style="endArrow=block;html=1;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=14;fontColor=#000000;" parent="1" source="fe_submit" target="be_recv" edge="1">
           <mxGeometry relative="1" as="geometry" />
