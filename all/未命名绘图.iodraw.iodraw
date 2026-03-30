@@ -143,7 +143,7 @@
         <mxCell id="m9ZLxX4f5X80h_OfB1TR-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="m9ZLxX4f5X80h_OfB1TR-17" source="m9ZLxX4f5X80h_OfB1TR-19" target="m9ZLxX4f5X80h_OfB1TR-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m9ZLxX4f5X80h_OfB1TR-19" value="注册信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="m9ZLxX4f5X80h_OfB1TR-17">
+        <mxCell id="m9ZLxX4f5X80h_OfB1TR-19" value="登录信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="m9ZLxX4f5X80h_OfB1TR-17">
           <mxGeometry y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="m9ZLxX4f5X80h_OfB1TR-20" value="查询用户名" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="m9ZLxX4f5X80h_OfB1TR-17">
