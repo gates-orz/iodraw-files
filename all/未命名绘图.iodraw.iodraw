@@ -163,9 +163,6 @@
             <mxPoint x="102.1149565598057" y="460.9310344827586" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="m9ZLxX4f5X80h_OfB1TR-25" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="m9ZLxX4f5X80h_OfB1TR-1" source="m9ZLxX4f5X80h_OfB1TR-16" target="m9ZLxX4f5X80h_OfB1TR-11">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
