@@ -495,7 +495,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="ent_community_topic" name="17-主题版块">
+  <diagram id="ent_community_topic" name="主题版块相关实体">
     <mxGraphModel dx="1344" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
