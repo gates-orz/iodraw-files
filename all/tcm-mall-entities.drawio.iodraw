@@ -668,7 +668,7 @@
         <mxCell id="ent_community_topic_e2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a2" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_community_topic_a3" value="season" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_community_topic_a3" value="养生季节" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1068.4" y="553.8" width="156" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_e3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a3" target="ent_community_topic_ent" edge="1">
