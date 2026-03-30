@@ -689,11 +689,10 @@
         <mxCell id="ent_health_lecture_e17" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_lecture_a17" target="ent_health_lecture_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_health_lecture_a18" value="update_time" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="537.4" y="97.3" width="246" height="52" as="geometry" />
-        </mxCell>
-        <mxCell id="ent_health_lecture_e18" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_lecture_a18" target="ent_health_lecture_ent" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ent_health_lecture_e18" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" target="ent_health_lecture_ent" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669.294012187429" y="149.2319391488886" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
