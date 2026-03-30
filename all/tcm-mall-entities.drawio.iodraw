@@ -629,7 +629,7 @@
         <mxCell id="ent_health_lecture_e11" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_lecture_a11" target="ent_health_lecture_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ent_health_lecture_a12" value="publish_status" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="ent_health_lecture_a12" value="发布状态" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="333.6" y="795.2" width="300" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_health_lecture_e12" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_health_lecture_a12" target="ent_health_lecture_ent" edge="1">
