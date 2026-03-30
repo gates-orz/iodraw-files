@@ -691,7 +691,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ent_favorite_ent" value="收藏&#xa;(favorite)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="620" y="470" width="360" height="120" as="geometry" />
+          <mxGeometry x="602.8" y="460" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ent_favorite_a0" value="id PK" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="730" y="194" width="140" height="52" as="geometry" />
