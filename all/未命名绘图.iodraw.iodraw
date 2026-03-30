@@ -44,10 +44,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-18" value="注册信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-8">
-          <mxGeometry x="-35" y="341" width="66" height="41" as="geometry" />
+          <mxGeometry x="-38" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-21" value="验证信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-8">
-          <mxGeometry x="46" y="341" width="66" height="41" as="geometry" />
+          <mxGeometry x="50" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-27" value="用户名是否存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="KhKy9_Ion4Vb3T5hS0W1-8">
           <mxGeometry x="11" y="408" width="108" height="66" as="geometry" />
