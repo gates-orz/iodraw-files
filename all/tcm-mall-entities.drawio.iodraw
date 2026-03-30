@@ -663,25 +663,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_a2" value="养生场景" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1048.4" y="358.6" width="140" height="52" as="geometry" />
+          <mxGeometry x="416.0000000000001" y="448" width="140" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_e2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a2" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_a3" value="养生季节" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1068.4" y="553.8" width="156" height="52" as="geometry" />
+          <mxGeometry x="868.0000000000001" y="504.99999999999994" width="156" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_e3" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a3" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_a4" value="养生目标" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="941.5" y="733.2" width="246" height="52" as="geometry" />
+          <mxGeometry x="751" y="618" width="246" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_e4" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a4" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_a5" value="主题描述" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=1;fontFamily=SimSun;fontSize=30;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="775.6" y="839.8" width="246" height="52" as="geometry" />
+          <mxGeometry x="459" y="624" width="246" height="52" as="geometry" />
         </mxCell>
         <mxCell id="ent_community_topic_e5" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#000000;" parent="1" source="ent_community_topic_a5" target="ent_community_topic_ent" edge="1">
           <mxGeometry relative="1" as="geometry" />
