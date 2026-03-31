@@ -420,6 +420,9 @@
             <mxPoint x="464.99999999999955" y="509" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RRIjOiJglhOPKYxoD79q-26" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="RRIjOiJglhOPKYxoD79q-1" source="RRIjOiJglhOPKYxoD79q-24" target="RRIjOiJglhOPKYxoD79q-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
