@@ -185,7 +185,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-1" value="封禁用户" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="-178.99999999999955" y="-6" width="398.99999999999955" height="625" as="geometry" />
+          <mxGeometry x="-178.99999999999955" y="-6" width="449.99999999999955" height="625" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-1">
           <mxGeometry y="20" width="135.99999999999955" height="605" as="geometry" />
@@ -218,7 +218,7 @@
           <mxGeometry x="30" y="384.5" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-12" value="后端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-1">
-          <mxGeometry x="135.99999999999955" y="20" width="137" height="605" as="geometry" />
+          <mxGeometry x="135.99999999999955" y="20" width="142" height="605" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-12" source="IyzJi-Gb9lE8PK0yJtXX-14">
           <mxGeometry relative="1" as="geometry">
@@ -237,8 +237,11 @@
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-18" value="&lt;font face=&quot;Simsun&quot;&gt;密码是否匹配&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-12">
           <mxGeometry x="12.5" y="518.5" width="119" height="62" as="geometry" />
         </mxCell>
+        <mxCell id="IyzJi-Gb9lE8PK0yJtXX-29" value="验证是否为管理员" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-12">
+          <mxGeometry x="32" y="286" width="110" height="68" as="geometry" />
+        </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-19" value="数据库" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-1">
-          <mxGeometry x="272.99999999999955" y="20" width="126" height="605" as="geometry" />
+          <mxGeometry x="277.99999999999955" y="20" width="172" height="605" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-19" source="IyzJi-Gb9lE8PK0yJtXX-21" target="IyzJi-Gb9lE8PK0yJtXX-22">
           <mxGeometry relative="1" as="geometry" />
@@ -271,9 +274,6 @@
             <mxPoint x="184.24999999999955" y="511.5" as="sourcePoint" />
             <mxPoint x="59" y="397" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="IyzJi-Gb9lE8PK0yJtXX-29" value="验证是否为管理员" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="299" y="309" width="110" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
