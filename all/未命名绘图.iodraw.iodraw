@@ -205,7 +205,7 @@
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-2" source="IyzJi-Gb9lE8PK0yJtXX-8" target="IyzJi-Gb9lE8PK0yJtXX-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IyzJi-Gb9lE8PK0yJtXX-8" value="点击“登录”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-2">
+        <mxCell id="IyzJi-Gb9lE8PK0yJtXX-8" value="切换用户状态" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-2">
           <mxGeometry x="26" y="185" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-9" value="点击“注册”" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-2">
