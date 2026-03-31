@@ -316,7 +316,7 @@
         <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="6T7-v9u6ZS5oBwT8hx4Q-16" source="6T7-v9u6ZS5oBwT8hx4Q-18" target="6T7-v9u6ZS5oBwT8hx4Q-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-18" value="登录信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="6T7-v9u6ZS5oBwT8hx4Q-16">
+        <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-18" value="用户信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="6T7-v9u6ZS5oBwT8hx4Q-16">
           <mxGeometry x="-4" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-19" value="更新用户状态" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="6T7-v9u6ZS5oBwT8hx4Q-16">
