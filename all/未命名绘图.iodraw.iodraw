@@ -185,7 +185,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-1" value="封禁用户" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="-178.99999999999955" y="-6" width="636" height="625" as="geometry" />
+          <mxGeometry x="-178.99999999999955" y="-6" width="602" height="625" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-1">
           <mxGeometry y="20" width="204" height="605" as="geometry" />
@@ -232,7 +232,7 @@
           <mxGeometry x="61" y="294.5" width="110" height="68" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-19" value="数据库" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-1">
-          <mxGeometry x="431" y="20" width="205" height="605" as="geometry" />
+          <mxGeometry x="431" y="20" width="171" height="605" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-19" source="IyzJi-Gb9lE8PK0yJtXX-21" target="IyzJi-Gb9lE8PK0yJtXX-22">
           <mxGeometry relative="1" as="geometry" />
@@ -250,6 +250,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-35" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-1" source="IyzJi-Gb9lE8PK0yJtXX-29" target="IyzJi-Gb9lE8PK0yJtXX-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IyzJi-Gb9lE8PK0yJtXX-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-1" source="IyzJi-Gb9lE8PK0yJtXX-22" target="IyzJi-Gb9lE8PK0yJtXX-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
