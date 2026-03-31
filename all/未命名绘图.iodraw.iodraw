@@ -357,7 +357,7 @@
         <mxCell id="RRIjOiJglhOPKYxoD79q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="RRIjOiJglhOPKYxoD79q-2" source="RRIjOiJglhOPKYxoD79q-6" target="RRIjOiJglhOPKYxoD79q-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RRIjOiJglhOPKYxoD79q-6" value="点击编辑用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="RRIjOiJglhOPKYxoD79q-2">
+        <mxCell id="RRIjOiJglhOPKYxoD79q-6" value="点击添加管理员" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="RRIjOiJglhOPKYxoD79q-2">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="RRIjOiJglhOPKYxoD79q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="RRIjOiJglhOPKYxoD79q-2" source="RRIjOiJglhOPKYxoD79q-8" target="RRIjOiJglhOPKYxoD79q-9">
