@@ -342,8 +342,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RRIjOiJglhOPKYxoD79q-1" value="更换用户角色" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="-178.99999999999955" y="-6" width="602" height="625" as="geometry" />
+        <mxCell id="RRIjOiJglhOPKYxoD79q-1" value="添加管理员" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="-150.99999999999955" y="-92" width="602" height="625" as="geometry" />
         </mxCell>
         <mxCell id="RRIjOiJglhOPKYxoD79q-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="RRIjOiJglhOPKYxoD79q-1">
           <mxGeometry y="20" width="204" height="605" as="geometry" />
