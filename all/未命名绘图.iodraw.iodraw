@@ -263,7 +263,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-1" value="封禁用户" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-1" value="更换用户角色" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="-178.99999999999955" y="-6" width="602" height="625" as="geometry" />
         </mxCell>
         <mxCell id="6T7-v9u6ZS5oBwT8hx4Q-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="6T7-v9u6ZS5oBwT8hx4Q-1">
