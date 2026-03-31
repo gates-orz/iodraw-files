@@ -247,7 +247,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-21" value="登录信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-19">
-          <mxGeometry x="-9" y="309" width="66" height="41" as="geometry" />
+          <mxGeometry x="-4" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-22" value="查询用户名" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="IyzJi-Gb9lE8PK0yJtXX-19">
           <mxGeometry x="52.000000000000455" y="381" width="67" height="42" as="geometry" />
@@ -269,6 +269,9 @@
             <mxPoint x="184.24999999999955" y="511.5" as="sourcePoint" />
             <mxPoint x="59" y="397" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IyzJi-Gb9lE8PK0yJtXX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="IyzJi-Gb9lE8PK0yJtXX-1" source="IyzJi-Gb9lE8PK0yJtXX-29" target="IyzJi-Gb9lE8PK0yJtXX-21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
