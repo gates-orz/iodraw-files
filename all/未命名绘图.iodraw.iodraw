@@ -779,7 +779,7 @@
         <mxCell id="SzpO0341fLOQGuGP-cRg-5" value="打开养生知识列表页" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-2">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="SzpO0341fLOQGuGP-cRg-6" value="返回分页列表信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-2">
+        <mxCell id="SzpO0341fLOQGuGP-cRg-6" value="返回养生知识详情信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-2">
           <mxGeometry x="40" y="451" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="SzpO0341fLOQGuGP-cRg-18" value="点击某个养生知识" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-2">
@@ -815,6 +815,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SzpO0341fLOQGuGP-cRg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="SzpO0341fLOQGuGP-cRg-1" source="SzpO0341fLOQGuGP-cRg-12" target="SzpO0341fLOQGuGP-cRg-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SzpO0341fLOQGuGP-cRg-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SzpO0341fLOQGuGP-cRg-1" source="SzpO0341fLOQGuGP-cRg-18" target="SzpO0341fLOQGuGP-cRg-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
