@@ -752,6 +752,9 @@
         <mxCell id="lqBemc1Wm0PcmbdzwN3q-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="lqBemc1Wm0PcmbdzwN3q-1" source="lqBemc1Wm0PcmbdzwN3q-6" target="lqBemc1Wm0PcmbdzwN3q-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lqBemc1Wm0PcmbdzwN3q-50" value="请求参数" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="92.00000000000045" y="240" width="66" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
