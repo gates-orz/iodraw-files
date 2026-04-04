@@ -735,7 +735,7 @@
         <mxCell id="lqBemc1Wm0PcmbdzwN3q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="lqBemc1Wm0PcmbdzwN3q-14" source="lqBemc1Wm0PcmbdzwN3q-18" target="lqBemc1Wm0PcmbdzwN3q-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lqBemc1Wm0PcmbdzwN3q-18" value="查询逻辑删除字段为0的记录" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-14">
+        <mxCell id="lqBemc1Wm0PcmbdzwN3q-18" value="进行查询" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-14">
           <mxGeometry x="52" y="375" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="lqBemc1Wm0PcmbdzwN3q-19" value="查询最新信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-14">
