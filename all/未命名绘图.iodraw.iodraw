@@ -666,7 +666,7 @@
             <mxPoint x="88.49999999999955" y="373" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-18" value="养生知识信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-16">
+        <mxCell id="oSuI0wlkSiPEb7Pzv36f-18" value="要删除的养生知识id" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-16">
           <mxGeometry x="-19" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-16" source="oSuI0wlkSiPEb7Pzv36f-20" target="oSuI0wlkSiPEb7Pzv36f-21">
