@@ -791,7 +791,7 @@
         <mxCell id="SzpO0341fLOQGuGP-cRg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="SzpO0341fLOQGuGP-cRg-7" source="SzpO0341fLOQGuGP-cRg-9" target="SzpO0341fLOQGuGP-cRg-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SzpO0341fLOQGuGP-cRg-9" value="请求参数" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-7">
+        <mxCell id="SzpO0341fLOQGuGP-cRg-9" value="养生知识id" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-7">
           <mxGeometry x="-38" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="SzpO0341fLOQGuGP-cRg-10" value="构建查询语句" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-7">
