@@ -587,7 +587,7 @@
         <mxCell id="Fp7IMJxpeixdaOTZ6cNZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Fp7IMJxpeixdaOTZ6cNZ-16" source="Fp7IMJxpeixdaOTZ6cNZ-20" target="Fp7IMJxpeixdaOTZ6cNZ-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Fp7IMJxpeixdaOTZ6cNZ-20" value="保存信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="Fp7IMJxpeixdaOTZ6cNZ-16">
+        <mxCell id="Fp7IMJxpeixdaOTZ6cNZ-20" value="更新信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="Fp7IMJxpeixdaOTZ6cNZ-16">
           <mxGeometry x="52" y="375" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="Fp7IMJxpeixdaOTZ6cNZ-21" value="查询最新信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="Fp7IMJxpeixdaOTZ6cNZ-16">
