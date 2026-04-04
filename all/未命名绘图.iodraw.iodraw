@@ -630,17 +630,16 @@
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-2" source="oSuI0wlkSiPEb7Pzv36f-6" target="oSuI0wlkSiPEb7Pzv36f-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-6" value="点击进入详情页面" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-2">
+        <mxCell id="oSuI0wlkSiPEb7Pzv36f-6" value="点击删除按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-2">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-2" source="oSuI0wlkSiPEb7Pzv36f-8" target="oSuI0wlkSiPEb7Pzv36f-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="oSuI0wlkSiPEb7Pzv36f-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-2" source="oSuI0wlkSiPEb7Pzv36f-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="59.5" y="255" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-8" value="更改养生知识" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-2">
+        <mxCell id="oSuI0wlkSiPEb7Pzv36f-8" value="点击确认删除" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-2">
           <mxGeometry x="26" y="185" width="67" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-9" value="点击保存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-2">
-          <mxGeometry x="26" y="255" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-10" value="返回无权限" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-2">
           <mxGeometry x="37" y="371" width="60" height="35" as="geometry" />
@@ -683,9 +682,6 @@
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-21" value="查询最新信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="oSuI0wlkSiPEb7Pzv36f-16">
           <mxGeometry x="52" y="458" width="67" height="42" as="geometry" />
-        </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-1" source="oSuI0wlkSiPEb7Pzv36f-9" target="oSuI0wlkSiPEb7Pzv36f-14">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-23" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-1" source="oSuI0wlkSiPEb7Pzv36f-15" target="oSuI0wlkSiPEb7Pzv36f-18">
           <mxGeometry relative="1" as="geometry" />
