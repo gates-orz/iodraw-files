@@ -454,10 +454,10 @@
         <mxCell id="7SlkzlkQ_E_aP7trv0br-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="7SlkzlkQ_E_aP7trv0br-2" source="7SlkzlkQ_E_aP7trv0br-8" target="7SlkzlkQ_E_aP7trv0br-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7SlkzlkQ_E_aP7trv0br-8" value="输入用户名密码" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="7SlkzlkQ_E_aP7trv0br-2">
+        <mxCell id="7SlkzlkQ_E_aP7trv0br-8" value="输入相关信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="7SlkzlkQ_E_aP7trv0br-2">
           <mxGeometry x="26" y="185" width="67" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="7SlkzlkQ_E_aP7trv0br-9" value="点击确认" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="7SlkzlkQ_E_aP7trv0br-2">
+        <mxCell id="7SlkzlkQ_E_aP7trv0br-9" value="点击保存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="7SlkzlkQ_E_aP7trv0br-2">
           <mxGeometry x="26" y="255" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="7SlkzlkQ_E_aP7trv0br-10" value="返回无权限" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="7SlkzlkQ_E_aP7trv0br-2">
