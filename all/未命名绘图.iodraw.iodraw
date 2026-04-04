@@ -689,7 +689,7 @@
             <mxPoint x="119.3333129882808" y="499" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oSuI0wlkSiPEb7Pzv36f-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-1" source="oSuI0wlkSiPEb7Pzv36f-8" target="oSuI0wlkSiPEb7Pzv36f-14">
+        <mxCell id="oSuI0wlkSiPEb7Pzv36f-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="oSuI0wlkSiPEb7Pzv36f-1" source="oSuI0wlkSiPEb7Pzv36f-8" target="oSuI0wlkSiPEb7Pzv36f-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
