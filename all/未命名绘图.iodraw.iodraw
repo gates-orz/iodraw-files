@@ -715,7 +715,7 @@
         <mxCell id="lqBemc1Wm0PcmbdzwN3q-6" value="打开养生知识列表页" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-2">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="lqBemc1Wm0PcmbdzwN3q-9" value="返回最新信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-2">
+        <mxCell id="lqBemc1Wm0PcmbdzwN3q-9" value="返回分页列表信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-2">
           <mxGeometry x="37" y="460" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="lqBemc1Wm0PcmbdzwN3q-10" value="后端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="lqBemc1Wm0PcmbdzwN3q-1">
