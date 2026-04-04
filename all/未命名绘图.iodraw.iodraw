@@ -805,9 +805,6 @@
         <mxCell id="SzpO0341fLOQGuGP-cRg-14" value="查询语句" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="SzpO0341fLOQGuGP-cRg-11">
           <mxGeometry x="-24" y="308" width="66" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="SzpO0341fLOQGuGP-cRg-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="SzpO0341fLOQGuGP-cRg-1" source="SzpO0341fLOQGuGP-cRg-5" target="SzpO0341fLOQGuGP-cRg-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="SzpO0341fLOQGuGP-cRg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="SzpO0341fLOQGuGP-cRg-1" source="SzpO0341fLOQGuGP-cRg-10" target="SzpO0341fLOQGuGP-cRg-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
