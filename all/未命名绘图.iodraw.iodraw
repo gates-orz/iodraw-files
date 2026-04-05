@@ -1015,11 +1015,14 @@
         <mxCell id="VoyXMRZtWLWLymY5jasW-20" value="库存数量" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-13">
           <mxGeometry x="-33" y="443" width="66" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="VoyXMRZtWLWLymY5jasW-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VoyXMRZtWLWLymY5jasW-13" source="VoyXMRZtWLWLymY5jasW-25" target="VoyXMRZtWLWLymY5jasW-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-25" value="订单信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-13">
           <mxGeometry x="-33" y="496" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-27" value="存入数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-13">
-          <mxGeometry x="61" y="493" width="67" height="42" as="geometry" />
+          <mxGeometry x="73" y="496" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="VoyXMRZtWLWLymY5jasW-1" source="VoyXMRZtWLWLymY5jasW-12" target="VoyXMRZtWLWLymY5jasW-16">
           <mxGeometry relative="1" as="geometry" />
