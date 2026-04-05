@@ -974,7 +974,7 @@
         <mxCell id="VoyXMRZtWLWLymY5jasW-6" value="点击立即购买" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-2">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="VoyXMRZtWLWLymY5jasW-7" value="返回商品详情" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-2">
+        <mxCell id="VoyXMRZtWLWLymY5jasW-7" value="购买失败" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-2">
           <mxGeometry x="45" y="446" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-8" value="确认商品信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-2">
@@ -1026,6 +1026,9 @@
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-24" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VoyXMRZtWLWLymY5jasW-1" source="VoyXMRZtWLWLymY5jasW-22" target="VoyXMRZtWLWLymY5jasW-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VoyXMRZtWLWLymY5jasW-25" value="库存数量" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="360.00000000000045" y="375" width="66" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
