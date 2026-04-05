@@ -1096,7 +1096,7 @@
             <mxPoint x="50" y="328.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bZ07P_wekhhRT9XQmsQM-14" value="养生知识信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="bZ07P_wekhhRT9XQmsQM-12">
+        <mxCell id="bZ07P_wekhhRT9XQmsQM-14" value="商品" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="bZ07P_wekhhRT9XQmsQM-12">
           <mxGeometry x="-38" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-15" value="验证是否为管理员" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="bZ07P_wekhhRT9XQmsQM-12">
@@ -1112,7 +1112,7 @@
             <mxPoint x="88.49999999999955" y="373" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="bZ07P_wekhhRT9XQmsQM-18" value="养生知识信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="bZ07P_wekhhRT9XQmsQM-16">
+        <mxCell id="bZ07P_wekhhRT9XQmsQM-18" value="商品" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="bZ07P_wekhhRT9XQmsQM-16">
           <mxGeometry x="-19" y="308" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="bZ07P_wekhhRT9XQmsQM-16" source="bZ07P_wekhhRT9XQmsQM-20" target="bZ07P_wekhhRT9XQmsQM-21">
