@@ -1158,7 +1158,7 @@
         <mxCell id="U2auKeVgEjLhyOkX8yEW-4" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="U2auKeVgEjLhyOkX8yEW-2">
           <mxGeometry x="30" y="45" width="60" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="U2auKeVgEjLhyOkX8yEW-5" value="打开产品商城页" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="U2auKeVgEjLhyOkX8yEW-2">
+        <mxCell id="U2auKeVgEjLhyOkX8yEW-5" value="打开经验交流页面" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="U2auKeVgEjLhyOkX8yEW-2">
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="U2auKeVgEjLhyOkX8yEW-6" value="返回分页列表信息" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="U2auKeVgEjLhyOkX8yEW-2">
@@ -1189,9 +1189,6 @@
         </mxCell>
         <mxCell id="U2auKeVgEjLhyOkX8yEW-14" value="查询语句" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="U2auKeVgEjLhyOkX8yEW-11">
           <mxGeometry x="-24" y="308" width="66" height="41" as="geometry" />
-        </mxCell>
-        <mxCell id="U2auKeVgEjLhyOkX8yEW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="U2auKeVgEjLhyOkX8yEW-1" source="U2auKeVgEjLhyOkX8yEW-5" target="U2auKeVgEjLhyOkX8yEW-9">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="U2auKeVgEjLhyOkX8yEW-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="U2auKeVgEjLhyOkX8yEW-1" source="U2auKeVgEjLhyOkX8yEW-10" target="U2auKeVgEjLhyOkX8yEW-14">
           <mxGeometry relative="1" as="geometry" />
