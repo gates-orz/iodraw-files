@@ -975,7 +975,7 @@
           <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-7" value="返回商品详情" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-2">
-          <mxGeometry x="40" y="451" width="60" height="35" as="geometry" />
+          <mxGeometry x="45" y="446" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-8" value="确认商品信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="VoyXMRZtWLWLymY5jasW-2">
           <mxGeometry x="27" y="219" width="66" height="38" as="geometry" />
@@ -1024,7 +1024,7 @@
         <mxCell id="VoyXMRZtWLWLymY5jasW-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VoyXMRZtWLWLymY5jasW-1" source="VoyXMRZtWLWLymY5jasW-20" target="VoyXMRZtWLWLymY5jasW-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VoyXMRZtWLWLymY5jasW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VoyXMRZtWLWLymY5jasW-1" source="VoyXMRZtWLWLymY5jasW-22" target="VoyXMRZtWLWLymY5jasW-7">
+        <mxCell id="VoyXMRZtWLWLymY5jasW-24" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="VoyXMRZtWLWLymY5jasW-1" source="VoyXMRZtWLWLymY5jasW-22" target="VoyXMRZtWLWLymY5jasW-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
