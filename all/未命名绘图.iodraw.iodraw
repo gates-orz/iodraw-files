@@ -1473,7 +1473,7 @@
             <mxPoint x="93" y="393" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="afTq9xbZaTS8OtjwZi2Q-14" value="帖子信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-2">
+        <mxCell id="afTq9xbZaTS8OtjwZi2Q-14" value="投诉/建议信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-2">
           <mxGeometry x="195" y="372.5" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="afTq9xbZaTS8OtjwZi2Q-15" value="后端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-1">
