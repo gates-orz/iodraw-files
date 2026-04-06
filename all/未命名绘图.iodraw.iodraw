@@ -1345,8 +1345,8 @@
         <mxCell id="0MNA7e0cceFJcH0zI9uA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="0MNA7e0cceFJcH0zI9uA-15" source="0MNA7e0cceFJcH0zI9uA-18" target="0MNA7e0cceFJcH0zI9uA-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0MNA7e0cceFJcH0zI9uA-18" value="查询语句" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-15">
-          <mxGeometry x="-29" y="374" width="66" height="41" as="geometry" />
+        <mxCell id="0MNA7e0cceFJcH0zI9uA-18" value="帖子信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-15">
+          <mxGeometry x="-28" y="372.5" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="0MNA7e0cceFJcH0zI9uA-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="0MNA7e0cceFJcH0zI9uA-1" source="0MNA7e0cceFJcH0zI9uA-14" target="0MNA7e0cceFJcH0zI9uA-18">
           <mxGeometry relative="1" as="geometry" />
