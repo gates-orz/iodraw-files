@@ -1493,7 +1493,7 @@
         <mxCell id="afTq9xbZaTS8OtjwZi2Q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="afTq9xbZaTS8OtjwZi2Q-17" source="afTq9xbZaTS8OtjwZi2Q-20" target="afTq9xbZaTS8OtjwZi2Q-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="afTq9xbZaTS8OtjwZi2Q-20" value="帖子信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-17">
+        <mxCell id="afTq9xbZaTS8OtjwZi2Q-20" value="投诉/建议信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-17">
           <mxGeometry x="-28" y="372.5" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="afTq9xbZaTS8OtjwZi2Q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="afTq9xbZaTS8OtjwZi2Q-1" source="afTq9xbZaTS8OtjwZi2Q-16" target="afTq9xbZaTS8OtjwZi2Q-20">
