@@ -1591,7 +1591,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VpTaR-QmZzEE8JpVHBT9-1" value="用户追加留言" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="VpTaR-QmZzEE8JpVHBT9-1" value="管理员回复用户" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="-85.99999999999955" y="-69" width="697" height="625" as="geometry" />
         </mxCell>
         <mxCell id="VpTaR-QmZzEE8JpVHBT9-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="VpTaR-QmZzEE8JpVHBT9-1">
