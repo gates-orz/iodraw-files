@@ -1462,7 +1462,7 @@
         <mxCell id="afTq9xbZaTS8OtjwZi2Q-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Simsun;" edge="1" parent="afTq9xbZaTS8OtjwZi2Q-2" source="afTq9xbZaTS8OtjwZi2Q-9" target="afTq9xbZaTS8OtjwZi2Q-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="afTq9xbZaTS8OtjwZi2Q-9" value="点击进入某主题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-2">
+        <mxCell id="afTq9xbZaTS8OtjwZi2Q-9" value="点击投诉与建议按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="afTq9xbZaTS8OtjwZi2Q-2">
           <mxGeometry x="27" y="219" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="afTq9xbZaTS8OtjwZi2Q-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="afTq9xbZaTS8OtjwZi2Q-2" source="afTq9xbZaTS8OtjwZi2Q-11" target="afTq9xbZaTS8OtjwZi2Q-13">
