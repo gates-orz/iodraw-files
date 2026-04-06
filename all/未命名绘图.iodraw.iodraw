@@ -1389,7 +1389,7 @@
         <mxCell id="SSpr6YyI6S21b0lq9UW5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Simsun;" edge="1" parent="SSpr6YyI6S21b0lq9UW5-2" source="SSpr6YyI6S21b0lq9UW5-9" target="SSpr6YyI6S21b0lq9UW5-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SSpr6YyI6S21b0lq9UW5-9" value="点击进入某主题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SSpr6YyI6S21b0lq9UW5-2">
+        <mxCell id="SSpr6YyI6S21b0lq9UW5-9" value="点击某帖子的编辑按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="SSpr6YyI6S21b0lq9UW5-2">
           <mxGeometry x="27" y="219" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="SSpr6YyI6S21b0lq9UW5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="SSpr6YyI6S21b0lq9UW5-2" source="SSpr6YyI6S21b0lq9UW5-11" target="SSpr6YyI6S21b0lq9UW5-13">
