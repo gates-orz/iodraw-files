@@ -1286,7 +1286,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0MNA7e0cceFJcH0zI9uA-1" value="查看帖子详情" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="0MNA7e0cceFJcH0zI9uA-1" value="发布帖子" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="-83.99999999999955" y="-98" width="638" height="625" as="geometry" />
         </mxCell>
         <mxCell id="0MNA7e0cceFJcH0zI9uA-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-1">
@@ -1313,7 +1313,7 @@
         <mxCell id="0MNA7e0cceFJcH0zI9uA-9" value="点击进入某主题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-2">
           <mxGeometry x="27" y="219" width="66" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="0MNA7e0cceFJcH0zI9uA-10" value="点击进入某帖子" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-2">
+        <mxCell id="0MNA7e0cceFJcH0zI9uA-10" value="点击发帖按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-2">
           <mxGeometry x="27" y="309.5" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="0MNA7e0cceFJcH0zI9uA-11" value="后端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="0MNA7e0cceFJcH0zI9uA-1">
