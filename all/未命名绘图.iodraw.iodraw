@@ -1237,6 +1237,9 @@
         <mxCell id="BQ-qkdqb9Ig9FHj9CHdI-8" value="点击进入某主题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="BQ-qkdqb9Ig9FHj9CHdI-2">
           <mxGeometry x="27" y="219" width="66" height="38" as="geometry" />
         </mxCell>
+        <mxCell id="BQ-qkdqb9Ig9FHj9CHdI-20" value="点击进入某帖子" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="BQ-qkdqb9Ig9FHj9CHdI-2">
+          <mxGeometry x="27" y="292" width="66" height="38" as="geometry" />
+        </mxCell>
         <mxCell id="BQ-qkdqb9Ig9FHj9CHdI-9" value="后端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" vertex="1" parent="BQ-qkdqb9Ig9FHj9CHdI-1">
           <mxGeometry x="204" y="20" width="263" height="605" as="geometry" />
         </mxCell>
@@ -1268,9 +1271,6 @@
         </mxCell>
         <mxCell id="BQ-qkdqb9Ig9FHj9CHdI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" edge="1" parent="BQ-qkdqb9Ig9FHj9CHdI-1" source="BQ-qkdqb9Ig9FHj9CHdI-14" target="BQ-qkdqb9Ig9FHj9CHdI-7">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BQ-qkdqb9Ig9FHj9CHdI-20" value="点击进入某主题" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="-46.999999999999545" y="151" width="66" height="38" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
