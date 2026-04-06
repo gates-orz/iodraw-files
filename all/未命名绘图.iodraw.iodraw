@@ -1537,10 +1537,10 @@
         <mxCell id="NrCDpx8oDpkdf14v-Mkw-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Simsun;" edge="1" parent="NrCDpx8oDpkdf14v-Mkw-2" source="NrCDpx8oDpkdf14v-Mkw-9" target="NrCDpx8oDpkdf14v-Mkw-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrCDpx8oDpkdf14v-Mkw-9" value="点击某条未解决投诉/建议" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="NrCDpx8oDpkdf14v-Mkw-2">
+        <mxCell id="NrCDpx8oDpkdf14v-Mkw-9" value="点击投诉与建议按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="NrCDpx8oDpkdf14v-Mkw-2">
           <mxGeometry x="27" y="240" width="66" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="NrCDpx8oDpkdf14v-Mkw-10" value="填写信息后点击保存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="NrCDpx8oDpkdf14v-Mkw-2">
+        <mxCell id="NrCDpx8oDpkdf14v-Mkw-10" value="输入留言后点击发送" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="NrCDpx8oDpkdf14v-Mkw-2">
           <mxGeometry x="27" y="374" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="NrCDpx8oDpkdf14v-Mkw-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="NrCDpx8oDpkdf14v-Mkw-2" source="NrCDpx8oDpkdf14v-Mkw-10" target="NrCDpx8oDpkdf14v-Mkw-12">
