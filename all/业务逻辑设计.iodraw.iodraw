@@ -540,8 +540,103 @@
             <mxPoint x="104" y="852" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c5uJngPHitoLnm2paNAv-23" value="5、提示新增成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="c5uJngPHitoLnm2paNAv-23" value="5、提示编辑成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="759" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-24" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="146" y="564" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-26" target="c5uJngPHitoLnm2paNAv-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-26" value="：管理员用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="119" y="624" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-28" target="c5uJngPHitoLnm2paNAv-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-28" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="266" y="624" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-30" target="c5uJngPHitoLnm2paNAv-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-30" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="406" y="624" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="154" y="700" width="19" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310.5" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-33" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="301" y="706" width="19" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-34" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-31" target="c5uJngPHitoLnm2paNAv-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="803" as="sourcePoint" />
+            <mxPoint x="70" y="753" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-35" value="1、编辑养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="189" y="694" width="94" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450.5" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="441" y="706" width="19" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="94" y="805" as="sourcePoint" />
+            <mxPoint x="441" y="722" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-39" value="2、传递养生知识数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="330" y="700" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.93;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="217" y="756" as="sourcePoint" />
+            <mxPoint x="462" y="751" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="514" y="720" />
+              <mxPoint x="514" y="751" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-41" value="3、更新养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="470" y="692" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="c5uJngPHitoLnm2paNAv-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439" y="760" as="sourcePoint" />
+            <mxPoint x="267" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-43" value="4、更新成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="330" y="765" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-33" target="c5uJngPHitoLnm2paNAv-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="7" y="811" as="sourcePoint" />
+            <mxPoint x="57" y="761" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-45" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="c5uJngPHitoLnm2paNAv-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="163.5" y="891" as="sourcePoint" />
+            <mxPoint x="114" y="862" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5uJngPHitoLnm2paNAv-46" value="5、提示编辑成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="188" y="769" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
