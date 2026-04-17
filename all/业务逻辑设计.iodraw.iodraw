@@ -786,86 +786,86 @@
           <mxGeometry x="186" y="1154" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="139.5" y="1259" width="30" height="60" as="geometry" />
+          <mxGeometry x="139.5" y="1243" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-3" target="ZekIOSMSobdmu0kq08rU-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-3" value="：管理员用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="112.5" y="1319" width="89" height="24" as="geometry" />
+          <mxGeometry x="112.5" y="1303" width="89" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-5" target="ZekIOSMSobdmu0kq08rU-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-5" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="259.5" y="1319" width="89" height="24" as="geometry" />
+          <mxGeometry x="259.5" y="1303" width="89" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-7" target="ZekIOSMSobdmu0kq08rU-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-7" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="399.5" y="1319" width="89" height="24" as="geometry" />
+          <mxGeometry x="399.5" y="1303" width="89" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="147.5" y="1395" width="19" height="170" as="geometry" />
+          <mxGeometry x="147.5" y="1379" width="19" height="170" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-10">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="304" y="1493" as="targetPoint" />
+            <mxPoint x="304" y="1477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="294.5" y="1401" width="19" height="163" as="geometry" />
+          <mxGeometry x="294.5" y="1385" width="19" height="163" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-8" target="ZekIOSMSobdmu0kq08rU-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="13.5" y="1498" as="sourcePoint" />
-            <mxPoint x="63.5" y="1448" as="targetPoint" />
+            <mxPoint x="13.5" y="1482" as="sourcePoint" />
+            <mxPoint x="63.5" y="1432" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-12" value="1、编辑养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="182.5" y="1389" width="94" height="19" as="geometry" />
+          <mxGeometry x="182.5" y="1373" width="94" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="467.5" y="1496" as="targetPoint" />
+            <mxPoint x="444" y="1477" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="434.5" y="1401" width="19" height="165" as="geometry" />
+          <mxGeometry x="434.5" y="1385" width="19" height="165" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="87.5" y="1500" as="sourcePoint" />
-            <mxPoint x="434.5" y="1417" as="targetPoint" />
+            <mxPoint x="87.5" y="1484" as="sourcePoint" />
+            <mxPoint x="434.5" y="1401" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-16" value="2、传递养生知识数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="323.5" y="1395" width="101" height="19" as="geometry" />
+          <mxGeometry x="323.5" y="1379" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="ZekIOSMSobdmu0kq08rU-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="432.5" y="1455" as="sourcePoint" />
-            <mxPoint x="260.5" y="1401" as="targetPoint" />
+            <mxPoint x="432.5" y="1439" as="sourcePoint" />
+            <mxPoint x="260.5" y="1385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-18" value="3、更新成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="323.5" y="1460" width="101" height="19" as="geometry" />
+          <mxGeometry x="323.5" y="1444" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-10" target="ZekIOSMSobdmu0kq08rU-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="0.5" y="1506" as="sourcePoint" />
-            <mxPoint x="50.5" y="1456" as="targetPoint" />
+            <mxPoint x="0.5" y="1490" as="sourcePoint" />
+            <mxPoint x="50.5" y="1440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="ZekIOSMSobdmu0kq08rU-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180.5" y="1589" as="sourcePoint" />
-            <mxPoint x="131" y="1560" as="targetPoint" />
+            <mxPoint x="157" y="1570" as="sourcePoint" />
+            <mxPoint x="107.5" y="1541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-21" value="4、提示编辑成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="181.5" y="1464" width="101" height="19" as="geometry" />
+          <mxGeometry x="181.5" y="1448" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
