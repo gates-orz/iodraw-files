@@ -607,7 +607,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MAzYZ6swPQpKBzi-h7dz-53" value="3、验证用户名重复性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="MAzYZ6swPQpKBzi-h7dz-53" value="3、执行查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="460" y="1075" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-54" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="MAzYZ6swPQpKBzi-h7dz-45">
