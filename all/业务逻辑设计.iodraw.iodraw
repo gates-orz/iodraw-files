@@ -655,6 +655,88 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HGsr4HvwOldbekFVX_WS-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="136" y="147" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-3" target="HGsr4HvwOldbekFVX_WS-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-3" value="：管理员用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="109" y="207" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-5" target="HGsr4HvwOldbekFVX_WS-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-5" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="256" y="207" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-7" target="HGsr4HvwOldbekFVX_WS-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-7" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="396" y="207" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="144" y="283" width="19" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.5" y="381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="291" y="289" width="19" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-8" target="HGsr4HvwOldbekFVX_WS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="386" as="sourcePoint" />
+            <mxPoint x="60" y="336" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-12" value="1、新增养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="179" y="277" width="94" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.5" y="381" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="431" y="289" width="19" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="84" y="388" as="sourcePoint" />
+            <mxPoint x="431" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-16" value="2、传递养生知识数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="320" y="283" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="HGsr4HvwOldbekFVX_WS-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="343" as="sourcePoint" />
+            <mxPoint x="257" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-18" value="3、保存成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="320" y="348" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="HGsr4HvwOldbekFVX_WS-10" target="HGsr4HvwOldbekFVX_WS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3" y="394" as="sourcePoint" />
+            <mxPoint x="47" y="344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="HGsr4HvwOldbekFVX_WS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="153.5" y="474" as="sourcePoint" />
+            <mxPoint x="104" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HGsr4HvwOldbekFVX_WS-21" value="4、提示新增成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="178" y="352" width="101" height="19" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
