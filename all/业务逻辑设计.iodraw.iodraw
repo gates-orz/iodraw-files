@@ -138,8 +138,11 @@
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-36" value="5、提示注册成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="178" y="352" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="YaXaeTg7W5bwuB2CWv7L-37" value="6、用户登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="188" y="405" width="101" height="19" as="geometry" />
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-37" value="7、验证登录信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="316" y="384" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-38" value="6、用户登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="198" y="415" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
