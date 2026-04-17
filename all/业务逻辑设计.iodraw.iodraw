@@ -13,6 +13,9 @@
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-2" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="109" y="207" width="89" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="YaXaeTg7W5bwuB2CWv7L-3" target="YaXaeTg7W5bwuB2CWv7L-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-3" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="256" y="207" width="89" height="24" as="geometry" />
         </mxCell>
@@ -23,7 +26,7 @@
           <mxGeometry x="144" y="284" width="19" height="170" as="geometry" />
         </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="291" y="284" width="19" height="72" as="geometry" />
+          <mxGeometry x="291" y="288" width="19" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
