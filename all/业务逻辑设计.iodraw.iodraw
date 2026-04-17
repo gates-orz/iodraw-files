@@ -1341,6 +1341,88 @@
         <mxCell id="J1SpIZBh7G9fU7bfNkDO-21" value="4、返回提交成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="1827" width="101" height="19" as="geometry" />
         </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-22" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="136" y="2021" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-24" target="J1SpIZBh7G9fU7bfNkDO-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-24" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="109" y="2081" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-26" target="J1SpIZBh7G9fU7bfNkDO-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-26" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="256" y="2081" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-28" target="J1SpIZBh7G9fU7bfNkDO-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-28" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="396" y="2081" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="144" y="2157" width="19" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.5" y="2255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="291" y="2163" width="19" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-29" target="J1SpIZBh7G9fU7bfNkDO-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="2260" as="sourcePoint" />
+            <mxPoint x="60" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-33" value="1、追加留言" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="179" y="2151" width="98" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440.5" y="2255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="431" y="2163" width="19" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="84" y="2262" as="sourcePoint" />
+            <mxPoint x="431" y="2179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-37" value="2、更新工单表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2157" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="J1SpIZBh7G9fU7bfNkDO-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="2217" as="sourcePoint" />
+            <mxPoint x="257" y="2163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-39" value="3、保存成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2222" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-31" target="J1SpIZBh7G9fU7bfNkDO-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3" y="2268" as="sourcePoint" />
+            <mxPoint x="47" y="2218" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="J1SpIZBh7G9fU7bfNkDO-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="153.5" y="2348" as="sourcePoint" />
+            <mxPoint x="104" y="2319" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-42" value="4、返回提交成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="178" y="2226" width="101" height="19" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
