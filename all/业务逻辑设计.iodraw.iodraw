@@ -641,7 +641,7 @@
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-68" value="6、构建查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="316" y="1090" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="MAzYZ6swPQpKBzi-h7dz-69" value="7、验证成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="MAzYZ6swPQpKBzi-h7dz-69" value="7、查询成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="323" y="1135" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-70" value="8、提示登录成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
