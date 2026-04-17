@@ -179,8 +179,10 @@
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="144" y="283" width="19" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-10" target="QFcdxWL7tJvpSAGyb1-w-24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.5" y="381" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="291" y="289" width="19" height="72" as="geometry" />
@@ -191,7 +193,7 @@
             <mxPoint x="60" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-12" value="1、新增管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-12" value="1、添加管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="179" y="277" width="86" height="19" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-14" target="QFcdxWL7tJvpSAGyb1-w-26">
@@ -240,13 +242,11 @@
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-22" value="6、用户登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="395" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-24">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300.5" y="474" as="targetPoint" />
+            <mxPoint x="300.5" y="453" as="sourcePoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="291" y="381" width="19" height="72" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-26">
           <mxGeometry relative="1" as="geometry">
@@ -262,31 +262,31 @@
             <mxPoint x="104" y="445" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.078;exitY=0.658;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.023;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-8" target="QFcdxWL7tJvpSAGyb1-w-24">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.078;exitY=0.658;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.023;entryY=0.187;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="51" y="479" as="sourcePoint" />
-            <mxPoint x="101" y="429" as="targetPoint" />
+            <mxPoint x="290.563" y="394.46399999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.335;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.028;entryY=0.335;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-24" target="QFcdxWL7tJvpSAGyb1-w-26">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.335;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.028;entryY=0.335;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" target="QFcdxWL7tJvpSAGyb1-w-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="21" y="501" as="sourcePoint" />
+            <mxPoint x="310" y="405.12" as="sourcePoint" />
             <mxPoint x="71" y="451" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.048;exitY=0.694;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.689;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-26" target="QFcdxWL7tJvpSAGyb1-w-24">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.048;exitY=0.694;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.98;entryY=0.689;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-26">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="92" y="511" as="sourcePoint" />
-            <mxPoint x="142" y="461" as="targetPoint" />
+            <mxPoint x="309.62" y="430.60800000000006" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.083;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-24">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-31" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.083;exitY=0.869;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="7" y="514" as="sourcePoint" />
+            <mxPoint x="289.423" y="443.568" as="sourcePoint" />
             <mxPoint x="162" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-32" value="5、提示新增成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-32" value="5、提示添加成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="352" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-33" value="7、验证登录信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
