@@ -922,7 +922,7 @@
             <mxPoint x="438" y="1798" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZekIOSMSobdmu0kq08rU-37" value="2、更新商品表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="ZekIOSMSobdmu0kq08rU-37" value="2、更新商品信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="327" y="1776" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="ZekIOSMSobdmu0kq08rU-31">
