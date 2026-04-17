@@ -34,8 +34,8 @@
             <mxPoint x="60" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YaXaeTg7W5bwuB2CWv7L-11" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="196" y="273" width="60" height="30" as="geometry" />
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-11" value="1、用户注册" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="192" y="277" width="73" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
