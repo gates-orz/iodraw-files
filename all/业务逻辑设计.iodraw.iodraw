@@ -597,16 +597,6 @@
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-51" value="2、构建查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="320" y="1077" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="MAzYZ6swPQpKBzi-h7dz-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.09;exitY=0.194;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="MAzYZ6swPQpKBzi-h7dz-49">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="207" y="1139" as="sourcePoint" />
-            <mxPoint x="452" y="1134" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="504" y="1103" />
-              <mxPoint x="504" y="1134" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-53" value="3、执行查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="460" y="1075" width="101" height="19" as="geometry" />
         </mxCell>
