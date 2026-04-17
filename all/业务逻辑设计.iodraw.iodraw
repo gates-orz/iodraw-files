@@ -823,7 +823,7 @@
             <mxPoint x="63.5" y="1432" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZekIOSMSobdmu0kq08rU-12" value="1、编辑养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="ZekIOSMSobdmu0kq08rU-12" value="1、购买商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="1373" width="94" height="19" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-14">
