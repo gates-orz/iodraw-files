@@ -867,6 +867,88 @@
         <mxCell id="ZekIOSMSobdmu0kq08rU-21" value="4、返回订单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="181.5" y="1448" width="101" height="19" as="geometry" />
         </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-22" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="149.5" y="1253" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-24" target="ZekIOSMSobdmu0kq08rU-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-24" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="122.5" y="1313" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-26" target="ZekIOSMSobdmu0kq08rU-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-26" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="269.5" y="1313" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-28" target="ZekIOSMSobdmu0kq08rU-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-28" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="409.5" y="1313" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="157.5" y="1389" width="19" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="1487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="304.5" y="1395" width="19" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-29" target="ZekIOSMSobdmu0kq08rU-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="23.5" y="1492" as="sourcePoint" />
+            <mxPoint x="73.5" y="1442" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-33" value="1、购买商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="192.5" y="1383" width="94" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="454" y="1487" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-35" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="444.5" y="1395" width="19" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-36" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="97.5" y="1494" as="sourcePoint" />
+            <mxPoint x="444.5" y="1411" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-37" value="2、更新商品表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="333.5" y="1389" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-38" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="ZekIOSMSobdmu0kq08rU-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="442.5" y="1449" as="sourcePoint" />
+            <mxPoint x="270.5" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-39" value="3、更新成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="333.5" y="1454" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-31" target="ZekIOSMSobdmu0kq08rU-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10.5" y="1500" as="sourcePoint" />
+            <mxPoint x="60.5" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="ZekIOSMSobdmu0kq08rU-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="167" y="1580" as="sourcePoint" />
+            <mxPoint x="117.5" y="1551" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZekIOSMSobdmu0kq08rU-42" value="4、返回订单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="191.5" y="1458" width="101" height="19" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
