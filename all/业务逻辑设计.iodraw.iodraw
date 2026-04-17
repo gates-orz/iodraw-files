@@ -1429,7 +1429,7 @@
         <mxCell id="J1SpIZBh7G9fU7bfNkDO-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-45" target="J1SpIZBh7G9fU7bfNkDO-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="J1SpIZBh7G9fU7bfNkDO-45" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-45" value="：管理员" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="109" y="2503" width="89" height="24" as="geometry" />
         </mxCell>
         <mxCell id="J1SpIZBh7G9fU7bfNkDO-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-47" target="J1SpIZBh7G9fU7bfNkDO-52">
@@ -1461,7 +1461,7 @@
             <mxPoint x="60" y="2632" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J1SpIZBh7G9fU7bfNkDO-54" value="1、追加留言" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-54" value="1、回复用户" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="179" y="2573" width="98" height="19" as="geometry" />
         </mxCell>
         <mxCell id="J1SpIZBh7G9fU7bfNkDO-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-56">
