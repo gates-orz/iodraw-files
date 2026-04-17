@@ -1084,8 +1084,90 @@
         <mxCell id="5aCsLhzf-shBpIOUVOOc-32" value="7、查询成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="323" y="1135" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="5aCsLhzf-shBpIOUVOOc-33" value="8、返回商品详情" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="5aCsLhzf-shBpIOUVOOc-33" value="8、返回帖子详情" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="186" y="1154" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-1" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="139.5" y="1243" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-3" target="sPCcRwxTrhkzZ4qDk4oT-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-3" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="1303" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-5" target="sPCcRwxTrhkzZ4qDk4oT-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-5" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="259.5" y="1303" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-7" target="sPCcRwxTrhkzZ4qDk4oT-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-7" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="399.5" y="1303" width="89" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="1379" width="19" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="1477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="294.5" y="1385" width="19" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.088;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-8" target="sPCcRwxTrhkzZ4qDk4oT-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="13.5" y="1482" as="sourcePoint" />
+            <mxPoint x="63.5" y="1432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-12" value="1、购买商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="182.5" y="1373" width="94" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="444" y="1477" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="434.5" y="1385" width="19" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.98;exitY=0.11;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="87.5" y="1484" as="sourcePoint" />
+            <mxPoint x="434.5" y="1401" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-16" value="2、更新商品表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="1379" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="sPCcRwxTrhkzZ4qDk4oT-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432.5" y="1439" as="sourcePoint" />
+            <mxPoint x="260.5" y="1385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-18" value="3、更新成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="323.5" y="1444" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="sPCcRwxTrhkzZ4qDk4oT-10" target="sPCcRwxTrhkzZ4qDk4oT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="0.5" y="1490" as="sourcePoint" />
+            <mxPoint x="50.5" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" target="sPCcRwxTrhkzZ4qDk4oT-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="157" y="1570" as="sourcePoint" />
+            <mxPoint x="107.5" y="1541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-21" value="4、返回订单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="181.5" y="1448" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
