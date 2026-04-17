@@ -635,7 +635,7 @@
             <mxPoint x="104" y="1214" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c5uJngPHitoLnm2paNAv-46" value="5、提示编辑成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="c5uJngPHitoLnm2paNAv-46" value="5、返回养生知识列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="1121" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
