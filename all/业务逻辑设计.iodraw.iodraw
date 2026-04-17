@@ -327,7 +327,7 @@
             <mxPoint x="257" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-78" value="4、注册成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-78" value="4、更新成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="320" y="774" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-79" value="" style="endArrow=classic;html=1;rounded=0;exitX=-0.043;exitY=0.366;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.897;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-68" target="QFcdxWL7tJvpSAGyb1-w-66">
@@ -342,7 +342,7 @@
             <mxPoint x="104" y="871" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-81" value="5、提示添加成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-81" value="5、提示更新成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="778" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
