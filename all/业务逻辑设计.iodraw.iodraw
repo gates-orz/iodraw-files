@@ -63,7 +63,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-17" value="3、验证用户名重复性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="463" y="281" width="101" height="19" as="geometry" />
+          <mxGeometry x="460" y="275" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
