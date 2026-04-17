@@ -13,6 +13,9 @@
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-3" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="256" y="207" width="89" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-5" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="396" y="207" width="89" height="24" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
