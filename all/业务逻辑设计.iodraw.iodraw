@@ -1166,7 +1166,7 @@
             <mxPoint x="107.5" y="1541" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-21" value="4、返回订单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="sPCcRwxTrhkzZ4qDk4oT-21" value="4、返回发布成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="181.5" y="1448" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
