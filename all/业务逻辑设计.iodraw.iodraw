@@ -19,6 +19,9 @@
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-3" value="：系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="256" y="207" width="89" height="24" as="geometry" />
         </mxCell>
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YaXaeTg7W5bwuB2CWv7L-5" target="YaXaeTg7W5bwuB2CWv7L-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-5" value="：数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="396" y="207" width="89" height="24" as="geometry" />
         </mxCell>
@@ -38,7 +41,7 @@
           <mxGeometry x="192" y="277" width="73" height="19" as="geometry" />
         </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="301" y="299" width="19" height="72" as="geometry" />
+          <mxGeometry x="428" y="289" width="19" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
