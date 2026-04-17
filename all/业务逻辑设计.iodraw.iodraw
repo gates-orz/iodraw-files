@@ -408,7 +408,7 @@
             <mxPoint x="431" y="305" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H0EeiPOgb88O4H4oml-r-16" value="2、传递用户数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="H0EeiPOgb88O4H4oml-r-16" value="2、传递养生知识数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="320" y="286" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="H0EeiPOgb88O4H4oml-r-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.93;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="H0EeiPOgb88O4H4oml-r-14">
