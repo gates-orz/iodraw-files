@@ -1420,8 +1420,8 @@
             <mxPoint x="104" y="2319" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J1SpIZBh7G9fU7bfNkDO-42" value="4、返回提交成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="178" y="2226" width="101" height="19" as="geometry" />
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-42" value="4、返回新消息记录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="178" y="2226" width="104" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
