@@ -782,7 +782,7 @@
         <mxCell id="9bP-iyoQUaYU8kIR51aU-32" value="7、查询成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="323" y="1135" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="9bP-iyoQUaYU8kIR51aU-33" value="8、提示登录成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="9bP-iyoQUaYU8kIR51aU-33" value="8、返回商品详情" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="186" y="1154" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
