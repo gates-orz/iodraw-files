@@ -946,8 +946,8 @@
             <mxPoint x="111" y="1938" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZekIOSMSobdmu0kq08rU-42" value="4、返回订单" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="185" y="1845" width="101" height="19" as="geometry" />
+        <mxCell id="ZekIOSMSobdmu0kq08rU-42" value="4、返回新商品信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="185" y="1845" width="104" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
