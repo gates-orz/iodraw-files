@@ -391,7 +391,7 @@
             <mxPoint x="60" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H0EeiPOgb88O4H4oml-r-12" value="1、添加管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="H0EeiPOgb88O4H4oml-r-12" value="1、新增养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="179" y="277" width="86" height="19" as="geometry" />
         </mxCell>
         <mxCell id="H0EeiPOgb88O4H4oml-r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="H0EeiPOgb88O4H4oml-r-14">
