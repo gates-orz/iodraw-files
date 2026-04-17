@@ -791,7 +791,7 @@
         <mxCell id="ZekIOSMSobdmu0kq08rU-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-3" target="ZekIOSMSobdmu0kq08rU-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZekIOSMSobdmu0kq08rU-3" value="：管理员用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="ZekIOSMSobdmu0kq08rU-3" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="112.5" y="1303" width="89" height="24" as="geometry" />
         </mxCell>
         <mxCell id="ZekIOSMSobdmu0kq08rU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="ZekIOSMSobdmu0kq08rU-5" target="ZekIOSMSobdmu0kq08rU-10">
