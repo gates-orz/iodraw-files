@@ -598,7 +598,7 @@
             <mxPoint x="431" y="1074" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="c5uJngPHitoLnm2paNAv-39" value="2、传递养生知识数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="c5uJngPHitoLnm2paNAv-39" value="2、传递查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="320" y="1052" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="c5uJngPHitoLnm2paNAv-40" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.93;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-37">
