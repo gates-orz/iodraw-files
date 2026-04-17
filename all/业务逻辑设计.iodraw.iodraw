@@ -724,7 +724,7 @@
             <mxPoint x="47" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9bP-iyoQUaYU8kIR51aU-20" value="5、浏览养生知识详情" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="9bP-iyoQUaYU8kIR51aU-20" value="5、浏览商品详情" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="175.5" y="1105" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="9bP-iyoQUaYU8kIR51aU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="9bP-iyoQUaYU8kIR51aU-22">
@@ -773,7 +773,7 @@
             <mxPoint x="162" y="1150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9bP-iyoQUaYU8kIR51aU-30" value="4、返回养生知识列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="9bP-iyoQUaYU8kIR51aU-30" value="4、返回商品" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="1058" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="9bP-iyoQUaYU8kIR51aU-31" value="6、构建查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
