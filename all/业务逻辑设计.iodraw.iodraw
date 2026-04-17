@@ -151,7 +151,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="_cqc226V_1vP6Pa4knUy" name="用户管理逻辑设计">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="698" dy="441" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-3" target="QFcdxWL7tJvpSAGyb1-w-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-3" value="：用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-3" value="：管理员用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="109" y="207" width="89" height="24" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-5" target="QFcdxWL7tJvpSAGyb1-w-10">
