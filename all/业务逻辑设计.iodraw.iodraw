@@ -1314,7 +1314,7 @@
             <mxPoint x="431" y="1780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J1SpIZBh7G9fU7bfNkDO-16" value="2、更新帖子表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-16" value="2、更新工单表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="320" y="1758" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="J1SpIZBh7G9fU7bfNkDO-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="J1SpIZBh7G9fU7bfNkDO-10">
@@ -1338,7 +1338,7 @@
             <mxPoint x="104" y="1920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J1SpIZBh7G9fU7bfNkDO-21" value="4、返回编辑成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-21" value="4、返回提交成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="1827" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
