@@ -142,7 +142,10 @@
           <mxGeometry x="316" y="384" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-38" value="8、验证成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="437" width="101" height="19" as="geometry" />
+          <mxGeometry x="323" y="429" width="101" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-39" value="6、用户登录" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="208" y="425" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
