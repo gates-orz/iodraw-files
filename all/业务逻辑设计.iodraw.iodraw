@@ -89,13 +89,13 @@
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-21" value="5、提示注册成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="178" y="351" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="YaXaeTg7W5bwuB2CWv7L-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YaXaeTg7W5bwuB2CWv7L-22" target="YaXaeTg7W5bwuB2CWv7L-26">
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="YaXaeTg7W5bwuB2CWv7L-22" target="YaXaeTg7W5bwuB2CWv7L-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="291" y="381" width="19" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="YaXaeTg7W5bwuB2CWv7L-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YaXaeTg7W5bwuB2CWv7L-23" target="YaXaeTg7W5bwuB2CWv7L-27">
+        <mxCell id="YaXaeTg7W5bwuB2CWv7L-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="YaXaeTg7W5bwuB2CWv7L-23" target="YaXaeTg7W5bwuB2CWv7L-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YaXaeTg7W5bwuB2CWv7L-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
