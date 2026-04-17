@@ -318,7 +318,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-76" value="3、验证用户名重复性" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-76" value="3、更新用户信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="460" y="701" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-77" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="QFcdxWL7tJvpSAGyb1-w-68">
