@@ -674,7 +674,7 @@
             <mxPoint x="162" y="1244" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MAzYZ6swPQpKBzi-h7dz-67" value="5、提示注册成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="MAzYZ6swPQpKBzi-h7dz-67" value="5、返回养生知识列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="1152" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-68" value="7、验证登录信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
