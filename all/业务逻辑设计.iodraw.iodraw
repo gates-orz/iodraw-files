@@ -1255,7 +1255,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="SAWw3Os1zOf-6L302NU-" name="投诉建议逻辑设计">
-    <mxGraphModel dx="1221" dy="-828" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="698" dy="-1159" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1297,8 +1297,8 @@
             <mxPoint x="60" y="1811" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J1SpIZBh7G9fU7bfNkDO-12" value="1、编辑帖子" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="179" y="1752" width="94" height="19" as="geometry" />
+        <mxCell id="J1SpIZBh7G9fU7bfNkDO-12" value="1、提交投诉/建议" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+          <mxGeometry x="179" y="1752" width="98" height="19" as="geometry" />
         </mxCell>
         <mxCell id="J1SpIZBh7G9fU7bfNkDO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="J1SpIZBh7G9fU7bfNkDO-14">
           <mxGeometry relative="1" as="geometry">
