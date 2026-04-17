@@ -506,19 +506,6 @@
         <mxCell id="c5uJngPHitoLnm2paNAv-16" value="2、传递养生知识数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="320" y="690" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="c5uJngPHitoLnm2paNAv-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.93;exitY=0.087;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Simsun;" edge="1" parent="1" source="c5uJngPHitoLnm2paNAv-14">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="207" y="746" as="sourcePoint" />
-            <mxPoint x="452" y="741" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="504" y="710" />
-              <mxPoint x="504" y="741" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="c5uJngPHitoLnm2paNAv-18" value="3、更新养生知识" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="460" y="682" width="101" height="19" as="geometry" />
-        </mxCell>
         <mxCell id="c5uJngPHitoLnm2paNAv-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=1.08;entryY=0.338;entryDx=0;entryDy=0;dashed=1;fontFamily=Simsun;entryPerimeter=0;" edge="1" parent="1" target="c5uJngPHitoLnm2paNAv-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="429" y="750" as="sourcePoint" />
@@ -667,10 +654,10 @@
         <mxCell id="MAzYZ6swPQpKBzi-h7dz-68" value="6、构建查询语句" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="316" y="1184" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="MAzYZ6swPQpKBzi-h7dz-69" value="8、验证成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="MAzYZ6swPQpKBzi-h7dz-69" value="7、验证成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="323" y="1229" width="101" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="MAzYZ6swPQpKBzi-h7dz-70" value="9、提示登录成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="MAzYZ6swPQpKBzi-h7dz-70" value="8、提示登录成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="186" y="1248" width="101" height="19" as="geometry" />
         </mxCell>
       </root>
