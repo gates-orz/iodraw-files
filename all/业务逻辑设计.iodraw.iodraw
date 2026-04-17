@@ -192,7 +192,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-12" value="1、新增管理员" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
-          <mxGeometry x="192" y="277" width="73" height="19" as="geometry" />
+          <mxGeometry x="179" y="277" width="86" height="19" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;fontFamily=Simsun;" edge="1" parent="1" source="QFcdxWL7tJvpSAGyb1-w-14" target="QFcdxWL7tJvpSAGyb1-w-26">
           <mxGeometry relative="1" as="geometry" />
@@ -286,7 +286,7 @@
             <mxPoint x="162" y="444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QFcdxWL7tJvpSAGyb1-w-32" value="5、提示注册成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
+        <mxCell id="QFcdxWL7tJvpSAGyb1-w-32" value="5、提示新增成功" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="178" y="352" width="101" height="19" as="geometry" />
         </mxCell>
         <mxCell id="QFcdxWL7tJvpSAGyb1-w-33" value="7、验证登录信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Simsun;" vertex="1" parent="1">
