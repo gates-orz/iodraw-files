@@ -28,7 +28,7 @@
         <mxCell id="pkg_dom" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="780" y="320" width="340" height="245" as="geometry" />
         </mxCell>
-        <mxCell id="User" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;@TableName(&amp;quot;user&amp;quot;)&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;- id: String&lt;br&gt;- username: String&lt;br&gt;- password: String&lt;br&gt;- avatar: String&lt;br&gt;- phone: String&lt;br&gt;- role: String&lt;br&gt;- enabled: Boolean&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
+        <mxCell id="User" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;- id: String&lt;br&gt;- username: String&lt;br&gt;- password: String&lt;br&gt;- avatar: String&lt;br&gt;- phone: String&lt;br&gt;- role: String&lt;br&gt;- enabled: Boolean&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
           <mxGeometry x="810" y="370" width="280" height="177" as="geometry" />
         </mxCell>
         <mxCell id="dep_ctrl_svc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AuthController" target="UserService" edge="1">
@@ -53,7 +53,7 @@
           <mxGeometry x="774" y="75" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eb-eo5NJtJ2BczOlgvuf-5" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="645" y="493" width="60" height="30" as="geometry" />
+          <mxGeometry x="767" y="312" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
