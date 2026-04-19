@@ -110,6 +110,9 @@
         <mxCell id="dN4UeIsMbLpuYpqD1Fma-3" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="689" y="96" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="dN4UeIsMbLpuYpqD1Fma-4" value="ServiceImpl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1072" y="98" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
