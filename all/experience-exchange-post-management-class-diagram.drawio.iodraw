@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="community-svc-layer" name="社区经验交流-Service分层类图">
-    <mxGraphModel dx="1836" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
+    <mxGraphModel dx="2144" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="Favorite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Favorite&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/targetType/targetId/userId/title/时间&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="821" y="668" width="160" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="HealthLike" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;b&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;knowledge.entity&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/targetType/targetId/userId/createTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="HealthLike" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;b&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;knowledge.entity&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/targetType/targetId/userId/createTime&lt;/p&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1001" y="668" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="HealthArticleRef" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;HealthArticleRef&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id / - title&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
