@@ -1,128 +1,203 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
-  <diagram id="product-mgmt-uml" name="商品管理类图">
-    <mxGraphModel dx="2035" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1800" pageHeight="1400" math="0" shadow="0">
+  <diagram id="community-svc-layer" name="社区经验交流-Service分层类图">
+    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pkg_ctrl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=66;tabHeight=21;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="20" y="20" width="440" height="461" as="geometry" />
+        <mxCell id="pkg_ctrl" value="controller (tcm-community-service)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="400" height="560" as="geometry" />
         </mxCell>
-        <mxCell id="ProductController" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;- productService: ProductService&lt;br&gt;- commentService: ProductCommentService&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.35;&quot;&gt;+ page(pageNum, pageSize, name, categoryId, status): R&amp;lt;Page&amp;lt;Product&amp;gt;&amp;gt;&lt;br&gt;+ detail(id: String): R&amp;lt;Product&amp;gt;&lt;br&gt;+ create(product: Product): R&amp;lt;Product&amp;gt;&lt;br&gt;+ update(id: String, product: Product): R&amp;lt;Product&amp;gt;&lt;br&gt;+ changeStatus(id: String, req: ProductChangeStatusReq): R&amp;lt;Void&amp;gt;&lt;br&gt;+ delete(id: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ getStock(id: String): R&amp;lt;Product&amp;gt;&lt;br&gt;+ updateStock(id: String, req: ProductUpdateStockReq): R&amp;lt;Product&amp;gt;&lt;br&gt;+ listComments(productId: String, request: HttpServletRequest): R&amp;lt;List&amp;lt;ProductCommentVo&amp;gt;&amp;gt;&lt;br&gt;+ createComment(productId, req: ProductCommentCreateReq, request): R&amp;lt;ProductCommentVo&amp;gt;&lt;br&gt;+ toggleLike(commentId: String, request): R&amp;lt;ProductCommentVo&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="40" y="50" width="400" height="216" as="geometry" />
+        <mxCell id="CommunityController" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CommunityController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;line-height:1.35;&quot;&gt;- topicService: CommunityTopicService&lt;br&gt;- postService: CommunityPostService&lt;br&gt;- commentService: CommunityCommentService&lt;br&gt;- favoriteService: CommunityFavoriteService&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;line-height:1.35;&quot;&gt;+ 主题/帖子/评论/收藏：各 HTTP 方法仅调用对应 Service&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;RequestUserUtil.parse(request) 在入口解析用户&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="50" width="360" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCategoryController" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCategoryController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;- categoryService: ProductCategoryService&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.35;&quot;&gt;+ list(status: Integer): R&amp;lt;List&amp;lt;ProductCategory&amp;gt;&amp;gt;&lt;br&gt;+ create(category: ProductCategory): R&amp;lt;ProductCategory&amp;gt;&lt;br&gt;+ update(id: String, category: ProductCategory): R&amp;lt;ProductCategory&amp;gt;&lt;br&gt;+ delete(id: String): R&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="40" y="285" width="400" height="160" as="geometry" />
+        <mxCell id="CommunityBizUtil" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CommunityBizUtil&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;«utility»&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;line-height:1.3;&quot;&gt;+ pageData(list,total,page,pageSize): Map&lt;br&gt;+ parseAuditStatus(raw): int&lt;br&gt;+ isAdmin(user): boolean&lt;br&gt;+ trimToNull(value): String&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;（各 *ServiceImpl 静态调用，图中省略依赖线）&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="280" width="360" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_svc" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=61;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="480" y="20" width="700" height="207" as="geometry" />
+        <mxCell id="pkg_svc" value="service / service.impl" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="440" y="20" width="1180" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="ProductService" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductService&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;extends IService&amp;lt;Product&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;+ pageQuery(page, name, categoryId, status): Page&amp;lt;Product&amp;gt;&lt;br&gt;+ getById/removeById/save/updateById 等（IService）&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="500" y="50" width="220" height="130" as="geometry" />
+        <mxCell id="CommunityTopicService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityTopicService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.3;&quot;&gt;+ listTopics(...) / getTopic(...) / createTopic(...) / updateTopic(...) / deleteTopic(...)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="460" y="50" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCategoryService" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductCategoryService&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;extends IService&amp;lt;ProductCategory&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;（无新增抽象方法；list/save/updateById/getById/removeById 等来自 IService）&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="740" y="50" width="200" height="130" as="geometry" />
+        <mxCell id="CommunityPostService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityPostService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ listPosts / listMyPosts / getPost / createPost / updatePost / deletePost / auditPost / togglePostLike&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="740" y="50" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCommentService" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductCommentService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.35;&quot;&gt;+ listByProduct(productId: String, currentUserId: String): List&amp;lt;ProductCommentVo&amp;gt;&lt;br&gt;+ create(productId, content, parentId, user: CommentUser): ProductCommentVo&lt;br&gt;+ toggleLike(commentId: String, user: CommentUser): ProductCommentVo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="960" y="50" width="200" height="130" as="geometry" />
+        <mxCell id="CommunityCommentService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityCommentService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ listComments / listMyComments / createComment / updateComment / deleteComment / toggleCommentLike / auditComment&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="50" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_impl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=69;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="478" y="291" width="882" height="213" as="geometry" />
+        <mxCell id="CommunityFavoriteService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityFavoriteService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ listFavorites / addFavorite / removeFavorite / checkFavorite&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="50" width="260" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ProductServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;extends ServiceImpl&amp;lt;ProductMapper,Product&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;+ pageQuery(page, name, categoryId, status): Page&amp;lt;Product&amp;gt;&lt;br&gt;+ save(entity: Product): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="498" y="321" width="261" height="120" as="geometry" />
+        <mxCell id="CommunityTopicServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityTopicServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ 实现接口全部方法；私有 toTopicVo、countPostsByTopic&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="460" y="160" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCategoryServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCategoryServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;extends ServiceImpl&amp;lt;ProductCategoryMapper,ProductCategory&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;+ save(entity: ProductCategory): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="773" y="321" width="240" height="121" as="geometry" />
+        <mxCell id="CommunityPostServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityPostServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper / - likeRecordMapper / - commentMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ 实现帖子接口；私有 toPostVo、buildTopicNameMap、buildLikeCountMap、buildCommentCountMap、existsLike、countLikes&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="740" y="160" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCommentServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;- commentMapper: ProductCommentMapper&lt;br&gt;- likeMapper: ProductCommentLikeMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;+ listByProduct(productId, currentUserId): List&amp;lt;ProductCommentVo&amp;gt;&lt;br&gt;+ create(productId, content, parentId, user): ProductCommentVo&lt;br&gt;+ toggleLike(commentId, user): ProductCommentVo&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1057" y="322.5" width="284" height="119.5" as="geometry" />
+        <mxCell id="CommunityCommentServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- commentMapper / - postMapper / - commentLikeMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ 实现评论接口；私有 toCommentVo、buildCommentLikeCountMap、countCommentLikes、existsCommentLike&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="160" width="280" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_map" value="mapper" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=58;tabHeight=21;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="478" y="543" width="881" height="200" as="geometry" />
+        <mxCell id="CommunityFavoriteServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityFavoriteServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- favoriteMapper / - postMapper / - articleRefMapper / - lectureRefMapper / - productRefMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ 实现收藏接口；私有 toFavoriteVo、resolveTargetSnapshot&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="160" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="ProductMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;Product&amp;gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="498" y="583" width="150" height="90" as="geometry" />
+        <mxCell id="pkg_dto" value="dto" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="20" width="320" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCategoryMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductCategoryMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;ProductCategory&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="668" y="583" width="173" height="90" as="geometry" />
+        <mxCell id="DtoNote" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;请求 DTO&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:6px;line-height:1.35;&quot;&gt;CommunityTopicReq；CommunityPostReq；CommunityCreateCommentReq；CommunityUpdateCommentReq；CommunityFavoriteReq；CommunityAuditReq&lt;/p&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:6px;&quot;&gt;（由 Controller 接收 JSON，传入 Service）&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="50" width="280" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCommentMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductCommentMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;ProductComment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="848" y="583" width="176" height="90" as="geometry" />
+        <mxCell id="pkg_map" value="mapper" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="20" y="460" width="2340" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCommentLikeMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ProductCommentLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;ProductCommentLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1073" y="583" width="201" height="90" as="geometry" />
+        <mxCell id="CommunityTopicMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityTopicMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;CommunityTopic&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="500" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_dom" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=51;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="478" y="763" width="882" height="260" as="geometry" />
+        <mxCell id="CommunityPostMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityPostMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;CommunityPost&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="210" y="500" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Product" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Product&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.25;&quot;&gt;- id: String&lt;br&gt;- categoryId: String&lt;br&gt;- name: String&lt;br&gt;- mainImage: String&lt;br&gt;- imageList: String&lt;br&gt;- price: BigDecimal&lt;br&gt;- stock: Integer&lt;br&gt;- efficacyDesc: String&lt;br&gt;- status: Integer&lt;br&gt;- sortOrder: Integer&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="498" y="803" width="150" height="173" as="geometry" />
+        <mxCell id="LikeRecordMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;LikeRecordMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;LikeRecord&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="380" y="500" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCategory" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCategory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;- id: String&lt;br&gt;- name: String&lt;br&gt;- sortOrder: Integer&lt;br&gt;- status: Integer&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="684.5" y="806.5" width="140" height="172" as="geometry" />
+        <mxCell id="CommentMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommentMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;Comment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="540" y="500" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ProductComment" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductComment&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;line-height:1.25;&quot;&gt;- id: String&lt;br&gt;- productId: String&lt;br&gt;- userId/username/avatar: String&lt;br&gt;- parentId/rootId: String&lt;br&gt;- content: String&lt;br&gt;- likeCount/status: Integer&lt;br&gt;- createTime/updateTime: LocalDateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="856" y="806.5" width="160" height="173" as="geometry" />
+        <mxCell id="CommentLikeMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommentLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;HealthLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="690" y="500" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="ProductCommentLike" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCommentLike&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;- id: String&lt;br&gt;- commentId: String&lt;br&gt;- userId: String&lt;br&gt;- createTime: LocalDateTime&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1098.5" y="803" width="150" height="172" as="geometry" />
+        <mxCell id="FavoriteMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FavoriteMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;Favorite&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="860" y="500" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="e_pc_ps" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.2;entryX=0;entryY=0.3;" parent="1" source="ProductController" target="ProductService" edge="1">
+        <mxCell id="HealthArticleRefMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;HealthArticleRefMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;HealthArticleRef&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="500" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthLectureRefMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;HealthLectureRefMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;HealthLectureRef&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="500" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ProductRefMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;ProductRefMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;ProductRef&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1370" y="500" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_dom" value="domain (entity)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="20" y="820" width="2340" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CommunityPost" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CommunityPost&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.2;&quot;&gt;- id/topicId/title/content/userId/authorName&lt;br&gt;- auditStatus/publishStatus/rejectReason/isDeleted&lt;br&gt;- createTime/updateTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="40" y="860" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CommunityTopic" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CommunityTopic&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- id/name/scene/season/healthGoal/description/sortNo/status/isDeleted/时间&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="240" y="860" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LikeRecord" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;LikeRecord&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/targetType/targetId/userId/createTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="460" y="860" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Comment" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;line-height:1.2;&quot;&gt;- id/targetType/targetId/userId/username/avatar/parentId/rootId/content/status/时间&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="630" y="860" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Favorite" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Favorite&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/targetType/targetId/userId/title/时间&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="850" y="860" width="160" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthLike" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;b&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;knowledge.entity&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/targetType/targetId/userId/createTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="860" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthArticleRef" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;HealthArticleRef&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id / - title&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1210" y="860" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthLectureRef" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;HealthLectureRef&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id / - title&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="860" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="ProductRef" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;ProductRef&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;- id/name/mainImage&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="860" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="dep_ctrl_ts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.2;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityTopicService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_pc_pcs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.75;entryX=0;entryY=0.5;" parent="1" source="ProductController" target="ProductCommentService" edge="1">
+        <mxCell id="dep_ctrl_ps" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.35;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityPostService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e_pcc_pcs2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.7;" parent="1" source="ProductCategoryController" target="ProductCategoryService" edge="1">
+        <mxCell id="dep_ctrl_cs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityCommentService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r_psi_ps" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" parent="1" source="ProductServiceImpl" target="ProductService" edge="1">
+        <mxCell id="dep_ctrl_fs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityFavoriteService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r_pcsi_pcs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" parent="1" source="ProductCategoryServiceImpl" target="ProductCategoryService" edge="1">
+        <mxCell id="r_t_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicServiceImpl" target="CommunityTopicService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="r_pcsi2_pcs2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" parent="1" source="ProductCommentServiceImpl" target="ProductCommentService" edge="1">
+        <mxCell id="r_p_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostServiceImpl" target="CommunityPostService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d_psi_pm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductServiceImpl" target="ProductMapper" edge="1">
+        <mxCell id="r_c_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommunityCommentService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d_pcsi_pcm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductCategoryServiceImpl" target="ProductCategoryMapper" edge="1">
+        <mxCell id="r_f_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="CommunityFavoriteService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d_pcsi2_pcm2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.35;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductCommentServiceImpl" target="ProductCommentMapper" edge="1">
+        <mxCell id="d_t_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicServiceImpl" target="CommunityTopicMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d_pcsi2_pclm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.65;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductCommentServiceImpl" target="ProductCommentLikeMapper" edge="1">
+        <mxCell id="d_t_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.75;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicServiceImpl" target="CommunityPostMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a_pm_p" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductMapper" target="Product" edge="1">
+        <mxCell id="d_ps_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostServiceImpl" target="CommunityTopicMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a_pcm_pc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductCategoryMapper" target="ProductCategory" edge="1">
+        <mxCell id="d_ps_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.4;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostServiceImpl" target="CommunityPostMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a_pcm2_pc2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductCommentMapper" target="ProductComment" edge="1">
+        <mxCell id="d_ps_m3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.6;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostServiceImpl" target="LikeRecordMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a_pclm_pcl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductCommentLikeMapper" target="ProductCommentLike" edge="1">
+        <mxCell id="d_ps_m4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostServiceImpl" target="CommentMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQvEew7UWinI-yjMJ1Ay-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="23" y="17" width="60" height="30" as="geometry" />
+        <mxCell id="d_cs_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.3;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommentMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQvEew7UWinI-yjMJ1Ay-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="474" y="17" width="60" height="30" as="geometry" />
+        <mxCell id="d_cs_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.55;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommunityPostMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQvEew7UWinI-yjMJ1Ay-4" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="760" width="60" height="30" as="geometry" />
+        <mxCell id="d_cs_m3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommentLikeMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQvEew7UWinI-yjMJ1Ay-5" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="472" y="541" width="60" height="30" as="geometry" />
+        <mxCell id="d_fv_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="FavoriteMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fQvEew7UWinI-yjMJ1Ay-6" value="ServiceImpl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="482" y="288" width="60" height="30" as="geometry" />
+        <mxCell id="d_fv_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.4;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="CommunityPostMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_fv_m3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.55;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="HealthArticleRefMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_fv_m4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.7;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="HealthLectureRefMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d_fv_m5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.85;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="ProductRefMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicMapper" target="CommunityTopic" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostMapper" target="CommunityPost" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="LikeRecordMapper" target="LikeRecord" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommentMapper" target="Comment" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommentLikeMapper" target="HealthLike" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="FavoriteMapper" target="Favorite" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthArticleRefMapper" target="HealthArticleRef" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthLectureRefMapper" target="HealthLectureRef" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="ProductRefMapper" target="ProductRef" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
