@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="community-svc-layer" name="社区经验交流-Service分层类图">
-    <mxGraphModel dx="698" dy="841" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="1043" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,13 +11,13 @@
           <mxGeometry x="137.5" y="73" width="206" height="89" as="geometry" />
         </mxCell>
         <mxCell id="pkg_svc" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=66;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="435" y="-2" width="625" height="325" as="geometry" />
+          <mxGeometry x="435" y="-2" width="697" height="325" as="geometry" />
         </mxCell>
         <mxCell id="CommunityTopicService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityTopicService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.3;&quot;&gt;+ listTopics(...) / getTopic(...) / createTopic(...) / updateTopic(...) / deleteTopic(...)&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="460" y="50" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CommunityPostService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityPostService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ listPosts / listMyPosts / getPost / createPost / updatePost / deletePost / auditPost / togglePostLike&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="740" y="50" width="280" height="90" as="geometry" />
+          <mxGeometry x="740" y="50" width="362" height="90" as="geometry" />
         </mxCell>
         <mxCell id="CommunityTopicServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityTopicServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+toTopicVo、countPostsByTopic&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="460" y="160" width="260" height="100" as="geometry" />
@@ -48,11 +48,6 @@
         </mxCell>
         <mxCell id="dep_ctrl_ps" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.35;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityPostService" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="dep_ctrl_cs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="CommunityController" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="95" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="r_t_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicServiceImpl" target="CommunityTopicService" edge="1">
           <mxGeometry relative="1" as="geometry" />
