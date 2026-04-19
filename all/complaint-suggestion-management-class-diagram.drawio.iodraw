@@ -58,7 +58,7 @@
         <mxCell id="cmg0HNf9hq_Rpa3MhW86-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="34" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cmg0HNf9hq_Rpa3MhW86-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="cmg0HNf9hq_Rpa3MhW86-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="333" y="-3" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
