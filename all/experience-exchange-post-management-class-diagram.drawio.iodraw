@@ -26,13 +26,13 @@
           <mxGeometry x="740" y="160" width="280" height="120" as="geometry" />
         </mxCell>
         <mxCell id="pkg_map" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=52;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="429" y="405" width="392" height="125" as="geometry" />
+          <mxGeometry x="487" y="382" width="392" height="125" as="geometry" />
         </mxCell>
         <mxCell id="CommunityTopicMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityTopicMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;CommunityTopic&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="449" y="445" width="150" height="70" as="geometry" />
+          <mxGeometry x="507" y="422" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="CommunityPostMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityPostMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;CommunityPost&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="619" y="445" width="150" height="70" as="geometry" />
+          <mxGeometry x="677" y="422" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="pkg_dom" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="426" y="604.5" width="556" height="168" as="geometry" />
@@ -85,7 +85,7 @@
           <mxGeometry x="437" y="-7" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qwlqrfTwQuTQKhtVDGkj-5" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="429" y="400" width="60" height="30" as="geometry" />
+          <mxGeometry x="487" y="377" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qwlqrfTwQuTQKhtVDGkj-7" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="417" y="597" width="60" height="30" as="geometry" />
