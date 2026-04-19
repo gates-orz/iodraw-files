@@ -46,8 +46,8 @@
         <mxCell id="cQEaxNSo8cryhxdzxHXL-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="44" y="85" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cQEaxNSo8cryhxdzxHXL-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="344" y="23" width="60" height="30" as="geometry" />
+        <mxCell id="cQEaxNSo8cryhxdzxHXL-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="72" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
