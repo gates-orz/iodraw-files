@@ -52,9 +52,6 @@
         <mxCell id="CommentLikeMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommentLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;HealthLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="690" y="500" width="150" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="FavoriteMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;FavoriteMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;Favorite&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="860" y="500" width="130" height="70" as="geometry" />
-        </mxCell>
         <mxCell id="HealthArticleRefMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;font-size:8px;&quot;&gt;&lt;b&gt;HealthArticleRefMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;&quot;&gt;BaseMapper&amp;lt;HealthArticleRef&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1010" y="500" width="160" height="70" as="geometry" />
         </mxCell>
@@ -143,9 +140,6 @@
         <mxCell id="d_cs_m3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.8;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommentLikeMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d_fv_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.2;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="FavoriteMapper" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="d_fv_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.4;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="CommunityPostMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -169,11 +163,6 @@
         </mxCell>
         <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommentLikeMapper" target="HealthLike" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="FavoriteMapper" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="901" y="667.9999999999998" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="a7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthArticleRefMapper" target="HealthArticleRef" edge="1">
           <mxGeometry relative="1" as="geometry" />
