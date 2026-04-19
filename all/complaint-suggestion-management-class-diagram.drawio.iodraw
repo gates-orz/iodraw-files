@@ -64,6 +64,9 @@
         <mxCell id="cmg0HNf9hq_Rpa3MhW86-3" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="515" y="475" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="cmg0HNf9hq_Rpa3MhW86-4" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="138" y="492" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
