@@ -22,9 +22,6 @@
         <mxCell id="CommunityCommentService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityCommentService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ listComments / listMyComments / createComment / updateComment / deleteComment / toggleCommentLike / auditComment&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1040" y="50" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="CommunityFavoriteService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityFavoriteService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ listFavorites / addFavorite / removeFavorite / checkFavorite&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="50" width="260" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="CommunityTopicServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityTopicServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ 实现接口全部方法；私有 toTopicVo、countPostsByTopic&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="460" y="160" width="260" height="100" as="geometry" />
         </mxCell>
@@ -33,9 +30,6 @@
         </mxCell>
         <mxCell id="CommunityCommentServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- commentMapper / - postMapper / - commentLikeMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ 实现评论接口；私有 toCommentVo、buildCommentLikeCountMap、countCommentLikes、existsCommentLike&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1040" y="160" width="280" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="CommunityFavoriteServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityFavoriteServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- favoriteMapper / - postMapper / - articleRefMapper / - lectureRefMapper / - productRefMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ 实现收藏接口；私有 toFavoriteVo、resolveTargetSnapshot&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1340" y="160" width="260" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pkg_map" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=52;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="429" y="405" width="392" height="125" as="geometry" />
@@ -64,8 +58,10 @@
         <mxCell id="dep_ctrl_cs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityCommentService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dep_ctrl_fs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" parent="1" source="CommunityController" target="CommunityFavoriteService" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dep_ctrl_fs" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" parent="1" source="CommunityController" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="90" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="r_t_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicServiceImpl" target="CommunityTopicService" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -74,9 +70,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r_c_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommunityCommentService" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="r_f_impl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="CommunityFavoriteService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d_t_m1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.25;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicServiceImpl" target="CommunityTopicMapper" edge="1">
@@ -94,8 +87,10 @@
         <mxCell id="d_cs_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.55;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityCommentServiceImpl" target="CommunityPostMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d_fv_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.4;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityFavoriteServiceImpl" target="CommunityPostMapper" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="d_fv_m2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.4;exitY=1;entryX=0.5;entryY=0;" parent="1" target="CommunityPostMapper" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1444.0000000000005" y="270" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityTopicMapper" target="CommunityTopic" edge="1">
           <mxGeometry relative="1" as="geometry" />
