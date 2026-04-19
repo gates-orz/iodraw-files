@@ -11,10 +11,10 @@
           <mxGeometry x="20" y="151" width="541" height="328" as="geometry" />
         </mxCell>
         <mxCell id="pkg_svc" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=59;tabHeight=21;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="689" y="101" width="360" height="400" as="geometry" />
+          <mxGeometry x="634" y="98" width="360" height="400" as="geometry" />
         </mxCell>
         <mxCell id="KnowledgeService" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;KnowledgeService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.35;&quot;&gt;+ listCategories(bizType: String, admin: boolean): R&amp;lt;List&amp;lt;HealthCategory&amp;gt;&amp;gt;&lt;br&gt;+ createCategory(bizType, name, sortNo): R&amp;lt;HealthCategory&amp;gt;&lt;br&gt;+ updateCategory(id, bizType, name, sortNo, status): R&amp;lt;HealthCategory&amp;gt;&lt;br&gt;+ listExperts(admin: boolean): R&amp;lt;List&amp;lt;HealthExpert&amp;gt;&amp;gt;&lt;br&gt;+ createExpert(name: String): R&amp;lt;HealthExpert&amp;gt;&lt;br&gt;+ updateExpert(id, name, status): R&amp;lt;HealthExpert&amp;gt;&lt;br&gt;+ pageArticles(page, pageSize, keyword, title, tag, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ getArticle(id, admin, request): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ likeArticle(id, request): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ createArticle(req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ updateArticle(id, req): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ deleteArticle(id: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ auditArticle(id, status: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ pageLectures(page, pageSize, keyword, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ getLecture(id, admin, request): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ likeLecture(id, request): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ createLecture(req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ updateLecture(id, req): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ deleteLecture(id: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ auditLecture(id, status: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ uploadLectureVideo(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br&gt;+ deleteLectureVideo(path: String): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="709" y="136" width="320" height="340" as="geometry" />
+          <mxGeometry x="654" y="133" width="320" height="340" as="geometry" />
         </mxCell>
         <mxCell id="pkg_impl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=74;tabHeight=22;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1069" y="101" width="380" height="607" as="geometry" />
@@ -108,7 +108,7 @@
           <mxGeometry x="7" y="111" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dN4UeIsMbLpuYpqD1Fma-3" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="689" y="96" width="60" height="30" as="geometry" />
+          <mxGeometry x="634" y="93" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dN4UeIsMbLpuYpqD1Fma-4" value="ServiceImpl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1072" y="98" width="60" height="30" as="geometry" />
