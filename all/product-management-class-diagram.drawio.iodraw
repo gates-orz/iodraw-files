@@ -26,16 +26,16 @@
           <mxGeometry x="960" y="50" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="pkg_impl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=69;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="480" y="400" width="882" height="213" as="geometry" />
+          <mxGeometry x="478" y="291" width="882" height="213" as="geometry" />
         </mxCell>
         <mxCell id="ProductServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;extends ServiceImpl&amp;lt;ProductMapper,Product&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;+ pageQuery(page, name, categoryId, status): Page&amp;lt;Product&amp;gt;&lt;br&gt;+ save(entity: Product): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="500" y="430" width="261" height="120" as="geometry" />
+          <mxGeometry x="498" y="321" width="261" height="120" as="geometry" />
         </mxCell>
         <mxCell id="ProductCategoryServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCategoryServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:center;font-size:8px;&quot;&gt;extends ServiceImpl&amp;lt;ProductCategoryMapper,ProductCategory&amp;gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;+ save(entity: ProductCategory): boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="775" y="430" width="240" height="121" as="geometry" />
+          <mxGeometry x="773" y="321" width="240" height="121" as="geometry" />
         </mxCell>
         <mxCell id="ProductCommentServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProductCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;- commentMapper: ProductCommentMapper&lt;br&gt;- likeMapper: ProductCommentLikeMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;+ listByProduct(productId, currentUserId): List&amp;lt;ProductCommentVo&amp;gt;&lt;br&gt;+ create(productId, content, parentId, user): ProductCommentVo&lt;br&gt;+ toggleLike(commentId, user): ProductCommentVo&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="1059" y="431.5" width="284" height="119.5" as="geometry" />
+          <mxGeometry x="1057" y="322.5" width="284" height="119.5" as="geometry" />
         </mxCell>
         <mxCell id="pkg_map" value="mapper" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=58;tabHeight=21;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="481" y="669" width="881" height="200" as="geometry" />
@@ -122,7 +122,7 @@
           <mxGeometry x="475" y="667" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fQvEew7UWinI-yjMJ1Ay-6" value="ServiceImpl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="484" y="397" width="60" height="30" as="geometry" />
+          <mxGeometry x="482" y="288" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
