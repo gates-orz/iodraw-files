@@ -1,59 +1,95 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
-  <diagram id="user-management-uml" name="用户管理类图">
-    <mxGraphModel dx="1836" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="0">
+  <diagram id="knowledge-mgmt-uml" name="养生知识管理类图">
+    <mxGraphModel dx="1221" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pkg_ctrl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=68;tabHeight=20;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-41" y="78" width="355" height="200" as="geometry" />
+        <mxCell id="pkg_ctrl" value="controller (tcm-knowledge-service)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="360" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="AuthController" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AuthController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;- userService: UserService&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;+ pageUsers(page, pageSize, role): R&amp;lt;Page&amp;lt;User&amp;gt;&amp;gt;&lt;br&gt;+ updateUserAdmin(id, req: UpdateUserAdminReq): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="-19" y="129" width="321" height="130" as="geometry" />
+        <mxCell id="KnowledgeController" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;KnowledgeController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:10px;&quot;&gt;- knowledgeService: KnowledgeService&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:10px;&quot;&gt;+ 分类、专家、文章、讲座：查询/新增/修改/删除&lt;br&gt;+ 文章/讲座：审核、点赞&lt;br&gt;+ 讲座：视频上传/删除&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="70" y="110" width="300" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_svc" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=55;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="400" y="80" width="320" height="380" as="geometry" />
+        <mxCell id="pkg_svc" value="service" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="440" y="60" width="900" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="UserService" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;UserService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;+ pageUsers(page, role): Page&amp;lt;User&amp;gt;&lt;br&gt;+ updateUserAdmin(userId, role, enabled): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="430" y="125" width="260" height="100" as="geometry" />
+        <mxCell id="KnowledgeService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;KnowledgeService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;文章/讲座/分类/专家/点赞 业务接口&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="470" y="90" width="200" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="UserServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;UserServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;- userMapper: UserMapper&lt;br&gt;- passwordEncoder: PasswordEncoder&lt;br&gt;- stringRedisTemplate: StringRedisTemplate&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="430" y="270" width="260" height="90" as="geometry" />
+        <mxCell id="KnowledgeServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;b&gt;KnowledgeServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;- 各 Mapper&lt;br&gt;- uploadDir&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="690" y="90" width="200" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_map" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=53;tabHeight=17;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="780" y="80" width="260" height="200" as="geometry" />
+        <mxCell id="pkg_map" value="mapper" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="440" y="60" width="900" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="UserMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;UserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;extends BaseMapper&amp;lt;User&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="810" y="125" width="200" height="100" as="geometry" />
+        <mxCell id="HealthCategoryMapper" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthCategoryMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;BaseMapper&amp;lt;HealthCategory&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="470" y="100" width="150" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="pkg_dom" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=48;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="780" y="320" width="340" height="245" as="geometry" />
+        <mxCell id="HealthArticleMapper" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthArticleMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;BaseMapper&amp;lt;HealthArticle&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="100" width="150" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="User" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:8px;&quot;&gt;- id: String&lt;br&gt;- username: String&lt;br&gt;- password: String&lt;br&gt;- avatar: String&lt;br&gt;- phone: String&lt;br&gt;- role: String&lt;br&gt;- enabled: Boolean&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="810" y="370" width="280" height="177" as="geometry" />
+        <mxCell id="HealthLectureMapper" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthLectureMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;BaseMapper&amp;lt;HealthLecture&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="810" y="100" width="150" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="dep_ctrl_svc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="AuthController" target="UserService" edge="1">
+        <mxCell id="HealthExpertMapper" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthExpertMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;BaseMapper&amp;lt;HealthExpert&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="980" y="100" width="150" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthLikeMapper" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:10px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;BaseMapper&amp;lt;HealthLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="100" width="150" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="pkg_dom" value="domain (entity)" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=40;tabHeight=14;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="440" y="360" width="900" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthCategory" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;HealthCategory&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;知识分类实体&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="470" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthArticle" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;HealthArticle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;养生文章实体&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="640" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthLecture" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;HealthLecture&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;专家讲座实体&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="810" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthExpert" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;HealthExpert&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;讲座专家实体&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="980" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HealthLike" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:9px;text-align:left;margin-left:4px;&quot;&gt;点赞记录实体&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1150" y="400" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dep_ctrl_svc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.18;entryX=0;entryY=0.5;" parent="1" source="KnowledgeController" target="KnowledgeService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="real_impl_iface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="UserServiceImpl" target="UserService" edge="1">
+        <mxCell id="real_impl_iface" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;exitX=0.6;exitY=0.5;entryX=0.45;entryY=1;" parent="1" source="KnowledgeServiceImpl" target="KnowledgeService" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="assoc_impl_mapper" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="UserServiceImpl" target="UserMapper" edge="1">
+        <mxCell id="d1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.25;entryX=0;entryY=0.5;" parent="1" source="KnowledgeServiceImpl" target="HealthCategoryMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="assoc_mapper_entity" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="UserMapper" target="User" edge="1">
+        <mxCell id="d2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.35;entryX=0;entryY=0.5;" parent="1" source="KnowledgeServiceImpl" target="HealthArticleMapper" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eb-eo5NJtJ2BczOlgvuf-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="40" y="75" width="60" height="30" as="geometry" />
+        <mxCell id="d3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.45;entryX=0;entryY=0.5;" parent="1" source="KnowledgeServiceImpl" target="HealthLectureMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eb-eo5NJtJ2BczOlgvuf-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="395" y="75" width="60" height="30" as="geometry" />
+        <mxCell id="d4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.55;entryX=0;entryY=0.5;" parent="1" source="KnowledgeServiceImpl" target="HealthExpertMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eb-eo5NJtJ2BczOlgvuf-3" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="774" y="75" width="60" height="30" as="geometry" />
+        <mxCell id="d5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.65;entryX=0;entryY=0.5;" parent="1" source="KnowledgeServiceImpl" target="HealthLikeMapper" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eb-eo5NJtJ2BczOlgvuf-5" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="767" y="312" width="60" height="30" as="geometry" />
+        <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthCategoryMapper" target="HealthCategory" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthArticleMapper" target="HealthArticle" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthLectureMapper" target="HealthLecture" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthExpertMapper" target="HealthExpert" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthLikeMapper" target="HealthLike" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
