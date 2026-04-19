@@ -1,14 +1,14 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="knowledge-mgmt-uml" name="养生知识管理类图">
-    <mxGraphModel dx="1418" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="pkg_ctrl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=92;tabHeight=17;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-115" y="16" width="574" height="384" as="geometry" />
+          <mxGeometry x="2" y="117" width="574" height="384" as="geometry" />
         </mxCell>
         <mxCell id="KnowledgeController" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;KnowledgeController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;- knowledgeService: KnowledgeService&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.35;&quot;&gt;+ listCategories(bizType: String, admin: boolean): R&amp;lt;List&amp;lt;HealthCategory&amp;gt;&amp;gt;&lt;br&gt;+ createCategory(req: CreateCategoryReq): R&amp;lt;HealthCategory&amp;gt;&lt;br&gt;+ updateCategory(id: String, req: UpdateCategoryReq): R&amp;lt;HealthCategory&amp;gt;&lt;br&gt;+ listExperts(admin: boolean): R&amp;lt;List&amp;lt;HealthExpert&amp;gt;&amp;gt;&lt;br&gt;+ createExpert(req: CreateExpertReq): R&amp;lt;HealthExpert&amp;gt;&lt;br&gt;+ updateExpert(id: String, req: UpdateExpertReq): R&amp;lt;HealthExpert&amp;gt;&lt;br&gt;+ pageArticles(page, pageSize, keyword, title, tag, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ getArticle(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ likeArticle(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ createArticle(req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ updateArticle(id: String, req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ deleteArticle(id: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ auditArticle(id: String, req: AuditReq): R&amp;lt;Void&amp;gt;&lt;br&gt;+ pageLectures(page, pageSize, keyword, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ getLecture(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ likeLecture(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ createLecture(req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ updateLecture(id: String, req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br&gt;+ uploadLectureVideo(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br&gt;+ deleteLectureVideo(path: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ deleteLecture(id: String): R&amp;lt;Void&amp;gt;&lt;br&gt;+ auditLecture(id: String, req: AuditReq): R&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;color:#333333;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="-97" y="50" width="541" height="328" as="geometry" />
+          <mxGeometry x="20" y="151" width="541" height="328" as="geometry" />
         </mxCell>
         <mxCell id="pkg_svc" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=59;tabHeight=21;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="689" y="101" width="360" height="400" as="geometry" />
@@ -105,7 +105,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dN4UeIsMbLpuYpqD1Fma-2" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="10" width="60" height="30" as="geometry" />
+          <mxGeometry x="7" y="111" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dN4UeIsMbLpuYpqD1Fma-3" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="689" y="96" width="60" height="30" as="geometry" />
