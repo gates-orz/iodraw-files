@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="community-svc-layer" name="社区经验交流-Service分层类图">
-    <mxGraphModel dx="1285" dy="1213" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="1172" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="1500" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="CommunityPostService" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;font-size:9px;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;CommunityPostService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ listPosts / listMyPosts / getPost / createPost / updatePost / deletePost / auditPost / togglePostLike&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="740" y="50" width="280" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="CommunityTopicServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityTopicServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+ 实现接口全部方法；私有 toTopicVo、countPostsByTopic&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="CommunityTopicServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityTopicServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;+toTopicVo、countPostsByTopic&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="460" y="160" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="CommunityPostServiceImpl" value="&lt;p style=&quot;margin:0px;margin-top:2px;text-align:center;&quot;&gt;&lt;b&gt;CommunityPostServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;&quot;&gt;- topicMapper / - postMapper / - likeRecordMapper / - commentMapper&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;font-size:8px;text-align:left;margin-left:4px;line-height:1.25;&quot;&gt;+ 实现帖子接口；私有 toPostVo、buildTopicNameMap、buildLikeCountMap、buildCommentCountMap、existsLike、countLikes&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
@@ -78,16 +78,16 @@
         <mxCell id="a2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="CommunityPostMapper" target="CommunityPost" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qwlqrfTwQuTQKhtVDGkj-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qwlqrfTwQuTQKhtVDGkj-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="88" y="34" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qwlqrfTwQuTQKhtVDGkj-3" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qwlqrfTwQuTQKhtVDGkj-3" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="437" y="-7" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qwlqrfTwQuTQKhtVDGkj-5" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qwlqrfTwQuTQKhtVDGkj-5" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="429" y="400" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qwlqrfTwQuTQKhtVDGkj-7" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="qwlqrfTwQuTQKhtVDGkj-7" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="417" y="597" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
