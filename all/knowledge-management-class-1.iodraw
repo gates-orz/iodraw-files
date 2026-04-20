@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="knowledge-mgmt-uml" name="养生知识管理类图">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,9 +37,6 @@
         <mxCell id="HealthExpertMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthExpertMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;HealthExpert&amp;gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="528" y="566" width="158" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="HealthLikeMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;HealthLike&amp;gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="714" y="569" width="140" height="130" as="geometry" />
-        </mxCell>
         <mxCell id="pkg_dom" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4" y="744.5" width="850" height="287" as="geometry" />
         </mxCell>
@@ -48,9 +45,6 @@
         </mxCell>
         <mxCell id="HealthArticle" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HealthArticle&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.25;&quot;&gt;- id: String&lt;br&gt;- title: String&lt;br&gt;- subTitle: String&lt;br&gt;- categoryId: String&lt;br&gt;- summary: String&lt;br&gt;- contentMd: String&lt;br&gt;- authorId: String&lt;br&gt;- authorName: String&lt;br&gt;- auditStatus: Integer&lt;br&gt;- publishStatus: Integer&lt;br&gt;- publishedAt: LocalDateTime&lt;br&gt;- viewCount: Integer&lt;br&gt;- isDeleted: Integer&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="163" y="795" width="150" height="220" as="geometry" />
-        </mxCell>
-        <mxCell id="HealthLike" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;- id: String&lt;br&gt;- targetType: String&lt;br&gt;- targetId: String&lt;br&gt;- userId: String&lt;br&gt;- createTime: LocalDateTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;@Data；表名 `like`&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="719" y="800" width="130" height="150" as="geometry" />
         </mxCell>
         <mxCell id="dep_ctrl_svc" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=1;exitY=0.15;entryX=0;entryY=0.2;" parent="1" source="KnowledgeController" target="KnowledgeService" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,11 +72,6 @@
             <mxPoint x="699" y="993" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;exitX=0.65;exitY=1;entryX=0.5;entryY=0;" parent="1" target="HealthLikeMapper" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="733" y="993" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="a1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthCategoryMapper" target="HealthCategory" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -93,9 +82,6 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthExpertMapper" target="HealthExpert" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="a5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;dashed=0;endArrow=open;endFill=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="HealthLikeMapper" target="HealthLike" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dN4UeIsMbLpuYpqD1Fma-2" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
