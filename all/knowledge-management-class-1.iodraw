@@ -32,10 +32,10 @@
           <mxGeometry x="193" y="566" width="140" height="130" as="geometry" />
         </mxCell>
         <mxCell id="HealthLectureMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthLectureMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;HealthLecture&amp;gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="347" y="564" width="171" height="130" as="geometry" />
+          <mxGeometry x="431" y="559" width="171" height="130" as="geometry" />
         </mxCell>
         <mxCell id="HealthExpertMapper" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;HealthExpertMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;&quot;&gt;extends BaseMapper&amp;lt;HealthExpert&amp;gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="528" y="566" width="158" height="130" as="geometry" />
+          <mxGeometry x="658" y="559" width="158" height="130" as="geometry" />
         </mxCell>
         <mxCell id="pkg_dom" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="4" y="744.5" width="850" height="287" as="geometry" />
@@ -90,7 +90,7 @@
           <mxGeometry x="7" y="514" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HealthExpert" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HealthExpert&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.3;&quot;&gt;- id: String&lt;br&gt;- name: String&lt;br&gt;- status: Integer&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="511" y="787" width="130" height="160" as="geometry" />
+          <mxGeometry x="672" y="838" width="130" height="160" as="geometry" />
         </mxCell>
         <mxCell id="HealthLecture" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;HealthLecture&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:9px;line-height:1.25;&quot;&gt;- id: String&lt;br&gt;- title: String&lt;br&gt;- categoryId: String&lt;br&gt;- expertId: String&lt;br&gt;- videoUrl: String&lt;br&gt;- intro: String&lt;br&gt;- contentHtml: String&lt;br&gt;- auditStatus: Integer&lt;br&gt;- publishStatus: Integer&lt;br&gt;- publishedAt: LocalDateTime&lt;br&gt;- viewCount: Integer&lt;br&gt;- isDeleted: Integer&lt;br&gt;- createTime: LocalDateTime&lt;br&gt;- updateTime: LocalDateTime&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0px;text-align:left;margin-left:6px;font-size:8px;&quot;&gt;@Data&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="322" y="795" width="150" height="220" as="geometry" />
