@@ -22,8 +22,8 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-11" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;Spring事务&amp;nbsp; 认证/商品/订单/社区/知识/售后业务服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="528" width="636" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-13" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;业务层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="109" y="549" width="83" height="41" as="geometry" />
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-13" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;持久层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="673" width="83" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
