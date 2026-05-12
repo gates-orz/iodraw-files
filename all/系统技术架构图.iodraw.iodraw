@@ -28,6 +28,14 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-13" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;持久层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="99" y="673" width="83" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FuxCxlOBYVX0rvAi0rDM-14" target="FuxCxlOBYVX0rvAi0rDM-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-19" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FuxCxlOBYVX0rvAi0rDM-18">
+          <mxGeometry x="-0.0149" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-14" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;MybatisPlus&amp;nbsp; Mapper&amp;nbsp; Entity&amp;nbsp; MapperXML&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="232" y="665" width="636" height="63" as="geometry" />
         </mxCell>
