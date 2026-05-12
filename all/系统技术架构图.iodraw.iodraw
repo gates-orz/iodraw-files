@@ -7,6 +7,12 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;前端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="214" width="83" height="41" as="geometry" />
         </mxCell>
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="237" y="218" width="553" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="307" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
