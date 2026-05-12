@@ -7,20 +7,8 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;控制层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="99" y="408" width="83" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-2" value="Vue3&amp;nbsp; ElementPlus&amp;nbsp; VueRouter&amp;nbsp; Pinia&amp;nbsp; Axios" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="232" y="222" width="636" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-3" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;ElementPlus&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="352" y="233" width="157" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-4" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;VueRouter&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="521" y="233" width="124" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-5" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;Vue3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="253" y="233" width="87" height="39" as="geometry" />
-        </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-6" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;Pinia&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="657" y="233" width="87" height="39" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-8" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;前端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="99" y="231" width="83" height="41" as="geometry" />
