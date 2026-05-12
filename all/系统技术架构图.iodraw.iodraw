@@ -16,6 +16,9 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-9" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;SpringCloud&amp;nbsp; GateWay&amp;nbsp; SpringMvc&amp;nbsp; Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="397" width="636" height="63" as="geometry" />
         </mxCell>
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-10" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;控制层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="99" y="539" width="83" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
