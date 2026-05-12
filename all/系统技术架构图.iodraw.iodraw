@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;前端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;kongzhic&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="94" y="412" width="83" height="41" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -26,7 +26,7 @@
           <mxGeometry x="756" y="234" width="87" height="39" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-8" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;前端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="107" y="242.5" width="83" height="41" as="geometry" />
+          <mxGeometry x="99" y="231" width="83" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
