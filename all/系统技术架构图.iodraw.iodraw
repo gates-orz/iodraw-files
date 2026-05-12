@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-22" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="203" width="1009" height="730" as="geometry" />
+        </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;控制层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="99" y="408" width="83" height="41" as="geometry" />
         </mxCell>
@@ -44,9 +47,6 @@
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-14" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;MybatisPlus&amp;nbsp; Mapper&amp;nbsp; Entity&amp;nbsp; MapperXML&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="667" width="636" height="63" as="geometry" />
-        </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-78" y="183" width="1009" height="730" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-15" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;基础环境层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="78" y="829.5" width="134" height="50" as="geometry" />
