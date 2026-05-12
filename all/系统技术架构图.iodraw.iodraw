@@ -28,7 +28,7 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-14" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;MybatisPlus&amp;nbsp; Mapper&amp;nbsp; Entity&amp;nbsp; MapperXML&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="232" y="665" width="636" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-15" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;持久层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-15" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;基础环境层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="99" y="783" width="83" height="41" as="geometry" />
         </mxCell>
       </root>
