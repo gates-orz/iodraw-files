@@ -1157,7 +1157,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="U2auKeVgEjLhyOkX8yEW-1" value="浏览某主题下帖子列表" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" parent="1" vertex="1">
-          <mxGeometry x="-83.99999999999955" y="-98" width="638" height="335" as="geometry" />
+          <mxGeometry x="-83.99999999999955" y="-98" width="591" height="335" as="geometry" />
         </mxCell>
         <mxCell id="U2auKeVgEjLhyOkX8yEW-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" parent="U2auKeVgEjLhyOkX8yEW-1" vertex="1">
           <mxGeometry y="20" width="204" height="315" as="geometry" />
@@ -1193,7 +1193,7 @@
           <mxGeometry x="86" y="179.5" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="U2auKeVgEjLhyOkX8yEW-11" value="数据库" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" parent="U2auKeVgEjLhyOkX8yEW-1" vertex="1">
-          <mxGeometry x="467" y="20" width="171" height="315" as="geometry">
+          <mxGeometry x="467" y="20" width="124" height="315" as="geometry">
             <mxRectangle x="431" y="20" width="32" height="605" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
