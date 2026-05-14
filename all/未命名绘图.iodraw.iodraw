@@ -17,7 +17,7 @@
           <mxGeometry x="-379" y="334" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-5" value="维护分类" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-74" y="407" width="80" height="80" as="geometry" />
+          <mxGeometry x="-74" y="407" width="143" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-6" value="收藏" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-381" y="489" width="80" height="80" as="geometry" />
