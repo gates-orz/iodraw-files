@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17" pages="21">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="用户注册">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="842" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,13 +14,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-10" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="KhKy9_Ion4Vb3T5hS0W1-7" vertex="1">
-          <mxGeometry x="30" y="45" width="60" height="35" as="geometry" />
+          <mxGeometry x="29.5" y="26" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="KhKy9_Ion4Vb3T5hS0W1-7" source="KhKy9_Ion4Vb3T5hS0W1-11" target="KhKy9_Ion4Vb3T5hS0W1-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-11" value="点击“去注册”按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="KhKy9_Ion4Vb3T5hS0W1-7" vertex="1">
-          <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
+          <mxGeometry x="26.5" y="76" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="KhKy9_Ion4Vb3T5hS0W1-7" source="KhKy9_Ion4Vb3T5hS0W1-13" target="KhKy9_Ion4Vb3T5hS0W1-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
