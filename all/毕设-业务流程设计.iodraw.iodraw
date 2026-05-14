@@ -839,10 +839,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ovq-hpDbL6ZX0xIGdiZm-1" value="浏览商城首页" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;fontFamily=Simsun;" parent="1" vertex="1">
-          <mxGeometry x="-83.99999999999955" y="-98" width="608" height="625" as="geometry" />
+          <mxGeometry x="-83.99999999999955" y="-98" width="608" height="280" as="geometry" />
         </mxCell>
         <mxCell id="Ovq-hpDbL6ZX0xIGdiZm-2" value="前端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" parent="Ovq-hpDbL6ZX0xIGdiZm-1" vertex="1">
-          <mxGeometry y="20" width="204" height="605" as="geometry" />
+          <mxGeometry y="20" width="204" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Ovq-hpDbL6ZX0xIGdiZm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="Ovq-hpDbL6ZX0xIGdiZm-2" source="Ovq-hpDbL6ZX0xIGdiZm-4" target="Ovq-hpDbL6ZX0xIGdiZm-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -857,7 +857,7 @@
           <mxGeometry x="44" y="206" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Ovq-hpDbL6ZX0xIGdiZm-7" value="后端" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" parent="Ovq-hpDbL6ZX0xIGdiZm-1" vertex="1">
-          <mxGeometry x="204" y="20" width="263" height="605" as="geometry" />
+          <mxGeometry x="204" y="20" width="263" height="260" as="geometry" />
         </mxCell>
         <mxCell id="Ovq-hpDbL6ZX0xIGdiZm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="Ovq-hpDbL6ZX0xIGdiZm-7" source="Ovq-hpDbL6ZX0xIGdiZm-9" target="Ovq-hpDbL6ZX0xIGdiZm-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -869,7 +869,7 @@
           <mxGeometry x="89" y="117.5" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="Ovq-hpDbL6ZX0xIGdiZm-11" value="数据库" style="swimlane;startSize=20;html=1;fontFamily=Simsun;" parent="Ovq-hpDbL6ZX0xIGdiZm-1" vertex="1">
-          <mxGeometry x="467" y="20" width="141" height="605" as="geometry">
+          <mxGeometry x="467" y="20" width="141" height="260" as="geometry">
             <mxRectangle x="431" y="20" width="32" height="605" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -909,7 +909,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OpP-5dV91HhVNeytNhvd-4" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="OpP-5dV91HhVNeytNhvd-2" vertex="1">
-          <mxGeometry x="30" y="45" width="60" height="35" as="geometry" />
+          <mxGeometry x="48" y="34" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="OpP-5dV91HhVNeytNhvd-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="OpP-5dV91HhVNeytNhvd-2" source="OpP-5dV91HhVNeytNhvd-6" target="OpP-5dV91HhVNeytNhvd-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
