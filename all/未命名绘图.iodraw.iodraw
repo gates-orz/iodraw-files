@@ -70,8 +70,14 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-22" value="挂载" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-112" y="1129" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-23" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-23" value="归类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="204" y="1133" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-24" value="主讲" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="444" y="1091" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-25" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="704" y="1136" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
