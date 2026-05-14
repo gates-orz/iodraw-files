@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="cS8aYFd6utKqXb18mu3I">
-    <mxGraphModel dx="2835" dy="887" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2236" dy="508" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -197,7 +197,7 @@
           <mxGeometry x="-690" y="2229" width="46" height="87" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-627" y="1845" width="555" height="974" as="geometry" />
+          <mxGeometry x="-627" y="1845" width="555" height="908" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-90" value="注册/登录" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-570" y="1853" width="120" height="80" as="geometry" />
@@ -239,10 +239,10 @@
           <mxGeometry x="-323" y="2418" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-106" value="退换货" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-315" y="2736" width="120" height="80" as="geometry" />
+          <mxGeometry x="-318" y="2664" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-107" value="投诉与建议" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="2645" width="120" height="80" as="geometry" />
+          <mxGeometry x="-318" y="2558" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-108" value="发布帖子" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-220" y="1985" width="120" height="80" as="geometry" />
@@ -276,7 +276,7 @@
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-114" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=22;fontFamily=Simsun;" edge="1" parent="1" target="bBjRI2B1Fc9eHGg-Z0Ij-94">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-627" y="2282" as="sourcePoint" />
+            <mxPoint x="-627" y="2252" as="sourcePoint" />
             <mxPoint x="-739" y="2220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
