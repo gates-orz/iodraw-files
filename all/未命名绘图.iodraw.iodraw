@@ -193,7 +193,7 @@
           <mxGeometry x="-437" y="251" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-31" value="退换货申请" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-1789" y="962" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1692" y="964" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-32" value="养生文章" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-716" y="251" width="120" height="60" as="geometry" />
@@ -228,7 +228,7 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-73" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="d5Ei-K9XCqmuTPiclIHZ-67" target="d5Ei-K9XCqmuTPiclIHZ-21">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1722" y="680" />
+              <mxPoint x="-1632" y="680" />
             </Array>
           </mxGeometry>
         </mxCell>
