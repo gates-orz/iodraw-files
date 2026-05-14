@@ -56,7 +56,11 @@
           <mxGeometry x="-1365" y="805" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-79" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="d5Ei-K9XCqmuTPiclIHZ-7" target="d5Ei-K9XCqmuTPiclIHZ-78">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1500" y="976" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-7" value="点赞" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-1540" y="804" width="80" height="80" as="geometry" />
@@ -74,7 +78,7 @@
           <mxGeometry x="-969" y="760" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-11" value="发帖" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-1318" y="1236" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1113" y="798" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-52" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=25;" edge="1" parent="1" source="d5Ei-K9XCqmuTPiclIHZ-12" target="d5Ei-K9XCqmuTPiclIHZ-28">
           <mxGeometry relative="1" as="geometry" />
