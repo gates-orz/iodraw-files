@@ -226,7 +226,7 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-77" value="评论" style="rhombus;whiteSpace=wrap;html=1;fontSize=25;fontFamily=Simsun;" vertex="1" parent="1">
           <mxGeometry x="-1247" y="798" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-78" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-78" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;帖子&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-2043" y="1140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
