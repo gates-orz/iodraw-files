@@ -17,13 +17,13 @@
           <mxGeometry x="-620" y="776" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-6" value="经验交流管理" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-616" y="911" width="120" height="80" as="geometry" />
+          <mxGeometry x="-616" y="911" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-7" value="产品管理" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-620" y="1046" width="120" height="80" as="geometry" />
+          <mxGeometry x="-620" y="1046" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-8" value="订单管理" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-616" y="1189" width="120" height="80" as="geometry" />
+          <mxGeometry x="-616" y="1189" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-9" value="用户管理" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-623" y="1345" width="120" height="80" as="geometry" />
@@ -38,22 +38,22 @@
           <mxGeometry x="-390" y="679" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-13" value="专家讲座" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-385" y="764" width="120" height="80" as="geometry" />
+          <mxGeometry x="-385" y="764" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-15" value="产品信息" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-277" y="1008" width="120" height="80" as="geometry" />
+          <mxGeometry x="-277" y="1008" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-16" value="产品分类" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-281" y="1099" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-17" value="订单信息" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-381" y="1159" width="120" height="80" as="geometry" />
+          <mxGeometry x="-381" y="1159" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-18" value="订单状态" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-373" y="1249" width="120" height="80" as="geometry" />
+          <mxGeometry x="-373" y="1249" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-19" value="用户信息" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-253" y="1309" width="120" height="80" as="geometry" />
+          <mxGeometry x="-253" y="1309" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-20" value="权限管理" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-253" y="1422" width="120" height="80" as="geometry" />
@@ -65,10 +65,10 @@
           <mxGeometry x="-370" y="1476" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-23" value="养生主题" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="816" width="120" height="80" as="geometry" />
+          <mxGeometry x="-270" y="816" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-24" value="帖子" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-270" y="921" width="120" height="80" as="geometry" />
+          <mxGeometry x="-270" y="921" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.002;exitY=0.439;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=22;fontFamily=Simsun;" parent="1" source="bBjRI2B1Fc9eHGg-Z0Ij-3" target="bBjRI2B1Fc9eHGg-Z0Ij-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
