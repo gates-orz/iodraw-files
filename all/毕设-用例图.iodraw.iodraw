@@ -52,8 +52,20 @@
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-16" value="产品分类" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="38" y="733" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-17" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-17" value="订单信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="5" y="986" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-18" value="订单状态" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="34" y="1175" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-19" value="用户信息" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="1435" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-20" value="权限管理" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-254" y="1609" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-21" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1027" y="813" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
