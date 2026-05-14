@@ -233,7 +233,8 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1273.77197265625" y="989.105263157895" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1207" y="970" />
+              <mxPoint x="-1207" y="979" />
+              <mxPoint x="-1265" y="979" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -241,7 +242,7 @@
           <mxGeometry x="-1247" y="798" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-78" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;帖子&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1467" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1385" y="976" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
