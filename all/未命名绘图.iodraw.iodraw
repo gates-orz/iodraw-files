@@ -52,8 +52,14 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-16" value="知识分类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="404" y="837" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-17" value="主题版块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="671" y="781" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-18" value="订单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="884" y="749" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-167" y="997" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
