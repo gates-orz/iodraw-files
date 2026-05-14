@@ -194,7 +194,7 @@
           <mxGeometry x="11.996248604910761" y="1762" width="957" height="1136" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-88" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-690" y="2229" width="46" height="87" as="geometry" />
+          <mxGeometry x="-682" y="2185" width="46" height="87" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-627" y="1845" width="555" height="848" as="geometry" />
