@@ -1412,7 +1412,7 @@
           <mxGeometry x="115" y="311" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="SSpr6YyI6S21b0lq9UW5-14" value="帖子信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" parent="SSpr6YyI6S21b0lq9UW5-15" vertex="1">
-          <mxGeometry x="-28" y="309.5" width="66" height="41" as="geometry" />
+          <mxGeometry x="-33" y="198.5" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="SSpr6YyI6S21b0lq9UW5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="SSpr6YyI6S21b0lq9UW5-15" source="SSpr6YyI6S21b0lq9UW5-14" target="SSpr6YyI6S21b0lq9UW5-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
