@@ -11,7 +11,7 @@
           <mxGeometry x="-740" y="1060" width="46" height="87" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-677" y="666" width="555" height="997" as="geometry" />
+          <mxGeometry x="-677" y="666" width="555" height="984" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-4" value="登录/登出" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-620" y="684" width="120" height="80" as="geometry" />
