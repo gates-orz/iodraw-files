@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="E3o-7g_SkQO135BeWuD7">
-    <mxGraphModel dx="5113" dy="2116" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3285" dy="1213" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -89,7 +89,7 @@
           <mxGeometry x="-815" y="536" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-17" value="主题版块" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-1388" y="1068" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1467" y="1173" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-18" value="订单" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-53" y="825" width="120" height="60" as="geometry" />
@@ -227,7 +227,7 @@
           <mxGeometry x="-1247" y="798" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-78" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;帖子&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2043" y="1140" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1467" y="970" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
