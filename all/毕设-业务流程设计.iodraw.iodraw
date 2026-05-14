@@ -1626,13 +1626,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VpTaR-QmZzEE8JpVHBT9-9" value="进入投诉建议页面" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="VpTaR-QmZzEE8JpVHBT9-2" vertex="1">
-          <mxGeometry x="27" y="207" width="66" height="38" as="geometry" />
+          <mxGeometry x="27" y="143" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="VpTaR-QmZzEE8JpVHBT9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="VpTaR-QmZzEE8JpVHBT9-2" source="VpTaR-QmZzEE8JpVHBT9-10" target="VpTaR-QmZzEE8JpVHBT9-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VpTaR-QmZzEE8JpVHBT9-10" value="点击未解决投诉信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="VpTaR-QmZzEE8JpVHBT9-2" vertex="1">
-          <mxGeometry x="27" y="286" width="66" height="38" as="geometry" />
+          <mxGeometry x="27" y="200" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="VpTaR-QmZzEE8JpVHBT9-12" value="回复信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" parent="VpTaR-QmZzEE8JpVHBT9-2" vertex="1">
           <mxGeometry x="230" y="372.5" width="66" height="41" as="geometry" />
