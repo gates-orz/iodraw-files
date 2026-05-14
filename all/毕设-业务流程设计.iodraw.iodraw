@@ -1003,7 +1003,7 @@
           <mxGeometry x="-45" y="173" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-12" value="构建查询语句查询库存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="VoyXMRZtWLWLymY5jasW-9" vertex="1">
-          <mxGeometry x="87" y="309.5" width="66" height="38" as="geometry" />
+          <mxGeometry x="92" y="174.5" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-22" value="判断库存是否足够" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="VoyXMRZtWLWLymY5jasW-9" vertex="1">
           <mxGeometry x="55.999999999999545" y="431" width="143" height="65" as="geometry" />
@@ -1023,7 +1023,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-16" value="查询语句" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" parent="VoyXMRZtWLWLymY5jasW-13" vertex="1">
-          <mxGeometry x="-29" y="308" width="66" height="41" as="geometry" />
+          <mxGeometry x="-33" y="173" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="VoyXMRZtWLWLymY5jasW-20" value="库存数量" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" parent="VoyXMRZtWLWLymY5jasW-13" vertex="1">
           <mxGeometry x="-33" y="443" width="66" height="41" as="geometry" />
