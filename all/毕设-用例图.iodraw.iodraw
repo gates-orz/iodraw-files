@@ -197,7 +197,7 @@
           <mxGeometry x="-690" y="2229" width="46" height="87" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-89" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-627" y="1845" width="555" height="908" as="geometry" />
+          <mxGeometry x="-627" y="1845" width="555" height="848" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-90" value="注册/登录" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-570" y="1853" width="120" height="80" as="geometry" />
@@ -218,7 +218,7 @@
           <mxGeometry x="-566" y="2468" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-96" value="售后" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-573" y="2624" width="120" height="80" as="geometry" />
+          <mxGeometry x="-566" y="2564" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-98" value="养生文章" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-340" y="1848" width="120" height="80" as="geometry" />
@@ -239,10 +239,10 @@
           <mxGeometry x="-323" y="2418" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-106" value="退换货" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-318" y="2664" width="120" height="80" as="geometry" />
+          <mxGeometry x="-318" y="2607" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-107" value="投诉与建议" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="-318" y="2558" width="120" height="80" as="geometry" />
+          <mxGeometry x="-318" y="2515" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-108" value="发布帖子" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="-220" y="1985" width="120" height="80" as="geometry" />
