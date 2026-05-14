@@ -50,10 +50,10 @@
           <mxGeometry x="-122" y="-20" width="143" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-6" value="收藏" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-551" y="1080" width="80" height="80" as="geometry" />
+          <mxGeometry x="-973" y="409" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-7" value="点赞" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-45" y="591" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1117" y="409" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-8" value="下单" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="177" y="635" width="80" height="80" as="geometry" />
@@ -77,10 +77,10 @@
           <mxGeometry x="-112" y="251" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-13" value="收藏" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-32" y="823" width="120" height="60" as="geometry" />
+          <mxGeometry x="-984" y="605" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-14" value="点赞" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="164" y="872" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1144" y="605" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-61" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="d5Ei-K9XCqmuTPiclIHZ-15" target="d5Ei-K9XCqmuTPiclIHZ-24">
           <mxGeometry relative="1" as="geometry" />
