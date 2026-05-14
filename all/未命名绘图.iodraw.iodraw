@@ -61,8 +61,11 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-19" value="投诉工单" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-167" y="997" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-20" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-20" value="评论" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="63" y="1015" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-21" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-292" y="1143" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
