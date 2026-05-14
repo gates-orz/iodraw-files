@@ -94,8 +94,14 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-30" value="商品" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="542" y="1258" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-31" value="退换货申请" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-261" y="1318" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-32" value="养生文章" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="1358" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="204" y="1337" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
