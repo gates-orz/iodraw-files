@@ -635,16 +635,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-4" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="oSuI0wlkSiPEb7Pzv36f-2" vertex="1">
-          <mxGeometry x="30" y="45" width="60" height="35" as="geometry" />
+          <mxGeometry x="27" y="28" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="oSuI0wlkSiPEb7Pzv36f-2" source="oSuI0wlkSiPEb7Pzv36f-6" target="oSuI0wlkSiPEb7Pzv36f-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-6" value="点击删除按钮" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="oSuI0wlkSiPEb7Pzv36f-2" vertex="1">
-          <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
+          <mxGeometry x="24" y="80" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-8" value="点击确认删除" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="oSuI0wlkSiPEb7Pzv36f-2" vertex="1">
-          <mxGeometry x="26" y="185" width="67" height="42" as="geometry" />
+          <mxGeometry x="24" y="135" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="oSuI0wlkSiPEb7Pzv36f-10" value="返回无权限" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="oSuI0wlkSiPEb7Pzv36f-2" vertex="1">
           <mxGeometry x="37" y="371" width="60" height="35" as="geometry" />
