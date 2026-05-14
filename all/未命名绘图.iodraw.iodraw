@@ -110,7 +110,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-29" value="审核" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-615" y="152" width="80" height="80" as="geometry" />
+          <mxGeometry x="-562" y="139" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-30" value="商品" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="542" y="1258" width="120" height="60" as="geometry" />
@@ -119,7 +119,7 @@
           <mxGeometry x="-261" y="1318" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-32" value="养生文章" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
-          <mxGeometry x="-659" y="343" width="120" height="60" as="geometry" />
+          <mxGeometry x="-711" y="344" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-33" value="专家讲座" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="-471" y="341" width="120" height="60" as="geometry" />
