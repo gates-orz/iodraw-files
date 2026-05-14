@@ -212,13 +212,13 @@
           <mxGeometry x="-570" y="2215" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-94" value="订单" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-566" y="2358" width="120" height="80" as="geometry" />
+          <mxGeometry x="-566" y="2358" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-95" value="个人信息" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-566" y="2468" width="120" height="80" as="geometry" />
+          <mxGeometry x="-566" y="2468" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-96" value="售后" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-566" y="2564" width="120" height="80" as="geometry" />
+          <mxGeometry x="-566" y="2564" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-98" value="养生文章" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-340" y="1848" width="120" height="50" as="geometry" />
@@ -239,7 +239,7 @@
           <mxGeometry x="-323" y="2418" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-106" value="退换货" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-318" y="2607" width="120" height="80" as="geometry" />
+          <mxGeometry x="-318" y="2607" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-107" value="投诉与建议" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-318" y="2515" width="120" height="50" as="geometry" />
