@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17" pages="21">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="用户注册">
-    <mxGraphModel dx="281" dy="177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="698" dy="441" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,10 +73,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-20" value="注册信息" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" parent="KhKy9_Ion4Vb3T5hS0W1-9" vertex="1">
-          <mxGeometry y="232" width="66" height="41" as="geometry" />
+          <mxGeometry y="236" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="KhKy9_Ion4Vb3T5hS0W1-25" value="查询用户名" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="KhKy9_Ion4Vb3T5hS0W1-9" vertex="1">
           <mxGeometry x="52.000000000000455" y="302" width="67" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="_1icDVO9RynjKO4g3DjW-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="KhKy9_Ion4Vb3T5hS0W1-6" source="KhKy9_Ion4Vb3T5hS0W1-21" target="KhKy9_Ion4Vb3T5hS0W1-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
