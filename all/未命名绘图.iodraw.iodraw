@@ -76,8 +76,14 @@
         <mxCell id="d5Ei-K9XCqmuTPiclIHZ-24" value="主讲" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="1091" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-25" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-25" value="归类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="704" y="1136" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-26" value="购买" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="951" y="1175" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5Ei-K9XCqmuTPiclIHZ-27" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="719" y="932" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
