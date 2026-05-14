@@ -1123,16 +1123,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-18" value="商品" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontFamily=Simsun;" parent="bZ07P_wekhhRT9XQmsQM-16" vertex="1">
-          <mxGeometry x="-19" y="308" width="66" height="41" as="geometry" />
+          <mxGeometry x="-11" y="233" width="66" height="41" as="geometry" />
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="bZ07P_wekhhRT9XQmsQM-16" source="bZ07P_wekhhRT9XQmsQM-20" target="bZ07P_wekhhRT9XQmsQM-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-20" value="更新信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="bZ07P_wekhhRT9XQmsQM-16" vertex="1">
-          <mxGeometry x="52" y="375" width="67" height="42" as="geometry" />
+          <mxGeometry x="50" y="274" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-21" value="查询最新信息" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="bZ07P_wekhhRT9XQmsQM-16" vertex="1">
-          <mxGeometry x="52" y="458" width="67" height="42" as="geometry" />
+          <mxGeometry x="50" y="341" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="bZ07P_wekhhRT9XQmsQM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="bZ07P_wekhhRT9XQmsQM-1" source="bZ07P_wekhhRT9XQmsQM-9" target="bZ07P_wekhhRT9XQmsQM-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
