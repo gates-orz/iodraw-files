@@ -185,7 +185,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qrc59nnEfWtb25esCli8" name="封禁用户">
-    <mxGraphModel dx="1621" dy="1172" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -199,22 +199,22 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-4" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" vertex="1">
-          <mxGeometry x="30" y="45" width="60" height="35" as="geometry" />
+          <mxGeometry x="30" y="28" width="60" height="35" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" source="IyzJi-Gb9lE8PK0yJtXX-6" target="IyzJi-Gb9lE8PK0yJtXX-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-6" value="点击编辑用户" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" vertex="1">
-          <mxGeometry x="27" y="117" width="66" height="38" as="geometry" />
+          <mxGeometry x="27" y="81" width="66" height="38" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" source="IyzJi-Gb9lE8PK0yJtXX-8" target="IyzJi-Gb9lE8PK0yJtXX-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-8" value="切换用户状态" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" vertex="1">
-          <mxGeometry x="26" y="185" width="67" height="42" as="geometry" />
+          <mxGeometry x="26.5" y="136" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-9" value="点击保存" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" vertex="1">
-          <mxGeometry x="26" y="255" width="67" height="42" as="geometry" />
+          <mxGeometry x="26.5" y="192" width="67" height="42" as="geometry" />
         </mxCell>
         <mxCell id="IyzJi-Gb9lE8PK0yJtXX-34" value="返回无权限" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Simsun;" parent="IyzJi-Gb9lE8PK0yJtXX-2" vertex="1">
           <mxGeometry x="30" y="376" width="60" height="35" as="geometry" />
