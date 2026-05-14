@@ -206,10 +206,10 @@
           <mxGeometry x="-570" y="1945" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-92" value="经验交流" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-566" y="2080" width="120" height="80" as="geometry" />
+          <mxGeometry x="-566" y="2080" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-93" value="产品管理" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="2215" width="120" height="80" as="geometry" />
+          <mxGeometry x="-570" y="2215" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-94" value="订单" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-566" y="2358" width="120" height="80" as="geometry" />
@@ -227,28 +227,28 @@
           <mxGeometry x="-335" y="1933" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-100" value="产品详情" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-227" y="2177" width="120" height="80" as="geometry" />
+          <mxGeometry x="-227" y="2177" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-101" value="产品分类" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-231" y="2268" width="120" height="80" as="geometry" />
+          <mxGeometry x="-231" y="2268" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-102" value="购物车" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-331" y="2328" width="120" height="80" as="geometry" />
+          <mxGeometry x="-331" y="2328" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-103" value="订单信息" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-323" y="2418" width="120" height="80" as="geometry" />
+          <mxGeometry x="-323" y="2418" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-106" value="退换货" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-318" y="2607" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-107" value="投诉与建议" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-318" y="2515" width="120" height="80" as="geometry" />
+          <mxGeometry x="-318" y="2515" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-108" value="发布帖子" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="-220" y="1985" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-109" value="评论互动" style="ellipse;whiteSpace=wrap;html=1;fontFamily=Simsun;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="-220" y="2090" width="120" height="80" as="geometry" />
+          <mxGeometry x="-220" y="2090" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="bBjRI2B1Fc9eHGg-Z0Ij-110" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.002;exitY=0.439;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=22;fontFamily=Simsun;" parent="1" source="bBjRI2B1Fc9eHGg-Z0Ij-89" target="bBjRI2B1Fc9eHGg-Z0Ij-90" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
