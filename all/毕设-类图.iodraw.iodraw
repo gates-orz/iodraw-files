@@ -553,7 +553,13 @@
           <mxGeometry x="3315" y="1066" width="360" height="174" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1030" y="968" />
+              <mxPoint x="503" y="968" />
+              <mxPoint x="503" y="1263" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-11">
           <mxGeometry relative="1" as="geometry" />
