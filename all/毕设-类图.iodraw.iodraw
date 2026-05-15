@@ -649,7 +649,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtR0v9uxUUb2VmFIZOrb" name="投诉/建议管理类图">
-    <mxGraphModel dx="1221" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1151" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,7 +720,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gjmHByLFYHemZfeVv0Zn-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2905" y="52" width="386" height="790" as="geometry" />
+          <mxGeometry x="101" y="385" width="386" height="790" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
