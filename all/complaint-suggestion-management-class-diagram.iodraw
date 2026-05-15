@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="complaint-mgmt-uml" name="投诉建议类图">
-    <mxGraphModel dx="2220" dy="1404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="2200" math="0" shadow="0">
+    <mxGraphModel dx="1526" dy="965" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2400" pageHeight="2200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,9 +15,6 @@
         </mxCell>
         <mxCell id="lbl3" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1360" y="16" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="lbl4" value="DTO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="16" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="ComplaintController" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ComplaintController&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size:11px;&quot;&gt;@RequestMapping(&quot;/aftersale/complaints&quot;)&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0;text-align:left;margin-left:8px;font-size:12px;line-height:1.35;&quot;&gt;- complaintService: ComplaintService&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0;text-align:left;margin-left:8px;font-size:12px;line-height:1.35;&quot;&gt;+ create(req, request): R&amp;lt;Map&amp;gt;&lt;br&gt;+ list(status, page, pageSize, request): R&amp;lt;Map&amp;gt;&lt;br&gt;+ detail(id, request): R&amp;lt;Map&amp;gt;&lt;br&gt;+ addUserMessage(id, req, request): R&amp;lt;Void&amp;gt;&lt;br&gt;+ addStaffMessage(id, req, request): R&amp;lt;Void&amp;gt;&lt;br&gt;+ resolve(id, request): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="40" y="48" width="400" height="204" as="geometry" />
@@ -42,12 +39,6 @@
         </mxCell>
         <mxCell id="ComplaintMessage" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ComplaintMessage&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0;text-align:left;margin-left:8px;font-size:12px;line-height:1.35;&quot;&gt;- id: String&lt;br&gt;- ticketId: String&lt;br&gt;- senderType: String&lt;br&gt;- senderId: String&lt;br&gt;- senderName: String&lt;br&gt;- senderAvatar: String&lt;br&gt;- content: String&lt;br&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
           <mxGeometry x="1360" y="295" width="360" height="204" as="geometry" />
-        </mxCell>
-        <mxCell id="ComplaintCreateReq" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ComplaintCreateReq&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0;text-align:left;margin-left:8px;font-size:12px;line-height:1.35;&quot;&gt;- title: String&lt;br&gt;- content: String&lt;br&gt;- bizType: String&lt;br&gt;- contact: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="48" width="360" height="144" as="geometry" />
-        </mxCell>
-        <mxCell id="ComplaintAppendMessageReq" value="&lt;p style=&quot;margin:0;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ComplaintAppendMessageReq&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0;text-align:left;margin-left:8px;font-size:12px;line-height:1.35;&quot;&gt;- content: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="1760" y="220" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="e0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;" parent="1" source="ComplaintController" target="ComplaintService" edge="1">
           <mxGeometry relative="1" as="geometry" />
