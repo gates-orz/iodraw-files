@@ -11,7 +11,7 @@
           <mxGeometry x="65" y="115" width="369" height="191" as="geometry" />
         </mxCell>
         <mxCell id="670rBFVxWkbPz02Kecr1-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=83;tabHeight=28;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="602" y="105" width="320" height="483" as="geometry" />
+          <mxGeometry x="607" y="102" width="320" height="483" as="geometry" />
         </mxCell>
         <mxCell id="670rBFVxWkbPz02Kecr1-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;UserService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;+ findByUsername(username: String): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ register(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ login(username, rawPassword): String&lt;br style=&quot;font-size: 18px;&quot;&gt;+ initAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hasAdmin(): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getCurrentUser(): User&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="632" y="155" width="344" height="217" as="geometry" />
