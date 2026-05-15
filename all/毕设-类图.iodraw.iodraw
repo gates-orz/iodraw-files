@@ -292,7 +292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sn73pAxUtkjL6HjEWAXa" name="商品管理类图">
-    <mxGraphModel dx="2842" dy="1944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1836" dy="1308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,7 +312,7 @@
           <mxGeometry x="980" y="16" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-38" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1791" y="-66" width="80" height="28" as="geometry" />
+          <mxGeometry x="1787" y="-32" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-40" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- productService: ProductService&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentService: ProductCommentService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ page(pageNum, pageSize, name, categoryId, status): R&amp;lt;Page&amp;lt;Product&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ detail(id: String): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ create(product: Product): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ update(id, product: Product): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ changeStatus(id, req: ProductChangeStatusReq): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ delete(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getStock(id: String): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateStock(id, req: ProductUpdateStockReq): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listComments(productId, request): R&amp;lt;List&amp;lt;ProductCommentVo&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createComment(productId, req, request): R&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleLike(commentId, request): R&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;- currentUser(request): CommentUser&lt;br style=&quot;font-size: 18px;&quot;&gt;- notLogin(): R&amp;lt;T&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-223" y="48" width="555" height="429" as="geometry" />
