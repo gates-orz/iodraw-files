@@ -649,7 +649,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtR0v9uxUUb2VmFIZOrb" name="投诉/建议管理类图">
-    <mxGraphModel dx="1436" dy="948" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1436" dy="1348" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -669,10 +669,7 @@
           <mxGeometry x="960" y="16" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-4" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="16" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="7vowXzI-W7xSAQXUvW0Q-5" value="DTO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="16" width="80" height="28" as="geometry" />
+          <mxGeometry x="1559" y="-45" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintController&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;@RequestMapping(&quot;/aftersale/complaints&quot;)&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- complaintService: ComplaintService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ create(req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ list(status, page, pageSize, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ detail(id, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addUserMessage(id, req, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addStaffMessage(id, req, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ resolve(id, request): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="64" y="37" width="353" height="253" as="geometry" />
@@ -693,16 +690,10 @@
           <mxGeometry x="960" y="302" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-12" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintTicket&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- bizType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- contact: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="48" width="360" height="219" as="geometry" />
+          <mxGeometry x="1559" y="-13" width="229" height="269" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintMessage&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- ticketId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderAvatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="295" width="360" height="204" as="geometry" />
-        </mxCell>
-        <mxCell id="7vowXzI-W7xSAQXUvW0Q-14" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintCreateReq&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- bizType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- contact: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="48" width="360" height="144" as="geometry" />
-        </mxCell>
-        <mxCell id="7vowXzI-W7xSAQXUvW0Q-15" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintAppendMessageReq&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- content: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1760" y="220" width="360" height="99" as="geometry" />
+          <mxGeometry x="1559" y="272" width="229" height="242" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="7vowXzI-W7xSAQXUvW0Q-6" target="7vowXzI-W7xSAQXUvW0Q-7">
           <mxGeometry relative="1" as="geometry" />
@@ -724,6 +715,9 @@
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="7vowXzI-W7xSAQXUvW0Q-10" target="7vowXzI-W7xSAQXUvW0Q-13">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1808" y="100" width="375" height="464" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
