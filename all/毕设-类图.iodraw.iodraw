@@ -94,10 +94,10 @@
           <mxGeometry x="498" y="497" width="452" height="488" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AvatarUploadService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ saveAvatar(file: MultipartFile, userId: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="522" y="1035" width="360" height="99" as="geometry" />
+          <mxGeometry x="528" y="1008" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AvatarUploadServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- uploadDir: String&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ saveAvatar(file: MultipartFile, userId: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="522" y="1162" width="360" height="129" as="geometry" />
+          <mxGeometry x="528" y="1142" width="360" height="129" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-11" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProfileUpdateReq&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- avatar: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="980" y="48" width="360" height="99" as="geometry" />
@@ -124,7 +124,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-5" target="LWE-DmP9LSLhkpzxqt7T-9">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="482" y="250" />
+              <mxPoint x="482" y="1058" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-6" target="LWE-DmP9LSLhkpzxqt7T-7">
           <mxGeometry relative="1" as="geometry" />
