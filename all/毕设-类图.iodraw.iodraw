@@ -207,7 +207,7 @@
           <mxGeometry x="1768" y="927" width="240" height="391" as="geometry" />
         </mxCell>
         <mxCell id="qO1vGAahKlijXYb4BzCN-18" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1727" y="1428" width="360" height="159" as="geometry" />
+          <mxGeometry x="1768" y="1354" width="240" height="176" as="geometry" />
         </mxCell>
         <mxCell id="qO1vGAahKlijXYb4BzCN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-5" target="qO1vGAahKlijXYb4BzCN-6">
           <mxGeometry relative="1" as="geometry" />
