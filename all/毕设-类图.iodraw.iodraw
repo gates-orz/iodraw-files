@@ -419,14 +419,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zMYxTndVsM4fe838mn_T-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-51">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="941" y="965" />
-              <mxPoint x="941" y="479" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
