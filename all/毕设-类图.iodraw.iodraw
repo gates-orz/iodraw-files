@@ -610,7 +610,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-25" target="s_SKFUiM8TZ8v2twL_5P-27">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3735" y="410.5" />
+              <mxPoint x="3735" y="1061.5" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-23" target="s_SKFUiM8TZ8v2twL_5P-28">
           <mxGeometry relative="1" as="geometry">
