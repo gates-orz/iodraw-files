@@ -292,7 +292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sn73pAxUtkjL6HjEWAXa" name="商品管理类图">
-    <mxGraphModel dx="2713" dy="2116" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1526" dy="1365" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -468,13 +468,8 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="s_SKFUiM8TZ8v2twL_5P-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-222" y="98.6666259765625" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="40" y="16" width="80" height="28" as="geometry" />
+          <mxGeometry x="-439" y="95" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-2" value="Service&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="540" y="16" width="80" height="28" as="geometry" />
