@@ -372,8 +372,9 @@
         <mxCell id="xTww2v2_m5e10utoMFep-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-48" target="zMYxTndVsM4fe838mn_T-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1478" y="791" />
-              <mxPoint x="1478" y="338" />
+              <mxPoint x="1569" y="791" />
+              <mxPoint x="1569" y="338" />
+              <mxPoint x="1756" y="338" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -405,7 +406,7 @@
           <mxGeometry x="1756" y="734" width="236" height="350" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-55" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentLike&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1762" y="1098.5" width="236" height="147" as="geometry" />
+          <mxGeometry x="1756" y="1098.5" width="236" height="147" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-40" target="zMYxTndVsM4fe838mn_T-42">
           <mxGeometry relative="1" as="geometry" />
