@@ -335,6 +335,9 @@
         <mxCell id="zMYxTndVsM4fe838mn_T-45" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductServiceImpl&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;extends ServiceImpl&amp;lt;ProductMapper,Product&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ pageQuery(page, name, categoryId, status): Page&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ save(entity: Product): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="500" y="579" width="360" height="114" as="geometry" />
         </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-46" target="zMYxTndVsM4fe838mn_T-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-46" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategoryServiceImpl&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;extends ServiceImpl&amp;lt;ProductCategoryMapper,ProductCategory&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- productMapper: ProductMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ save(entity: ProductCategory): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="500" y="721" width="360" height="129" as="geometry" />
         </mxCell>
@@ -400,22 +403,6 @@
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-44">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zMYxTndVsM4fe838mn_T-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-45" target="zMYxTndVsM4fe838mn_T-48">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="886" y="636" />
-              <mxPoint x="886" y="98" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="zMYxTndVsM4fe838mn_T-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-46" target="zMYxTndVsM4fe838mn_T-49">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="922" y="786" />
-              <mxPoint x="922" y="225" />
-            </Array>
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
