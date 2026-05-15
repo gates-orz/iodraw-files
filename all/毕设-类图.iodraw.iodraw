@@ -649,7 +649,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtR0v9uxUUb2VmFIZOrb" name="投诉/建议管理类图">
-    <mxGraphModel dx="1221" dy="806" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="842" dy="556" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -727,7 +727,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7vowXzI-W7xSAQXUvW0Q-10" target="7vowXzI-W7xSAQXUvW0Q-13">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="567" />
+              <mxPoint x="55" y="827" />
+              <mxPoint x="1086" y="827" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="gjmHByLFYHemZfeVv0Zn-5" value="" style="endArrow=open;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.001;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="7vowXzI-W7xSAQXUvW0Q-8" target="7vowXzI-W7xSAQXUvW0Q-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
