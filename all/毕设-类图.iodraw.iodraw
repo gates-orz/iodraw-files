@@ -63,6 +63,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;User&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1087" y="287" width="360" height="99" as="geometry" />
+        </mxCell>
         <mxCell id="Bgohd6hmFkHlzan9YzJt-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="493" y="12" width="472" height="1285" as="geometry" />
         </mxCell>
@@ -74,9 +77,6 @@
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="500" y="16" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="LWE-DmP9LSLhkpzxqt7T-3" value="DTO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="980" y="16" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-4" value="Mapper / Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1420" y="16" width="80" height="28" as="geometry" />
@@ -98,9 +98,6 @@
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AvatarUploadServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- uploadDir: String&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ saveAvatar(file: MultipartFile, userId: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="547.5" y="1159" width="360" height="129" as="geometry" />
-        </mxCell>
-        <mxCell id="LWE-DmP9LSLhkpzxqt7T-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;User&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="48" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- username: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- password: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- phone: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- role: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- enabled: Boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1510" y="393" width="360" height="219" as="geometry" />
@@ -136,6 +133,9 @@
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-16" target="LWE-DmP9LSLhkpzxqt7T-17">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-5" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="217" width="410" height="239" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
