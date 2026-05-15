@@ -4,11 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pkg_ctrl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=88;tabHeight=21;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=25;fontFamily=Times New Roman;" parent="1" vertex="1">
+        <mxCell id="pkg_ctrl" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=131;tabHeight=31;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=25;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="35" y="76" width="341" height="266" as="geometry" />
         </mxCell>
         <mxCell id="AuthController" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 25px;&quot;&gt;AuthController&lt;/p&gt;&lt;hr style=&quot;font-size: 25px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 25px;&quot;&gt;- userService: UserService&lt;/p&gt;&lt;hr style=&quot;font-size: 25px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 25px;&quot;&gt;+ register(req: RegisterReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 25px;&quot;&gt;+ login(req: LoginReq): R&amp;lt;LoginResp&amp;gt;&lt;br style=&quot;font-size: 25px;&quot;&gt;+ initAdmin(): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 25px;&quot;&gt;+ createAdmin(req: RegisterReq): R&amp;lt;UserVo&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=25;fontFamily=Times New Roman;" parent="1" vertex="1">
-          <mxGeometry x="65" y="115" width="240" height="150" as="geometry" />
+          <mxGeometry x="65" y="115" width="372" height="241" as="geometry" />
         </mxCell>
         <mxCell id="pkg_svc" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=76;tabHeight=15;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=25;fontFamily=Times New Roman;" parent="1" vertex="1">
           <mxGeometry x="400" y="80" width="320" height="400" as="geometry" />
