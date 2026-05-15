@@ -348,7 +348,7 @@
           <mxGeometry x="980" y="429" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-52" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Product&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- categoryId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- mainImage: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- imageList: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- price: BigDecimal&lt;br style=&quot;font-size: 18px;&quot;&gt;- stock: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- efficacyDesc: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortOrder: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1791" y="-34" width="236" height="345" as="geometry" />
+          <mxGeometry x="1800" y="8" width="236" height="345" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-53" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategory&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortOrder: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1800" y="362" width="236" height="197" as="geometry" />
@@ -400,6 +400,9 @@
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-51" target="zMYxTndVsM4fe838mn_T-55">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="2419" y="78" width="986" height="743" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
