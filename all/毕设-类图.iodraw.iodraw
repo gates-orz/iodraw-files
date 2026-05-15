@@ -472,7 +472,7 @@
           <mxGeometry x="3811" y="-145" width="259" height="1512" as="geometry" />
         </mxCell>
         <mxCell id="tvCCbemFBwImSaX4k52j-5" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="2902" y="-31" width="386" height="790" as="geometry" />
+          <mxGeometry x="3328" y="-31" width="386" height="790" as="geometry" />
         </mxCell>
         <mxCell id="tvCCbemFBwImSaX4k52j-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1593" y="3" width="981" height="1821" as="geometry" />
@@ -493,7 +493,7 @@
           <mxGeometry x="1608" y="3" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-4" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="-29" width="80" height="28" as="geometry" />
+          <mxGeometry x="3341" y="-29" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-5" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="3818" y="-143" width="80" height="28" as="geometry" />
@@ -526,22 +526,22 @@
           <mxGeometry x="1611" y="1543" width="949" height="264" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-18" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopicMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;CommunityTopic&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="3" width="360" height="99" as="geometry" />
+          <mxGeometry x="3341" y="3" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-19" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityPostMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;CommunityPost&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ incrementViewCount(id): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="130" width="360" height="114" as="geometry" />
+          <mxGeometry x="3341" y="130" width="360" height="114" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-20" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommentMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;Comment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="272" width="360" height="99" as="geometry" />
+          <mxGeometry x="3341" y="272" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-21" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;LikeRecordMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;LikeRecord&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="399" width="360" height="99" as="geometry" />
+          <mxGeometry x="3341" y="399" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-22" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommentLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="526" width="360" height="99" as="geometry" />
+          <mxGeometry x="3341" y="526" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-23" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;FavoriteMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;Favorite&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2915" y="653" width="360" height="99" as="geometry" />
+          <mxGeometry x="3341" y="653" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-24" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopic&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- scene: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- season: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- healthGoal: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- description: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortNo: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- isDeleted: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="3831" y="-104" width="225" height="313" as="geometry" />
