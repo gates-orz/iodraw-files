@@ -75,9 +75,6 @@
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="500" y="16" width="80" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="LWE-DmP9LSLhkpzxqt7T-3" value="DTO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="980" y="16" width="80" height="28" as="geometry" />
-        </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-4" value="Mapper / Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1420" y="16" width="80" height="28" as="geometry" />
         </mxCell>
@@ -100,7 +97,7 @@
           <mxGeometry x="547.5" y="1159" width="360" height="129" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;User&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="48" width="360" height="99" as="geometry" />
+          <mxGeometry x="1023" y="48" width="360" height="99" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- username: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- password: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- phone: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- role: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- enabled: Boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1510" y="393" width="360" height="219" as="geometry" />
