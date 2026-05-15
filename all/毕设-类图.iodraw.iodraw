@@ -64,7 +64,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Bgohd6hmFkHlzan9YzJt-7" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=89;tabHeight=28;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1486" y="160" width="390" height="273" as="geometry" />
+          <mxGeometry x="1486" y="160" width="194" height="273" as="geometry" />
         </mxCell>
         <mxCell id="Bgohd6hmFkHlzan9YzJt-5" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1064.5" y="220" width="249.5" height="152" as="geometry" />
@@ -83,9 +83,6 @@
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="500" y="16" width="80" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="LWE-DmP9LSLhkpzxqt7T-4" value="Mapper / Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="16" width="80" height="28" as="geometry" />
         </mxCell>
         <mxCell id="LWE-DmP9LSLhkpzxqt7T-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AuthController&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- userService: UserService&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatarUploadService: AvatarUploadService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ updateProfile(req: ProfileUpdateReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadAvatar(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadImage(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteFile(path: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePhone(req: PhoneUpdateReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUsername(req: UsernameUpdateReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageUsers(page, pageSize, role): R&amp;lt;Page&amp;lt;User&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUserAdmin(id, req: UpdateUserAdminReq): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="-38" y="64" width="472" height="335" as="geometry" />
