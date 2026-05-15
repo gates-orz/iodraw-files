@@ -292,7 +292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sn73pAxUtkjL6HjEWAXa" name="商品管理类图">
-    <mxGraphModel dx="2835" dy="1687" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1963" dy="1135" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,7 +396,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-40" target="zMYxTndVsM4fe838mn_T-44">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="211" y="193" />
+              <mxPoint x="211" y="590" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-41" target="zMYxTndVsM4fe838mn_T-43">
           <mxGeometry relative="1" as="geometry" />
