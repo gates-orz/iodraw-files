@@ -223,8 +223,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qO1vGAahKlijXYb4BzCN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-8" target="qO1vGAahKlijXYb4BzCN-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qO1vGAahKlijXYb4BzCN-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-8" target="qO1vGAahKlijXYb4BzCN-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1574" y="48" />
+              <mxPoint x="1574" y="131" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qO1vGAahKlijXYb4BzCN-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-9">
           <mxGeometry relative="1" as="geometry">
