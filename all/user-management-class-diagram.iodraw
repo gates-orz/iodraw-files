@@ -76,9 +76,6 @@
         <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;" parent="1" source="UserMapper" target="User" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="27ewvGAx3XO0EPFlO66L-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="65" width="491" height="518" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
