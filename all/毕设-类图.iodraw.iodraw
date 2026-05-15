@@ -464,7 +464,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UfhzxvO8zBY9jb63K1gP" name="经验交流帖子管理类图">
-    <mxGraphModel dx="2442" dy="1544" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2442" dy="1944" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,7 +553,7 @@
           <mxGeometry x="1940" y="1111" width="360" height="174" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-29" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopicReq&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- scene: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- season: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- healthGoal: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- description: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortNo: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="2340" y="48" width="360" height="189" as="geometry" />
+          <mxGeometry x="2325" y="-384" width="360" height="189" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-30" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityPostReq&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- topicId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="2340" y="265" width="360" height="129" as="geometry" />
