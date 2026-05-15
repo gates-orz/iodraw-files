@@ -553,7 +553,7 @@
           <mxGeometry x="3831" y="977" width="225" height="169" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-28" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Favorite&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="3818" y="1164.5" width="225" height="189" as="geometry" />
+          <mxGeometry x="3831" y="1165" width="225" height="189" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-10">
           <mxGeometry relative="1" as="geometry">
@@ -613,7 +613,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s_SKFUiM8TZ8v2twL_5P-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-23" target="s_SKFUiM8TZ8v2twL_5P-28">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3401" y="702" />
+              <mxPoint x="3401" y="1260" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tvCCbemFBwImSaX4k52j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-21" target="s_SKFUiM8TZ8v2twL_5P-25">
           <mxGeometry relative="1" as="geometry">
