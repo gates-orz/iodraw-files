@@ -17,7 +17,7 @@
           <mxGeometry x="632" y="155" width="344" height="217" as="geometry" />
         </mxCell>
         <mxCell id="670rBFVxWkbPz02Kecr1-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;UserServiceImpl&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;- userMapper: UserMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- passwordEncoder: PasswordEncoder&lt;br style=&quot;font-size: 18px;&quot;&gt;- stringRedisTemplate: StringRedisTemplate&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="632" y="365" width="337" height="124" as="geometry" />
+          <mxGeometry x="607" y="422" width="333" height="120" as="geometry" />
         </mxCell>
         <mxCell id="670rBFVxWkbPz02Kecr1-6" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=75;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="1120" y="92" width="235" height="155" as="geometry" />
