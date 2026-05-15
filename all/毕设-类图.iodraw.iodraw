@@ -415,9 +415,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="zMYxTndVsM4fe838mn_T-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-48" target="zMYxTndVsM4fe838mn_T-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-49" target="zMYxTndVsM4fe838mn_T-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
