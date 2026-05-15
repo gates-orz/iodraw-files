@@ -292,7 +292,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Sn73pAxUtkjL6HjEWAXa" name="商品管理类图">
-    <mxGraphModel dx="2236" dy="1308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="932" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -407,7 +407,7 @@
         <mxCell id="zMYxTndVsM4fe838mn_T-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-46" target="zMYxTndVsM4fe838mn_T-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zMYxTndVsM4fe838mn_T-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-44">
+        <mxCell id="zMYxTndVsM4fe838mn_T-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
