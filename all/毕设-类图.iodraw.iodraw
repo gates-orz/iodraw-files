@@ -649,10 +649,16 @@
     </mxGraphModel>
   </diagram>
   <diagram id="qtR0v9uxUUb2VmFIZOrb" name="投诉/建议管理类图">
-    <mxGraphModel dx="1436" dy="1348" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="977" dy="1045" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-4" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="952" y="14" width="342" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1548" y="-47" width="249" height="568" as="geometry" />
+        </mxCell>
         <mxCell id="gjmHByLFYHemZfeVv0Zn-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="483" y="14" width="434" height="791" as="geometry" />
         </mxCell>
@@ -681,13 +687,13 @@
           <mxGeometry x="491" y="301" width="418" height="491" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintTicketMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ComplaintTicket&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="960" y="48" width="360" height="99" as="geometry" />
+          <mxGeometry x="960" y="48" width="323" height="99" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintMessageMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ComplaintMessage&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="960" y="175" width="360" height="99" as="geometry" />
+          <mxGeometry x="960" y="175" width="323" height="99" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-11" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;SysUserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ selectAvatarById(id: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
-          <mxGeometry x="960" y="302" width="360" height="99" as="geometry" />
+          <mxGeometry x="960" y="302" width="323" height="99" as="geometry" />
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-12" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintTicket&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- bizType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- contact: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="1559" y="-13" width="229" height="269" as="geometry" />
@@ -715,9 +721,6 @@
         </mxCell>
         <mxCell id="7vowXzI-W7xSAQXUvW0Q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="7vowXzI-W7xSAQXUvW0Q-10" target="7vowXzI-W7xSAQXUvW0Q-13">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="gjmHByLFYHemZfeVv0Zn-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="1808" y="100" width="375" height="464" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
