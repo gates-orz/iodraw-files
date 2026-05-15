@@ -361,6 +361,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="zMYxTndVsM4fe838mn_T-47" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- commentMapper: ProductCommentMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- likeMapper: ProductCommentLikeMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listByProduct(productId, currentUserId): List&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ create(productId, content, parentId, user): ProductCommentVo&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleLike(commentId, user): ProductCommentVo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
           <mxGeometry x="413" y="1054" width="534" height="202" as="geometry" />
         </mxCell>
