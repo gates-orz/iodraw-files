@@ -1,0 +1,748 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" version="24.7.17" pages="6">
+  <diagram name="注册、登录类图" id="rHU6W8lstnRnFazl9GA6">
+    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="670rBFVxWkbPz02Kecr1-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="173" y="102" width="410" height="239" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-2" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;AuthController&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;- userService: UserService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;+ register(req: RegisterReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ login(req: LoginReq): R&amp;lt;LoginResp&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ initAdmin(): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createAdmin(req: RegisterReq): R&amp;lt;UserVo&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="193.5" y="138" width="369" height="191" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=83;tabHeight=28;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="607" y="102" width="383" height="483" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-4" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;UserService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;+ findByUsername(username: String): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ register(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ login(username, rawPassword): String&lt;br style=&quot;font-size: 18px;&quot;&gt;+ initAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hasAdmin(): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getCurrentUser(): User&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="632" y="155" width="350" height="223" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;UserServiceImpl&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;- userMapper: UserMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- passwordEncoder: PasswordEncoder&lt;br style=&quot;font-size: 18px;&quot;&gt;- stringRedisTemplate: StringRedisTemplate&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="631" y="422" width="351" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-6" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=75;tabHeight=26;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1052" y="106" width="235" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;UserMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;extends BaseMapper&amp;lt;User&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="1061" y="146" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-8" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=56;tabHeight=19;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="308" width="264" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;User&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- username: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- password: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- phone: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- role: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- enabled: Boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="1054" y="339" width="235" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.35;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" parent="1" source="670rBFVxWkbPz02Kecr1-2" target="670rBFVxWkbPz02Kecr1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" parent="1" source="670rBFVxWkbPz02Kecr1-5" target="670rBFVxWkbPz02Kecr1-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" parent="1" source="670rBFVxWkbPz02Kecr1-5" target="670rBFVxWkbPz02Kecr1-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=18;" parent="1" source="670rBFVxWkbPz02Kecr1-7" target="670rBFVxWkbPz02Kecr1-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-14" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="194" y="99" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-15" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="612" y="102" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-16" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1061" y="106" width="55" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="670rBFVxWkbPz02Kecr1-17" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1035" y="302" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vsylQO7gMLimgQljoqQH" name="用户管理类图">
+    <mxGraphModel dx="2620" dy="1404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-7" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=89;tabHeight=28;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry y="596" width="194" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-5" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=83;tabHeight=27;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="223" y="657" width="249.5" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;User&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="235.75" y="698" width="225" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="493" y="12" width="472" height="1285" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-53" y="16" width="509" height="562" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-34" y="16" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="500" y="16" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AuthController&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- userService: UserService&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatarUploadService: AvatarUploadService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ updateProfile(req: ProfileUpdateReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadAvatar(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadImage(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteFile(path: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePhone(req: PhoneUpdateReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUsername(req: UsernameUpdateReq): R&amp;lt;UserVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageUsers(page, pageSize, role): R&amp;lt;Page&amp;lt;User&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUserAdmin(id, req: UpdateUserAdminReq): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="64" width="472" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserAccountController&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;@RequestMapping(&quot;/user&quot;)&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- userService: UserService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ updatePassword(req: PasswordUpdateReq): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="415" width="471" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ findByUsername(username: String): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ register(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ initAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hasAdmin(): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageUsers(page, role): Page&amp;lt;User&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUserAdmin(userId, role, enabled): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ login(username, rawPassword): String&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getCurrentUser(): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateAvatar(userId, avatar): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePhone(userId, phone): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUsername(userId, newUsername): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePassword(userId, oldPassword, newPassword): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="500" y="48" width="455" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;UserServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- userMapper: UserMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- passwordEncoder: PasswordEncoder&lt;br style=&quot;font-size: 18px;&quot;&gt;- stringRedisTemplate: StringRedisTemplate&lt;br style=&quot;font-size: 18px;&quot;&gt;- uploadDir: String&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ findByUsername(username: String): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ register(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ initAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hasAdmin(): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createAdmin(username, rawPassword): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageUsers(page, role): Page&amp;lt;User&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUserAdmin(userId, role, enabled): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ login(username, rawPassword): String&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getCurrentUser(): User&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateAvatar(userId, avatar): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePhone(userId, phone): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateUsername(userId, newUsername): void&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePassword(userId, oldPassword, newPassword): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="503" y="502" width="452" height="488" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AvatarUploadService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ saveAvatar(file: MultipartFile, userId: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="1025" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;AvatarUploadServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- uploadDir: String&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ saveAvatar(file: MultipartFile, userId: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="547.5" y="1159" width="360" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;User&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- username: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- password: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- phone: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- role: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- enabled: Boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="14" y="636" width="171" height="219" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="491" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-5" target="LWE-DmP9LSLhkpzxqt7T-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-38" y="250" />
+              <mxPoint x="-67" y="250" />
+              <mxPoint x="-67" y="1058" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-6" target="LWE-DmP9LSLhkpzxqt7T-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="728" y="486" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontSize=18;fontFamily=Times New Roman;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-8" target="LWE-DmP9LSLhkpzxqt7T-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-10" target="LWE-DmP9LSLhkpzxqt7T-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-8" target="LWE-DmP9LSLhkpzxqt7T-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWE-DmP9LSLhkpzxqt7T-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontSize=18;fontFamily=Times New Roman;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LWE-DmP9LSLhkpzxqt7T-16" target="LWE-DmP9LSLhkpzxqt7T-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;Mapper&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="235.75" y="655" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bgohd6hmFkHlzan9YzJt-8" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Times New Roman&quot;&gt;Entity&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="14" y="593" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qL-Toa8qTGCr0XcmHUE0" name="养生知识管理类图">
+    <mxGraphModel dx="2544" dy="1503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z13TrhASoFohnIz7b9qT-10" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="511" y="12" width="992" height="2049" as="geometry" />
+        </mxCell>
+        <mxCell id="BOV7HTT6y1LdHMyXWgcn-6" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="62" y="767" width="386" height="821" as="geometry" />
+        </mxCell>
+        <mxCell id="BOV7HTT6y1LdHMyXWgcn-5" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=76;tabHeight=33;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="753" width="268" height="1574" as="geometry" />
+        </mxCell>
+        <mxCell id="BOV7HTT6y1LdHMyXWgcn-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="-2" width="986" height="743" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-526" y="-2" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="16" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-3" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="771" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-4" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-538" y="757" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-5" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;KnowledgeController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- knowledgeService: KnowledgeService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listCategories(bizType, admin): R&amp;lt;List&amp;lt;HealthCategory&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createCategory(req: CreateCategoryReq): R&amp;lt;HealthCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateCategory(id, req: UpdateCategoryReq): R&amp;lt;HealthCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteCategory(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listExperts(admin: boolean): R&amp;lt;List&amp;lt;HealthExpert&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createExpert(req: CreateExpertReq): R&amp;lt;HealthExpert&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateExpert(id, req: UpdateExpertReq): R&amp;lt;HealthExpert&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteExpert(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageArticles(page, pageSize, keyword, title, tag, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getArticle(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ likeArticle(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createArticle(req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateArticle(id: String, req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteArticle(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditArticle(id: String, req: AuditReq): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageLectures(page, pageSize, keyword, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getLecture(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ likeLecture(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createLecture(req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateLecture(id: String, req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteLecture(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditLecture(id: String, req: AuditReq): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadLectureVideo(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteLectureVideo(path: String): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-526" y="40.5" width="962" height="689.5" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;KnowledgeService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listCategories(bizType, admin): R&amp;lt;List&amp;lt;HealthCategory&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createCategory(bizType, name, sortNo): R&amp;lt;HealthCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateCategory(id, bizType, name, sortNo, status): R&amp;lt;HealthCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteCategory(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listExperts(admin: boolean): R&amp;lt;List&amp;lt;HealthExpert&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createExpert(name: String): R&amp;lt;HealthExpert&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateExpert(id, name, status): R&amp;lt;HealthExpert&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteExpert(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageArticles(page, pageSize, keyword, title, tag, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getArticle(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ likeArticle(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createArticle(req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateArticle(id: String, req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteArticle(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditArticle(id: String, status: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageLectures(page, pageSize, keyword, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getLecture(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ likeLecture(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createLecture(req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateLecture(id: String, req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteLecture(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditLecture(id: String, status: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadLectureVideo(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteLectureVideo(path: String): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="520" y="48" width="964" height="673" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;KnowledgeServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- categoryMapper: HealthCategoryMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- articleMapper: HealthArticleMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- expertMapper: HealthExpertMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- lectureMapper: HealthLectureMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- likeMapper: HealthLikeMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentMapper: KnowledgeCommentMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- stringRedisTemplate: StringRedisTemplate&lt;br style=&quot;font-size: 18px;&quot;&gt;- dailyLimitedViewTracker: DailyLimitedViewTracker&lt;br style=&quot;font-size: 18px;&quot;&gt;- uploadDir: String&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listCategories(bizType, admin): R&amp;lt;List&amp;lt;HealthCategory&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createCategory(bizType, name, sortNo): R&amp;lt;HealthCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateCategory(id, bizType, name, sortNo, status): R&amp;lt;HealthCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteCategory(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listExperts(admin: boolean): R&amp;lt;List&amp;lt;HealthExpert&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createExpert(name: String): R&amp;lt;HealthExpert&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateExpert(id, name, status): R&amp;lt;HealthExpert&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteExpert(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageArticles(page, pageSize, keyword, title, tag, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getArticle(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ likeArticle(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createArticle(req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateArticle(id: String, req: HealthArticle): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteArticle(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditArticle(id: String, status: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ pageLectures(page, pageSize, keyword, categoryId, sortBy, auditStatus, publishStatus, admin): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getLecture(id: String, admin: boolean, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ likeLecture(id: String, request: HttpServletRequest): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createLecture(req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateLecture(id: String, req: HealthLecture): R&amp;lt;Map&amp;lt;String,Object&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteLecture(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditLecture(id: String, status: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ uploadLectureVideo(file: MultipartFile): R&amp;lt;String&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteLectureVideo(path: String): R&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.3; color: rgb(51, 51, 51);&quot;&gt;- pageData(list, total, page, pageSize): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- currentUserId(request): String&lt;br style=&quot;font-size: 18px;&quot;&gt;- viewCountZone(): ZoneId&lt;br style=&quot;font-size: 18px;&quot;&gt;- isLoggedIn(userId): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- notLogin(): R&amp;lt;T&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;- existsLike(targetType, targetId, userId): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- countLikes(targetType, targetId): int&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildLikeCountMap(targetType, targetIds): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildCommentCountMap(targetType, targetIds): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- toArticleVo(it, categoryName, likeCount, commentCount, liked): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- toLectureVo(it, categoryName, expertName, likeCount, commentCount, liked): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- nonEmptyIdSet(id): Set&lt;br style=&quot;font-size: 18px;&quot;&gt;- isArticleCategoryEnabledForUser(categoryId): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildCategoryNameMap(ids): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildExpertNameMap(ids): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- parseAuditStatus(raw): int&lt;br style=&quot;font-size: 18px;&quot;&gt;- getFileExtension(originalName): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="519" y="753" width="965" height="1291" as="geometry" />
+        </mxCell>
+        <mxCell id="z13TrhASoFohnIz7b9qT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-8" target="qO1vGAahKlijXYb4BzCN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthCategoryMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthCategory&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="803" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="z13TrhASoFohnIz7b9qT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-9" target="qO1vGAahKlijXYb4BzCN-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthArticleMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthArticle&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ incrementViewCount(id: String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="930" width="360" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthLectureMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthLecture&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ incrementViewCount(id: String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1072" width="360" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="z13TrhASoFohnIz7b9qT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-11" target="qO1vGAahKlijXYb4BzCN-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="72" y="1251" />
+              <mxPoint x="-281" y="1251" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-11" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthExpertMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthExpert&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1214" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-12" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1341" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;KnowledgeCommentMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;Comment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="72" y="1468" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-14" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthCategory&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- bizType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortNo: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="811.5" width="240" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-15" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthExpert&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="1073.5" width="240" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthArticle&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- subTitle: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- categoryId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- summary: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- contentMd: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- authorId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- authorName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- auditStatus: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- publishStatus: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- publishedAt: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- viewCount: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- isDeleted: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="1284" width="240" height="416" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthLecture&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- categoryId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- expertId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- videoUrl: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- intro: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- contentHtml: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- auditStatus: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- publishStatus: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- publishedAt: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- viewCount: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- isDeleted: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="1715" width="240" height="391" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-18" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;HealthLike&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="-521" y="2142" width="240" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-5" target="qO1vGAahKlijXYb4BzCN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-10" target="qO1vGAahKlijXYb4BzCN-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-81" y="1129" />
+              <mxPoint x="-81" y="2099" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="498" y="1264" />
+              <mxPoint x="498" y="1264" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="432" y="1419" />
+              <mxPoint x="432" y="1419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qO1vGAahKlijXYb4BzCN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-12" target="qO1vGAahKlijXYb4BzCN-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-10" y="1391" />
+              <mxPoint x="-10" y="2244" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z13TrhASoFohnIz7b9qT-2" value="" style="endArrow=open;html=1;rounded=0;exitX=0;exitY=0.293;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-701" y="1139" as="sourcePoint" />
+            <mxPoint x="234" y="1151" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z13TrhASoFohnIz7b9qT-4" value="" style="endArrow=open;html=1;rounded=0;exitX=-0.002;exitY=0.179;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249" y="965" as="sourcePoint" />
+            <mxPoint x="299" y="915" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z13TrhASoFohnIz7b9qT-5" value="" style="endArrow=open;html=1;rounded=0;exitX=0.001;exitY=0.075;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="qO1vGAahKlijXYb4BzCN-7" target="qO1vGAahKlijXYb4BzCN-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="504" y="865" as="sourcePoint" />
+            <mxPoint x="169" y="868" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Sn73pAxUtkjL6HjEWAXa" name="商品管理类图">
+    <mxGraphModel dx="1062" dy="1071" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xTww2v2_m5e10utoMFep-12" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="390" y="9" width="573" height="1261" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1064" y="706.5" width="377" height="525" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1642" y="123" width="274" height="1135" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="978" y="-35" width="582" height="711" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-35" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="989" y="-30" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-36" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="399" y="9" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-37" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="709.5" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-38" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1642" y="123" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.996;entryY=0.804;entryDx=0;entryDy=0;endArrow=open;endFill=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-40" target="zMYxTndVsM4fe838mn_T-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-40" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- productService: ProductService&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentService: ProductCommentService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ page(pageNum, pageSize, name, categoryId, status): R&amp;lt;Page&amp;lt;Product&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ detail(id: String): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ create(product: Product): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ update(id, product: Product): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ changeStatus(id, req: ProductChangeStatusReq): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ delete(id: String): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getStock(id: String): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateStock(id, req: ProductUpdateStockReq): R&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listComments(productId, request): R&amp;lt;List&amp;lt;ProductCommentVo&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createComment(productId, req, request): R&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleLike(commentId, request): R&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;- currentUser(request): CommentUser&lt;br style=&quot;font-size: 18px;&quot;&gt;- notLogin(): R&amp;lt;T&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="989" y="2" width="555" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-41" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategoryController&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- categoryService: ProductCategoryService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ list(status: Integer): R&amp;lt;List&amp;lt;ProductCategory&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ create(category: ProductCategory): R&amp;lt;ProductCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ update(id, category: ProductCategory): R&amp;lt;ProductCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ delete(id: String): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="989" y="468" width="555" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-42" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductService&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;extends IService&amp;lt;Product&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ pageQuery(page, name, categoryId, status): Page&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getById(id: String): Product&lt;br style=&quot;font-size: 18px;&quot;&gt;+ save(entity: Product): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateById(entity: Product): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ removeById(id: String): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="413" y="48" width="534" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-43" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategoryService&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;extends IService&amp;lt;ProductCategory&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ list(wrapper): List&amp;lt;ProductCategory&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getById(id: String): ProductCategory&lt;br style=&quot;font-size: 18px;&quot;&gt;+ save(entity: ProductCategory): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateById(entity: ProductCategory): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;+ removeById(id: String): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="413" y="268" width="534" height="217" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-44" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listByProduct(productId, currentUserId): List&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ create(productId, content, parentId, user): ProductCommentVo&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleLike(commentId, user): ProductCommentVo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="413" y="493" width="534" height="193" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-45" target="zMYxTndVsM4fe838mn_T-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-45" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductServiceImpl&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;extends ServiceImpl&amp;lt;ProductMapper,Product&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ pageQuery(page, name, categoryId, status): Page&amp;lt;Product&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ save(entity: Product): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="413" y="706" width="534" height="172" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-46" target="zMYxTndVsM4fe838mn_T-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947" y="918" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-46" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategoryServiceImpl&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;extends ServiceImpl&amp;lt;ProductCategoryMapper,ProductCategory&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- productMapper: ProductMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ save(entity: ProductCategory): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="413" y="893" width="534" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="947" y="1172" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-47" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- commentMapper: ProductCommentMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- likeMapper: ProductCommentLikeMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listByProduct(productId, currentUserId): List&amp;lt;ProductCommentVo&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ create(productId, content, parentId, user): ProductCommentVo&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleLike(commentId, user): ProductCommentVo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="413" y="1054" width="534" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-48" target="zMYxTndVsM4fe838mn_T-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1573" y="791" />
+              <mxPoint x="1573" y="336" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-48" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;Product&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="741.5" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-49" target="zMYxTndVsM4fe838mn_T-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1603" y="918" />
+              <mxPoint x="1603" y="616" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-49" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategoryMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ProductCategory&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="868.5" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-50" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ProductComment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="995.5" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-51" target="zMYxTndVsM4fe838mn_T-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-51" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ProductCommentLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1071" y="1122.5" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-52" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Product&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- categoryId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- mainImage: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- imageList: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- price: BigDecimal&lt;br style=&quot;font-size: 18px;&quot;&gt;- stock: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- efficacyDesc: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortOrder: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="163" width="236" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-53" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCategory&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortOrder: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="517" width="236" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-54" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductComment&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- productId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- username: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- parentId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- rootId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- likeCount: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="734" width="236" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-55" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ProductCommentLike&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1655" y="1098.5" width="236" height="147" as="geometry" />
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-40" target="zMYxTndVsM4fe838mn_T-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1266" y="-42" />
+              <mxPoint x="309" y="-42" />
+              <mxPoint x="309" y="561" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=0.998;entryY=0.853;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="zMYxTndVsM4fe838mn_T-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1287.581111111111" y="468" as="sourcePoint" />
+            <mxPoint x="967.0019999999998" y="452.4499999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1288" y="452" />
+              <mxPoint x="968" y="452" />
+              <mxPoint x="968" y="453" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=-0.001;entryY=0.855;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-45" target="zMYxTndVsM4fe838mn_T-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="366" y="792" />
+              <mxPoint x="366" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-46" target="zMYxTndVsM4fe838mn_T-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="352" y="969" />
+              <mxPoint x="352" y="431" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zMYxTndVsM4fe838mn_T-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="338" y="1155" />
+              <mxPoint x="338" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.034;entryY=0.886;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=open;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-50" target="zMYxTndVsM4fe838mn_T-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xTww2v2_m5e10utoMFep-24" value="" style="endArrow=open;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" edge="1" parent="1" source="zMYxTndVsM4fe838mn_T-47" target="zMYxTndVsM4fe838mn_T-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="998" y="1102" as="sourcePoint" />
+            <mxPoint x="1048" y="1052" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="UfhzxvO8zBY9jb63K1gP" name="经验交流帖子管理类图">
+    <mxGraphModel dx="2653" dy="2415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tvCCbemFBwImSaX4k52j-6" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="3811" y="-145" width="259" height="1512" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCCbemFBwImSaX4k52j-5" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="3328" y="-31" width="386" height="790" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCCbemFBwImSaX4k52j-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="1593" y="3" width="981" height="1821" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCCbemFBwImSaX4k52j-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="544" y="820" width="977" height="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="tvCCbemFBwImSaX4k52j-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="541" y="-74" width="979" height="862" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="555" y="-74" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-2" value="Service&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="551" y="822" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-3" value="ServiceImpl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1608" y="3" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-4" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="-29" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-5" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3818" y="-143" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityController&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;@RequestMapping(&quot;/community&quot;)&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- topicService: CommunityTopicService&lt;br style=&quot;font-size: 18px;&quot;&gt;- postService: CommunityPostService&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentService: CommunityCommentService&lt;br style=&quot;font-size: 18px;&quot;&gt;- favoriteService: CommunityFavoriteService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listTopics(page, pageSize, scene, season, healthGoal, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getTopic(id, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createTopic(req: CommunityTopicReq): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateTopic(id, req): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteTopic(id): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listPosts(page, pageSize, topicId, keyword, titleKeyword, contentKeyword, auditStatus, publishStatus, sortBy, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listMyPosts(page, pageSize, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hotPostRanking(top: int): R&amp;lt;List&amp;lt;Map&amp;gt;&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getPost(id, admin, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createPost(req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePost(id, req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deletePost(id, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditPost(id, req: CommunityAuditReq): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ togglePostLike(id, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listComments(postId, page, pageSize, auditStatus): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listMyComments(page, pageSize, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createComment(req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateComment(id, req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteComment(id, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleCommentLike(id, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditComment(id, req): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listFavorites(page, pageSize, targetType, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addFavorite(req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ removeFavorite(id, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ checkFavorite(targetType, targetId, request): R&amp;lt;Map&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="552" y="-31" width="956" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopicService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listTopics(page, pageSize, scene, season, healthGoal, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getTopic(id, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createTopic(req: CommunityTopicReq): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateTopic(id, req): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteTopic(id): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="554" y="1167" width="953" height="192" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-11" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityPostService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listPosts(page, pageSize, topicId, keyword, titleKeyword, contentKeyword, auditStatus, publishStatus, sortBy, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listMyPosts(user, page, pageSize): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getPost(id, admin, user, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createPost(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePost(id, req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deletePost(id, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditPost(id, req): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ togglePostLike(id, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hotPostRanking(top: int): R&amp;lt;List&amp;lt;Map&amp;gt;&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="554" y="860" width="953" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-12" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityCommentService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listComments(postId, page, pageSize, auditStatus): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listMyComments(user, page, pageSize): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createComment(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateComment(id, req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteComment(id, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleCommentLike(id, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditComment(id, req): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="554" y="1378" width="953" height="241" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityFavoriteService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listFavorites(user, page, pageSize, targetType): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addFavorite(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ removeFavorite(id, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ checkFavorite(targetType, targetId, user): R&amp;lt;Map&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="554" y="1642" width="953" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-14" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopicServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- topicMapper: CommunityTopicMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- postMapper: CommunityPostMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- topicListCacheService: TopicListCacheService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listTopics(page, pageSize, scene, season, healthGoal, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getTopic(id, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createTopic(req: CommunityTopicReq): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateTopic(id, req): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteTopic(id): R&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.3; color: rgb(51, 51, 51);&quot;&gt;- toTopicVo(t, admin): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- countPostsByTopic(topicId, admin): int&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1611" y="46" width="949" height="273" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-15" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityPostServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- topicMapper: CommunityTopicMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- postMapper: CommunityPostMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- likeRecordMapper: LikeRecordMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentMapper: CommentMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- stringRedisTemplate: StringRedisTemplate&lt;br style=&quot;font-size: 18px;&quot;&gt;- hotPostRankingService: HotPostRankingService&lt;br style=&quot;font-size: 18px;&quot;&gt;- postDetailCacheService: PostDetailCacheService&lt;br style=&quot;font-size: 18px;&quot;&gt;- sensitiveWordRedisChecker: SensitiveWordRedisChecker&lt;br style=&quot;font-size: 18px;&quot;&gt;- maxViewsPerUserPerDay: int&lt;br style=&quot;font-size: 18px;&quot;&gt;- viewCountZoneId: String&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listPosts(page, pageSize, topicId, keyword, titleKeyword, contentKeyword, auditStatus, publishStatus, sortBy, admin): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listMyPosts(user, page, pageSize): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ getPost(id, admin, user, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createPost(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updatePost(id, req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deletePost(id, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditPost(id, req): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ togglePostLike(id, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ hotPostRanking(top: int): R&amp;lt;List&amp;lt;Map&amp;gt;&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.3; color: rgb(51, 51, 51);&quot;&gt;- listPostsByRedisHot(page, pageSize, topicId, keyword, titleKeyword, contentKeyword, auditStatus, publishStatus): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;- selectPostsHotTailPage(topicId, keyword, titleKeyword, contentKeyword, auditStatus, publishStatus, offset, limit): List&lt;br style=&quot;font-size: 18px;&quot;&gt;- postListBaseQw(topicId, keyword, titleKeyword, contentKeyword, auditStatus, publishStatus): LambdaQueryWrapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildPostPagePayload(records, total, page, pageSize): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- maybeIncrementPostView(postId, admin, user, request): void&lt;br style=&quot;font-size: 18px;&quot;&gt;- viewCountZone(): ZoneId&lt;br style=&quot;font-size: 18px;&quot;&gt;- loadPostViewCount(postId): int&lt;br style=&quot;font-size: 18px;&quot;&gt;- toPostVo(p, topicNameMap, likeCountMap, commentCountMap): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildTopicNameMap(topicIds): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildCommentCountMap(postIds): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- buildLikeCountMap(targetType, targetIds): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- countLikes(targetType, targetId): int&lt;br style=&quot;font-size: 18px;&quot;&gt;- existsLike(targetType, targetId, userId): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1611" y="333" width="949" height="857" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-16" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityCommentServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- commentMapper: CommentMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- commentLikeMapper: CommentLikeMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- likeRecordMapper: LikeRecordMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listComments(postId, page, pageSize, auditStatus): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ listMyComments(user, page, pageSize): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ createComment(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ updateComment(id, req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ deleteComment(id, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ toggleCommentLike(id, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ auditComment(id, req): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1611" y="1218" width="949" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-17" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityFavoriteServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- favoriteMapper: FavoriteMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- productRefMapper: ProductRefMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- healthArticleRefMapper: HealthArticleRefMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- healthLectureRefMapper: HealthLectureRefMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ listFavorites(user, page, pageSize, targetType): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addFavorite(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ removeFavorite(id, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ checkFavorite(targetType, targetId, user): R&amp;lt;Map&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="1611" y="1543" width="949" height="264" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-18" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopicMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;CommunityTopic&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="3" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-19" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityPostMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;CommunityPost&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ incrementViewCount(id): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="130" width="360" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-20" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommentMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;Comment&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="272" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-21" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;LikeRecordMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;LikeRecord&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="399" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-22" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommentLikeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;HealthLike&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="526" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-23" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;FavoriteMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;Favorite&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3341" y="653" width="360" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-24" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityTopic&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- name: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- scene: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- season: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- healthGoal: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- description: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- sortNo: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- isDeleted: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3831" y="-104" width="225" height="313" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-26" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Comment&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- username: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- avatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- parentId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- rootId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3831" y="617" width="225" height="341" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-27" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;LikeRecord&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3831" y="977" width="225" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-28" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;Favorite&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- targetId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3831" y="1165" width="225" height="189" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="503" y="369" />
+              <mxPoint x="503" y="1243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="484" y="369" />
+              <mxPoint x="484" y="1498.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-8" target="s_SKFUiM8TZ8v2twL_5P-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="517" y="369" />
+              <mxPoint x="517" y="1726" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-14" target="s_SKFUiM8TZ8v2twL_5P-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2086" y="-95" />
+              <mxPoint x="466" y="-95" />
+              <mxPoint x="466" y="1263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=-0.005;exitY=0.785;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-15" target="s_SKFUiM8TZ8v2twL_5P-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=-0.001;exitY=0.904;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-16" target="s_SKFUiM8TZ8v2twL_5P-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=-0.001;exitY=0.697;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-17" target="s_SKFUiM8TZ8v2twL_5P-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-18" target="s_SKFUiM8TZ8v2twL_5P-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-19" target="s_SKFUiM8TZ8v2twL_5P-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3659" y="238" />
+              <mxPoint x="3659" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-20" target="s_SKFUiM8TZ8v2twL_5P-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3768" y="322" />
+              <mxPoint x="3768" y="787" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-25" target="s_SKFUiM8TZ8v2twL_5P-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="4104" y="411" />
+              <mxPoint x="4104" y="1061" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-23" target="s_SKFUiM8TZ8v2twL_5P-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3401" y="702" />
+              <mxPoint x="3401" y="1260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tvCCbemFBwImSaX4k52j-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=0.994;exitY=0.121;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s_SKFUiM8TZ8v2twL_5P-21" target="s_SKFUiM8TZ8v2twL_5P-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3275" y="448" as="sourcePoint" />
+            <mxPoint x="3427" y="1007" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_SKFUiM8TZ8v2twL_5P-25" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;CommunityPost&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- topicId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- authorName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- auditStatus: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- publishStatus: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- rejectReason: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- viewCount: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- isDeleted: Integer&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="3831" y="229" width="225" height="363" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="qtR0v9uxUUb2VmFIZOrb" name="投诉/建议管理类图">
+    <mxGraphModel dx="1436" dy="908" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-4" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="73" y="356" width="342" height="402" as="geometry" />
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-3" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="960" y="16" width="249" height="568" as="geometry" />
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-2" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="483" y="14" width="434" height="791" as="geometry" />
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-1" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=109;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontFamily=Times New Roman;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="73" y="14" width="366" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-1" value="Controller" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="78" y="19" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-2" value="Service" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="500" y="16" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-3" value="Mapper" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="81" y="358" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-4" value="Entity" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontStyle=1;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="971" y="18" width="80" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-6" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintController&lt;/b&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;@RequestMapping(&quot;/aftersale/complaints&quot;)&lt;/span&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- complaintService: ComplaintService&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ create(req, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ list(status, page, pageSize, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ detail(id, request): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addUserMessage(id, req, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addStaffMessage(id, req, request): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ resolve(id, request): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="78" y="51" width="353" height="253" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-7" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintService&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ create(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ list(status, page, pageSize, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ detail(id, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addUserMessage(id, req, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addStaffMessage(id, req, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ resolve(id, user): R&amp;lt;Void&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="491" y="56" width="418" height="216" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-8" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- complaintTicketMapper: ComplaintTicketMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- complaintMessageMapper: ComplaintMessageMapper&lt;br style=&quot;font-size: 18px;&quot;&gt;- sysUserMapper: SysUserMapper&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ create(req, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ list(status, page, pageSize, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ detail(id, user): R&amp;lt;Map&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addUserMessage(id, req, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ addStaffMessage(id, req, user): R&amp;lt;Void&amp;gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;+ resolve(id, user): R&amp;lt;Void&amp;gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.3; color: rgb(51, 51, 51);&quot;&gt;- isAdmin(u): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- isBizType(biz): boolean&lt;br style=&quot;font-size: 18px;&quot;&gt;- toTicketListVo(t): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- toTicketVo(t, userAvatar): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- toMessageVo(m, ticketUserAvatar): Map&lt;br style=&quot;font-size: 18px;&quot;&gt;- loadAvatar(userId): String&lt;br style=&quot;font-size: 18px;&quot;&gt;- resolveDisplayAvatar(m, ticketUserAvatar): String&lt;br style=&quot;font-size: 18px;&quot;&gt;- statusText(status): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="491" y="301" width="418" height="491" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-9" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintTicketMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ComplaintTicket&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="81" y="390" width="323" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-10" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintMessageMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;extends BaseMapper&amp;lt;ComplaintMessage&amp;gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="81" y="517" width="323" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-11" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;i style=&quot;font-size: 18px;&quot;&gt;&amp;lt;&amp;gt;&lt;/i&gt;&lt;br style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;SysUserMapper&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;+ selectAvatarById(id: String): String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="81" y="644" width="323" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-12" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintTicket&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- userName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- bizType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- title: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- contact: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- status: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;br style=&quot;font-size: 18px;&quot;&gt;- updateTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="971" y="50" width="229" height="269" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-13" value="&lt;p style=&quot;margin: 4px 0px 0px; text-align: center; font-size: 18px;&quot;&gt;&lt;b style=&quot;font-size: 18px;&quot;&gt;ComplaintMessage&lt;/b&gt;&lt;/p&gt;&lt;hr style=&quot;font-size: 18px;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 8px; text-align: left; font-size: 18px; line-height: 1.35;&quot;&gt;- id: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- ticketId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderType: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderId: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderName: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- senderAvatar: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- content: String&lt;br style=&quot;font-size: 18px;&quot;&gt;- createTime: LocalDateTime&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;fontSize=18;fontFamily=Times New Roman;" parent="1" vertex="1">
+          <mxGeometry x="971" y="335" width="229" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=0.008;entryY=0.206;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-6" target="gjmHByLFYHemZfeVv0Zn-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=1;dashPattern=8 8;endArrow=block;endFill=0;endSize=12;startArrow=none;fontFamily=Times New Roman;fontSize=18;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-8" target="7vowXzI-W7xSAQXUvW0Q-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.003;exitY=0.49;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-8" target="7vowXzI-W7xSAQXUvW0Q-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1200" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="36" y="440" />
+              <mxPoint x="36" y="857" />
+              <mxPoint x="1216" y="857" />
+              <mxPoint x="1216" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7vowXzI-W7xSAQXUvW0Q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#000000;fillColor=#000000;dashed=0;endArrow=open;endFill=0;startArrow=none;fontFamily=Times New Roman;fontSize=18;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-10" target="7vowXzI-W7xSAQXUvW0Q-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="55" y="567" />
+              <mxPoint x="55" y="827" />
+              <mxPoint x="1086" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-5" value="" style="endArrow=open;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1.001;entryY=0.342;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-8" target="7vowXzI-W7xSAQXUvW0Q-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="349" y="395" as="sourcePoint" />
+            <mxPoint x="399" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gjmHByLFYHemZfeVv0Zn-6" value="" style="endArrow=open;html=1;rounded=0;exitX=0;exitY=0.802;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endFill=0;" parent="1" source="7vowXzI-W7xSAQXUvW0Q-8" target="7vowXzI-W7xSAQXUvW0Q-11" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="296" y="828" as="sourcePoint" />
+            <mxPoint x="349" y="778" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
