@@ -10,7 +10,7 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;控制层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="99" y="408" width="83" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-17" value="&lt;font style=&quot;font-size: 25px;&quot; face=&quot;Simsun&quot;&gt;api&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FuxCxlOBYVX0rvAi0rDM-2" target="FuxCxlOBYVX0rvAi0rDM-9" edge="1">
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-17" value="&lt;font style=&quot;font-size: 25px;&quot; face=&quot;Simsun&quot;&gt;api&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="FuxCxlOBYVX0rvAi0rDM-2" target="FuxCxlOBYVX0rvAi0rDM-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;Vue3&amp;nbsp; ElementPlus&amp;nbsp; VueRouter&amp;nbsp; Pinia&amp;nbsp; Axios&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -19,7 +19,7 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-8" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;前端&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="99" y="266" width="83" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FuxCxlOBYVX0rvAi0rDM-9" target="FuxCxlOBYVX0rvAi0rDM-11" edge="1">
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="FuxCxlOBYVX0rvAi0rDM-9" target="FuxCxlOBYVX0rvAi0rDM-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-9" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;SpringCloud&amp;nbsp; GateWay&amp;nbsp; SpringMvc&amp;nbsp; Controller&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -28,7 +28,7 @@
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-10" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;业务层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="99" y="539" width="83" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="FuxCxlOBYVX0rvAi0rDM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FuxCxlOBYVX0rvAi0rDM-11" target="FuxCxlOBYVX0rvAi0rDM-14" edge="1">
+        <mxCell id="FuxCxlOBYVX0rvAi0rDM-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="FuxCxlOBYVX0rvAi0rDM-11" target="FuxCxlOBYVX0rvAi0rDM-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FuxCxlOBYVX0rvAi0rDM-11" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;Spring事务&amp;nbsp; 认证/商品/订单/社区/知识/售后业务服务&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
