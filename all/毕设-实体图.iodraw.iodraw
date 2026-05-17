@@ -104,7 +104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="noj-G1O3NUnVhhc48VaK" name="商品相关实体图">
-    <mxGraphModel dx="2544" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1963" dy="735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -563,6 +563,15 @@
         </mxCell>
         <mxCell id="pezHQmdo2zHc281HcIMB-4" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（3）商品相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-537" y="956" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pezHQmdo2zHc281HcIMB-5" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（6）商品相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="191" y="1504" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pezHQmdo2zHc281HcIMB-6" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（5）商品相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-522" y="1504" width="281" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pezHQmdo2zHc281HcIMB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pezHQmdo2zHc281HcIMB-6" target="pezHQmdo2zHc281HcIMB-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
