@@ -577,7 +577,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="tldtfL80YYH5hbK4bxwD" name="养生知识相关实体图">
-    <mxGraphModel dx="2021" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2544" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -842,7 +842,7 @@
         <mxCell id="-ZuQLOBUsVc0EfY54mnx-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）养生知识相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="81.5" y="272" width="311" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-ZuQLOBUsVc0EfY54mnx-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）养生知识相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="-ZuQLOBUsVc0EfY54mnx-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）养生知识分类实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-512" y="272" width="311" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-ZuQLOBUsVc0EfY54mnx-3" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（3）养生知识相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
