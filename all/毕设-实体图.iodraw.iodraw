@@ -1013,7 +1013,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6VIWOYuzU8oWXJMKWr6d" name="评论点赞相关实体图">
-    <mxGraphModel dx="2021" dy="1172" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2236" dy="1308" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1198,7 +1198,7 @@
           <mxGeometry x="43" y="127" width="313" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FzBFYFRlaSHKZEIhd9DG-3" value="&lt;font style=&quot;font-size: 25px;&quot; face=&quot;Simsun&quot;&gt;（3）收藏实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-506" y="513" width="313" height="30" as="geometry" />
+          <mxGeometry x="-511.5" y="513" width="313" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1343,10 +1343,10 @@
             <mxPoint x="432" y="474" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e-l0HXoqLqWY_hsrHDtA-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）投诉建议相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e-l0HXoqLqWY_hsrHDtA-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）投诉建议相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-58.5" y="658" width="297" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="e-l0HXoqLqWY_hsrHDtA-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）投诉建议相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="e-l0HXoqLqWY_hsrHDtA-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）投诉建议相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="524" y="658" width="297" height="30" as="geometry" />
         </mxCell>
       </root>
