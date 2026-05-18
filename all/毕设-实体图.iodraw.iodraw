@@ -94,10 +94,10 @@
             <mxPoint x="1167" y="1083" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o0n6kZYcGN4K1w878Xxc-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）用户相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="o0n6kZYcGN4K1w878Xxc-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）用户地址实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="291.5" y="1495" width="323" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="o0n6kZYcGN4K1w878Xxc-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）用户实体图和用户地址实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="o0n6kZYcGN4K1w878Xxc-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）用户相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="900.5" y="1488" width="323" height="30" as="geometry" />
         </mxCell>
       </root>
