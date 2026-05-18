@@ -839,16 +839,16 @@
             <mxPoint x="180" y="486" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-ZuQLOBUsVc0EfY54mnx-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）养生知识相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="-ZuQLOBUsVc0EfY54mnx-1" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（2）专家实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="81.5" y="272" width="311" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-ZuQLOBUsVc0EfY54mnx-2" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（1）养生知识分类实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-512" y="272" width="311" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-ZuQLOBUsVc0EfY54mnx-3" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（3）养生知识相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="-ZuQLOBUsVc0EfY54mnx-3" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（3）养生文章实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-482" y="796" width="311" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-ZuQLOBUsVc0EfY54mnx-4" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（4）养生知识相关实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="-ZuQLOBUsVc0EfY54mnx-4" value="&lt;font face=&quot;Simsun&quot; style=&quot;font-size: 25px;&quot;&gt;（4）专家讲座实体图&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="96" y="796" width="311" height="30" as="geometry" />
         </mxCell>
       </root>
