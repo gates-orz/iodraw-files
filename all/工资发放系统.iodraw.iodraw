@@ -40,6 +40,9 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-14" value="工资明细与历史记录查询&lt;div&gt;按部门、项目、人员类型汇总&lt;/div&gt;&lt;div&gt;工资项金额统计&lt;/div&gt;&lt;div&gt;工资条系统数据接口&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="564" y="372" width="126" height="133" as="geometry" />
         </mxCell>
+        <mxCell id="FEA7jFBa01HRKDMotkSu-15" value="工资明细与历史记录查询&lt;div&gt;按部门、项目、人员类型汇总&lt;/div&gt;&lt;div&gt;工资项金额统计&lt;/div&gt;&lt;div&gt;工资条系统数据接口&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="722" y="372" width="126" height="133" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
