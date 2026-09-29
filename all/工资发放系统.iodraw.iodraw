@@ -70,9 +70,6 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-15" value="角色与操作权限控制&lt;div&gt;流程消息通知&lt;/div&gt;&lt;div&gt;审批意见与轨迹查询&lt;/div&gt;&lt;div&gt;数据变更日志&lt;/div&gt;&lt;div&gt;导入批次与结果追踪&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="722" y="372" width="126" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.511;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="FEA7jFBa01HRKDMotkSu-5" target="FEA7jFBa01HRKDMotkSu-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
