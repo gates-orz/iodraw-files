@@ -65,7 +65,7 @@
           <mxGeometry x="-37" y="372" width="126" height="133" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-11" value="发放项目创建与删除&lt;div&gt;项目类型与工资项配置&lt;/div&gt;&lt;div&gt;上期工资数据继承&lt;/div&gt;&lt;div&gt;项目状态与进度查询&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="372" width="126" height="133" as="geometry" />
+          <mxGeometry x="117" y="372" width="126" height="133" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-12" value="人事工资录入与修改&lt;div&gt;Excel批量导入&lt;/div&gt;&lt;div&gt;工资校验与差异对比&lt;/div&gt;&lt;div&gt;人事初核、复核、审核、审批&lt;/div&gt;&lt;div&gt;退回修改与重新提交&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="261" y="372" width="126" height="133" as="geometry" />
