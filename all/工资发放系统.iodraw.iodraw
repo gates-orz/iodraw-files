@@ -29,7 +29,7 @@
           <mxGeometry x="-37" y="372" width="113" height="133" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-11" value="人员信息维护与查询&lt;div&gt;人员移库&lt;/div&gt;&lt;div&gt;职务与工资标准维护&lt;/div&gt;&lt;div&gt;职级与工资标准维护&lt;/div&gt;&lt;div&gt;工资卡信息维护&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="376" width="113" height="133" as="geometry" />
+          <mxGeometry x="120" y="372" width="113" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
