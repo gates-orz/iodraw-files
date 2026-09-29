@@ -28,7 +28,7 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-9" value="人员信息维护与查询&lt;div&gt;人员移库&lt;/div&gt;&lt;div&gt;职务与工资标准维护&lt;/div&gt;&lt;div&gt;职级与工资标准维护&lt;/div&gt;&lt;div&gt;工资卡信息维护&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-37" y="372" width="126" height="133" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-11" value="发放项目创建与删除&lt;div&gt;项目类型与工资项配置&lt;/div&gt;&lt;div&gt;上期工资数据继承&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="FEA7jFBa01HRKDMotkSu-11" value="发放项目创建与删除&lt;div&gt;项目类型与工资项配置&lt;/div&gt;&lt;div&gt;上期工资数据继承&lt;/div&gt;&lt;div&gt;项目状态与进度查询&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="372" width="126" height="133" as="geometry" />
         </mxCell>
       </root>
