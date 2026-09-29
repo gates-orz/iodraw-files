@@ -22,8 +22,8 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-6" value="查询统计与共享" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="564" y="259" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-7" value="工资发放系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="376" y="165" width="120" height="60" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-7" value="公共支撑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="725" y="259" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
