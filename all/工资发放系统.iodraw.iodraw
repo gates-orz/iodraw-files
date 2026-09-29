@@ -7,6 +7,9 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-1" value="工资发放系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="316" y="105" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="FEA7jFBa01HRKDMotkSu-2" value="工资发放系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="326" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
