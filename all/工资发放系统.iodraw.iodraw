@@ -71,7 +71,7 @@
           <mxGeometry x="261" y="372" width="126" height="133" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-13" value="财务工资项补录&lt;div&gt;Excel导入与导出&lt;/div&gt;&lt;div&gt;工资卡完整性校验&lt;/div&gt;&lt;div&gt;财务审核与审批&lt;/div&gt;&lt;div&gt;退回补录与完成归档&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="408" y="372" width="126" height="133" as="geometry" />
+          <mxGeometry x="411" y="375" width="126" height="133" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-14" value="工资明细与历史记录查询&lt;div&gt;按部门、项目、人员类型汇总&lt;/div&gt;&lt;div&gt;工资项金额统计&lt;/div&gt;&lt;div&gt;工资条系统数据接口&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="561" y="375" width="126" height="133" as="geometry" />
