@@ -86,15 +86,6 @@
         <mxCell id="8_YOC8Vzo1fUyrMfxzH_-21" value="工资项合计" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="616.5" y="378" width="41" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-22" value="晋级晋档管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="667" y="378" width="41" height="215" as="geometry" />
-        </mxCell>
-        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-23" value="基础信息管理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="723.5" y="378" width="41" height="215" as="geometry" />
-        </mxCell>
-        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-24" value="工资方案及明细配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="780.5" y="378" width="41" height="215" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
