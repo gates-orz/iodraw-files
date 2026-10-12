@@ -141,8 +141,11 @@
         <mxCell id="oSKAHmEU6lBdIdY-KL0Q-5" value="办理财务审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="242.5" width="161" height="51" as="geometry" />
         </mxCell>
-        <mxCell id="oSKAHmEU6lBdIdY-KL0Q-6" value="办理财务审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="252.5" width="161" height="51" as="geometry" />
+        <mxCell id="oSKAHmEU6lBdIdY-KL0Q-6" value="办理财务审批" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="232" y="242.5" width="161" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="oSKAHmEU6lBdIdY-KL0Q-7" value="财务审核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-74" y="248" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
