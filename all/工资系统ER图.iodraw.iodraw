@@ -32,7 +32,7 @@
           <mxGeometry x="112" y="627" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-10" value="归属" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="357" width="80" height="80" as="geometry" />
+          <mxGeometry x="220" y="357" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-11" value="划分" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="11" y="199" width="80" height="80" as="geometry" />
@@ -41,7 +41,7 @@
           <mxGeometry x="-8" y="353" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-13" value="对应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="78" y="457" width="80" height="80" as="geometry" />
+          <mxGeometry x="78" y="457" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
