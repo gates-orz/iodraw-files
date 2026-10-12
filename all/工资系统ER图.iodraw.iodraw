@@ -121,7 +121,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhjVaitUPMM0pYIQr2LB-8" value="工资职级" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-8" value="工资项定义" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="395" y="368" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-9" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-10" target="jhjVaitUPMM0pYIQr2LB-11">
