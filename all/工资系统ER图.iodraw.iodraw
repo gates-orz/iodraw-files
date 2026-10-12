@@ -57,10 +57,10 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-8" value="人员类型" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-193" y="612.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-9" target="j1wxZqN4BoVu3jP-DenH-6">
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-21" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-9" target="j1wxZqN4BoVu3jP-DenH-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-9" target="j1wxZqN4BoVu3jP-DenH-8">
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-22" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-9" target="j1wxZqN4BoVu3jP-DenH-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-9" value="分类" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
