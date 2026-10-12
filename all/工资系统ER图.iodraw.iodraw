@@ -172,8 +172,11 @@
         <mxCell id="jhjVaitUPMM0pYIQr2LB-29" value="继承" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="112" y="351" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jhjVaitUPMM0pYIQr2LB-33" value="包含" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-33" value="归属" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-59" y="719" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-34" value="人员工资记录" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-69" y="622.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
