@@ -16,14 +16,19 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-2" value="划分" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="231" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-3" target="j1wxZqN4BoVu3jP-DenH-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-3" target="j1wxZqN4BoVu3jP-DenH-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="455" y="456" />
+              <mxPoint x="455" y="456" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-3" value="工资职级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="395" y="368" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-4" value="对应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="422" y="482" width="80" height="50" as="geometry" />
+          <mxGeometry x="415" y="491" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-5" value="人员职务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="426" y="637" width="120" height="60" as="geometry" />
