@@ -41,14 +41,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-2" value="基础信息维护" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
+        <mxCell id="FEA7jFBa01HRKDMotkSu-2" value="人员信息管理" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="30" y="282" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-3" value="工资录入提交及审核" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="337" y="282" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-4" value="统计查询" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="632" y="282" width="120" height="60" as="geometry" />
+          <mxGeometry x="647" y="282" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="8_YOC8Vzo1fUyrMfxzH_-1" value="人员信息维护" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-35" y="378" width="41" height="215" as="geometry" />
@@ -81,10 +81,10 @@
           <mxGeometry x="485.5" y="378" width="41" height="215" as="geometry" />
         </mxCell>
         <mxCell id="8_YOC8Vzo1fUyrMfxzH_-20" value="个人工资条查看" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="644.5" y="378" width="41" height="215" as="geometry" />
+          <mxGeometry x="659.5" y="378" width="41" height="215" as="geometry" />
         </mxCell>
         <mxCell id="8_YOC8Vzo1fUyrMfxzH_-21" value="工资项合计" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="698.5" y="378" width="41" height="215" as="geometry" />
+          <mxGeometry x="713.5" y="378" width="41" height="215" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
