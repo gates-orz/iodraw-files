@@ -47,14 +47,13 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-3" value="工资录入提交及审核" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="337" y="282" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=20;" parent="1" source="FEA7jFBa01HRKDMotkSu-4" target="FEA7jFBa01HRKDMotkSu-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=20;" parent="1" source="FEA7jFBa01HRKDMotkSu-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="692" y="395" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-4" value="统计查询" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="632" y="282" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-12" value="人事工资录入与修改&lt;div style=&quot;font-size: 20px;&quot;&gt;Excel批量导入&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;工资校验与差异对比&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;人事初核、复核、审核、审批&lt;/div&gt;&lt;div style=&quot;font-size: 20px;&quot;&gt;退回修改与重新提交&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="629" y="395" width="126" height="133" as="geometry" />
         </mxCell>
         <mxCell id="8_YOC8Vzo1fUyrMfxzH_-1" value="人员信息维护" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-4" y="378" width="41" height="215" as="geometry" />
@@ -83,7 +82,7 @@
         <mxCell id="8_YOC8Vzo1fUyrMfxzH_-18" value="财务经办录入" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="428.5" y="378" width="41" height="215" as="geometry" />
         </mxCell>
-        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-19" value="工资方案及明细配置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-19" value="财务审核与审批" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="485.5" y="378" width="41" height="215" as="geometry" />
         </mxCell>
       </root>
