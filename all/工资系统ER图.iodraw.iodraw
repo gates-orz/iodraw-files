@@ -214,8 +214,8 @@
         <mxCell id="9PhSprPLYh9ovfSBS7HB-5" value="工资项金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="701" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9PhSprPLYh9ovfSBS7HB-6" value="产生" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-32" y="510" width="80" height="50" as="geometry" />
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-6" value="对应" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-52" y="711" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="9PhSprPLYh9ovfSBS7HB-7" value="导入结果明细" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-72" y="646" width="120" height="60" as="geometry" />
