@@ -238,8 +238,11 @@
         <mxCell id="9PhSprPLYh9ovfSBS7HB-8" value="人员信息" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-72" y="849" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PhSprPLYh9ovfSBS7HB-9" target="9PhSprPLYh9ovfSBS7HB-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9PhSprPLYh9ovfSBS7HB-9" value="产生" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="-22" y="520" width="80" height="50" as="geometry" />
+          <mxGeometry x="-32" y="505" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
