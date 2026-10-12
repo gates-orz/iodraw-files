@@ -13,21 +13,6 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" target="FEA7jFBa01HRKDMotkSu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="474" y="259" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="624" y="259" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="785" y="259" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-1" value="工资发放系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="337" y="122" width="120" height="60" as="geometry" />
         </mxCell>
@@ -49,21 +34,6 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-4" value="统计查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="264" y="259" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="FEA7jFBa01HRKDMotkSu-13" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="474" y="319" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="FEA7jFBa01HRKDMotkSu-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="624" y="319" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="FEA7jFBa01HRKDMotkSu-15" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="785" y="319" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-9" value="人员信息维护与查询&lt;div&gt;人员移库&lt;/div&gt;&lt;div&gt;职务与工资标准维护&lt;/div&gt;&lt;div&gt;职级与工资标准维护&lt;/div&gt;&lt;div&gt;工资卡信息维护&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="372" width="126" height="133" as="geometry" />
         </mxCell>
@@ -72,15 +42,6 @@
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-12" value="人事工资录入与修改&lt;div&gt;Excel批量导入&lt;/div&gt;&lt;div&gt;工资校验与差异对比&lt;/div&gt;&lt;div&gt;人事初核、复核、审核、审批&lt;/div&gt;&lt;div&gt;退回修改与重新提交&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="261" y="372" width="126" height="133" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-13" value="财务工资项补录&lt;div&gt;Excel导入与导出&lt;/div&gt;&lt;div&gt;工资卡完整性校验&lt;/div&gt;&lt;div&gt;财务审核与审批&lt;/div&gt;&lt;div&gt;退回补录与完成归档&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="411" y="375" width="126" height="133" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-14" value="工资明细与历史记录查询&lt;div&gt;按部门、项目、人员类型汇总&lt;/div&gt;&lt;div&gt;工资项金额统计&lt;/div&gt;&lt;div&gt;工资条系统数据接口&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="561" y="375" width="126" height="133" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-15" value="角色与操作权限控制&lt;div&gt;流程消息通知&lt;/div&gt;&lt;div&gt;审批意见与轨迹查询&lt;/div&gt;&lt;div&gt;数据变更日志&lt;/div&gt;&lt;div&gt;导入批次与结果追踪&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="722" y="372" width="126" height="133" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
