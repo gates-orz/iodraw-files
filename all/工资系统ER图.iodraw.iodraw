@@ -16,7 +16,7 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-4" value="对应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="422" y="482" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-5" value="人员职务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="406" y="630" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
