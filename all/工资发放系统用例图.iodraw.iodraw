@@ -120,7 +120,7 @@
         <mxCell id="WnNN4UsbKAaCQkjhDh2c-5" value="人事审批" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="479" y="105" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WnNN4UsbKAaCQkjhDh2c-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="WnNN4UsbKAaCQkjhDh2c-6" value="财务审核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-84" y="238" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
