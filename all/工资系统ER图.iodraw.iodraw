@@ -195,7 +195,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TvfObck0uvUMETd1pYu2" name="批量导入ER图">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,8 +214,11 @@
         <mxCell id="9PhSprPLYh9ovfSBS7HB-5" value="工资项金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="701" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9PhSprPLYh9ovfSBS7HB-6" value="写入" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="301" y="520" width="80" height="50" as="geometry" />
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-6" value="产生" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="510" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-72" y="646" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
