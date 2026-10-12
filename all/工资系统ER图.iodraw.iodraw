@@ -31,10 +31,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-4" value="对应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="415" y="491" width="80" height="50" as="geometry" />
+          <mxGeometry x="415" y="481" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-5" value="人员职务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="395" y="641" width="120" height="60" as="geometry" />
+          <mxGeometry x="395" y="557.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-6" value="人员信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="627.5" width="120" height="60" as="geometry" />
