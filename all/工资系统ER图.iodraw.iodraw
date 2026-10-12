@@ -199,8 +199,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PAcfFIQJV64iC7n3oIlA-28" target="9PhSprPLYh9ovfSBS7HB-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PAcfFIQJV64iC7n3oIlA-28" value="工资项目" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="124" y="252" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9PhSprPLYh9ovfSBS7HB-1" target="9PhSprPLYh9ovfSBS7HB-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9PhSprPLYh9ovfSBS7HB-1" value="发起" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="144" y="384" width="80" height="50" as="geometry" />
