@@ -23,7 +23,7 @@
           <mxGeometry x="210" y="637" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-7" value="担任" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="335" y="625" width="80" height="80" as="geometry" />
+          <mxGeometry x="335" y="625" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-8" value="人员类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-33" y="640" width="120" height="60" as="geometry" />
