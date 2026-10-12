@@ -250,7 +250,7 @@
         <mxCell id="9PhSprPLYh9ovfSBS7HB-9" value="产生" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-32" y="505" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="9PhSprPLYh9ovfSBS7HB-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-18" value="银行账号" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="431" y="590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
