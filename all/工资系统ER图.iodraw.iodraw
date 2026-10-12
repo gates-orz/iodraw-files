@@ -229,7 +229,7 @@
         <mxCell id="9PhSprPLYh9ovfSBS7HB-5" value="工资项金额" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="270" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9PhSprPLYh9ovfSBS7HB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9PhSprPLYh9ovfSBS7HB-6" target="9PhSprPLYh9ovfSBS7HB-8">
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-17" value="0...1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="9PhSprPLYh9ovfSBS7HB-6" target="9PhSprPLYh9ovfSBS7HB-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="9PhSprPLYh9ovfSBS7HB-6" value="对应" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
