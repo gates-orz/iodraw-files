@@ -133,7 +133,7 @@
         <mxCell id="jhjVaitUPMM0pYIQr2LB-11" value="工资项金额" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="395" y="612.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jhjVaitUPMM0pYIQr2LB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-12" target="jhjVaitUPMM0pYIQr2LB-33">
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-12" target="jhjVaitUPMM0pYIQr2LB-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-12" value="人员工资记录" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
@@ -174,6 +174,14 @@
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-29" value="继承" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="112" y="351" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-33" target="jhjVaitUPMM0pYIQr2LB-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-19" y="792" />
+              <mxPoint x="-19" y="792" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-33" value="归属" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-59" y="719" width="80" height="60" as="geometry" />
