@@ -76,16 +76,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-11" value="划分" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-29" y="199" width="80" height="50" as="geometry" />
+          <mxGeometry x="-61" y="196" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-12" target="j1wxZqN4BoVu3jP-DenH-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-12" value="人员级别" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-49" y="347" width="120" height="60" as="geometry" />
+          <mxGeometry x="-81" y="344" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-13" target="j1wxZqN4BoVu3jP-DenH-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-13" value="对应" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="38" y="457" width="80" height="60" as="geometry" />
+          <mxGeometry x="6" y="454" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
