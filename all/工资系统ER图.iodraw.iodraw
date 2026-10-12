@@ -208,8 +208,14 @@
         <mxCell id="9PhSprPLYh9ovfSBS7HB-2" value="导入批次" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="124" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9PhSprPLYh9ovfSBS7HB-3" value="发起" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-3" value="写入" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="291" y="510" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-5" value="工资项金额" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="701" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9PhSprPLYh9ovfSBS7HB-6" value="写入" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="301" y="520" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
