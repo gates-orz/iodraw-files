@@ -31,8 +31,11 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-9" value="分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="112" y="627" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-10" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-10" value="归属" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="357" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-11" value="划分" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="11" y="199" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
