@@ -10,8 +10,11 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-2" value="划分" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="231" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-3" value="工资职级" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="398" y="361" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-4" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="422" y="482" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
