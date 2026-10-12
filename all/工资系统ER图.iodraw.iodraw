@@ -10,7 +10,7 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-1" target="j1wxZqN4BoVu3jP-DenH-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="j1wxZqN4BoVu3jP-DenH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-1" target="j1wxZqN4BoVu3jP-DenH-10">
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-1" target="j1wxZqN4BoVu3jP-DenH-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-1" value="人员身份" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -66,8 +66,11 @@
         <mxCell id="j1wxZqN4BoVu3jP-DenH-9" value="分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-28" y="617.5" width="80" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="j1wxZqN4BoVu3jP-DenH-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-10" target="j1wxZqN4BoVu3jP-DenH-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-10" value="归属" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="357" width="80" height="50" as="geometry" />
+          <mxGeometry x="218" y="357" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="j1wxZqN4BoVu3jP-DenH-11" target="j1wxZqN4BoVu3jP-DenH-12">
           <mxGeometry relative="1" as="geometry" />
