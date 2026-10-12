@@ -25,8 +25,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FEA7jFBa01HRKDMotkSu-2" target="8_YOC8Vzo1fUyrMfxzH_-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="8_YOC8Vzo1fUyrMfxzH_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="FEA7jFBa01HRKDMotkSu-2" target="8_YOC8Vzo1fUyrMfxzH_-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="121" y="359" />
+              <mxPoint x="70" y="359" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-2" value="基础信息维护" style="rounded=0;whiteSpace=wrap;html=1;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="61" y="282" width="120" height="60" as="geometry" />
