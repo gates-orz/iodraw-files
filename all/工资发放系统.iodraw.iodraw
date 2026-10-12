@@ -13,14 +13,20 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" target="FEA7jFBa01HRKDMotkSu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" target="FEA7jFBa01HRKDMotkSu-5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="259" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" target="FEA7jFBa01HRKDMotkSu-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="259" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" target="FEA7jFBa01HRKDMotkSu-7" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="259" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-1" value="工资发放系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="337" y="122" width="120" height="60" as="geometry" />
@@ -40,26 +46,23 @@
         <mxCell id="FEA7jFBa01HRKDMotkSu-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-4" target="FEA7jFBa01HRKDMotkSu-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-4" value="人事核算与审批" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="FEA7jFBa01HRKDMotkSu-4" value="统计查询" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="264" y="259" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-5" target="FEA7jFBa01HRKDMotkSu-13" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="FEA7jFBa01HRKDMotkSu-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="319" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-5" value="财务补录与审批" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="259" width="120" height="60" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="FEA7jFBa01HRKDMotkSu-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="624" y="319" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-6" target="FEA7jFBa01HRKDMotkSu-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-6" value="查询统计与共享" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="564" y="259" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="FEA7jFBa01HRKDMotkSu-7" target="FEA7jFBa01HRKDMotkSu-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FEA7jFBa01HRKDMotkSu-7" value="公共支撑" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="725" y="259" width="120" height="60" as="geometry" />
+        <mxCell id="FEA7jFBa01HRKDMotkSu-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" target="FEA7jFBa01HRKDMotkSu-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="319" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FEA7jFBa01HRKDMotkSu-9" value="人员信息维护与查询&lt;div&gt;人员移库&lt;/div&gt;&lt;div&gt;职务与工资标准维护&lt;/div&gt;&lt;div&gt;职级与工资标准维护&lt;/div&gt;&lt;div&gt;工资卡信息维护&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="372" width="126" height="133" as="geometry" />
