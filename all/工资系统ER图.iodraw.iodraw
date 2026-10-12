@@ -37,16 +37,16 @@
           <mxGeometry x="395" y="611" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-6" value="人员信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="627.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="107" y="614.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-7" value="担任" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="275" y="630.5" width="80" height="50" as="geometry" />
+          <mxGeometry x="272" y="617.5" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-8" value="人员类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-133" y="630.5" width="120" height="60" as="geometry" />
+          <mxGeometry x="-136" y="617.5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-9" value="分类" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="12" y="617.5" width="80" height="50" as="geometry" />
+          <mxGeometry x="9" y="604.5" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="j1wxZqN4BoVu3jP-DenH-10" value="归属" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="357" width="80" height="50" as="geometry" />
