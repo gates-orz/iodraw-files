@@ -146,7 +146,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-15" value="包含" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="81" y="617.5" width="80" height="50" as="geometry" />
+          <mxGeometry x="192" y="617.5" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-22" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-23" target="jhjVaitUPMM0pYIQr2LB-25">
           <mxGeometry relative="1" as="geometry" />
