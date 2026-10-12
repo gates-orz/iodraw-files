@@ -94,7 +94,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="xKR1zJc9Navu9n3MtpdY" name="工资核算ER图">
-    <mxGraphModel dx="1621" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1418" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,8 +104,10 @@
         <mxCell id="jhjVaitUPMM0pYIQr2LB-2" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-4" target="jhjVaitUPMM0pYIQr2LB-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jhjVaitUPMM0pYIQr2LB-3" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-4" target="jhjVaitUPMM0pYIQr2LB-21">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-3" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258" y="357" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-4" value="人员身份" style="rounded=0;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="198" y="157" width="120" height="60" as="geometry" />
@@ -160,11 +162,10 @@
         <mxCell id="jhjVaitUPMM0pYIQr2LB-19" value="分类" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="-1" y="617.5" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="jhjVaitUPMM0pYIQr2LB-20" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-21" target="jhjVaitUPMM0pYIQr2LB-12">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="jhjVaitUPMM0pYIQr2LB-21" value="归属" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
-          <mxGeometry x="218" y="357" width="80" height="50" as="geometry" />
+        <mxCell id="jhjVaitUPMM0pYIQr2LB-20" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" target="jhjVaitUPMM0pYIQr2LB-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="258" y="407" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="jhjVaitUPMM0pYIQr2LB-22" value="n" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;fontSize=15;" edge="1" parent="1" source="jhjVaitUPMM0pYIQr2LB-23" target="jhjVaitUPMM0pYIQr2LB-25">
           <mxGeometry relative="1" as="geometry" />
