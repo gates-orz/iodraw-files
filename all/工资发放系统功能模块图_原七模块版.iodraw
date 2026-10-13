@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_5" value="人事多级审批" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="566" width="185" height="43" as="geometry" />
+          <mxGeometry x="507.5" y="463" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_5" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -185,7 +185,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_6" value="提交财务经办补录" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="621" width="185" height="43" as="geometry" />
+          <mxGeometry x="507.5" y="518" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_6" edge="1">
           <mxGeometry relative="1" as="geometry">
