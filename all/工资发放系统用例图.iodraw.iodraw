@@ -191,7 +191,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-25" value="业务用户：上图中除工资条系统外的其他角色" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="799" width="60" height="30" as="geometry" />
+          <mxGeometry x="250.5" y="805" width="198" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
