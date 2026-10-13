@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="modules-original" name="原版七模块功能图">
-    <mxGraphModel dx="385" dy="177" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1720" pageHeight="830" math="0" shadow="0">
+    <mxGraphModel dx="1154" dy="532" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1720" pageHeight="830" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -180,8 +180,8 @@
             <Array as="points">
               <mxPoint x="600" y="275" />
               <mxPoint x="494" y="275" />
-              <mxPoint x="494" y="498" />
-              <mxPoint x="508" y="498" />
+              <mxPoint x="494" y="477" />
+              <mxPoint x="508" y="477" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -192,8 +192,9 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="600" y="275" />
-              <mxPoint x="494.5" y="275" />
-              <mxPoint x="494.5" y="642.5" />
+              <mxPoint x="494" y="275" />
+              <mxPoint x="494" y="532" />
+              <mxPoint x="508" y="532" />
             </Array>
           </mxGeometry>
         </mxCell>
