@@ -8,7 +8,7 @@
           <mxGeometry x="138" y="82" width="423" height="434" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-2" value="人事经办" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="24" y="229" width="30" height="60" as="geometry" />
+          <mxGeometry x="19" y="188" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-5" value="财务经办" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="637" y="200" width="30" height="60" as="geometry" />
@@ -17,19 +17,19 @@
           <mxGeometry x="633" y="440" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-7" value="维护职务与职级" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="162" y="195" width="161" height="51" as="geometry" />
+          <mxGeometry x="157" y="154" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-8" value="维护人员基础信息" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="162" y="128" width="161" height="51" as="geometry" />
+          <mxGeometry x="157" y="87" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-9" value="创建或继承工资项目" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="162" y="260" width="161" height="51" as="geometry" />
+          <mxGeometry x="157" y="219" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-10" value="提交人事审批" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="162" y="375" width="161" height="51" as="geometry" />
+          <mxGeometry x="157" y="334" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-11" value="编辑或导入工资项目" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="162" y="318" width="161" height="51" as="geometry" />
+          <mxGeometry x="157" y="277" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-12" value="编辑或导入工资卡" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="374" y="130" width="161" height="51" as="geometry" />
@@ -45,32 +45,32 @@
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GH59362oq_Y7wK-HnqDt-2" target="GH59362oq_Y7wK-HnqDt-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-15" y="224" as="sourcePoint" />
-            <mxPoint x="35" y="174" as="targetPoint" />
+            <mxPoint x="-20" y="183" as="sourcePoint" />
+            <mxPoint x="30" y="133" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GH59362oq_Y7wK-HnqDt-2" target="GH59362oq_Y7wK-HnqDt-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-64" y="228" as="sourcePoint" />
-            <mxPoint x="-14" y="178" as="targetPoint" />
+            <mxPoint x="-69" y="187" as="sourcePoint" />
+            <mxPoint x="-19" y="137" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GH59362oq_Y7wK-HnqDt-2" target="GH59362oq_Y7wK-HnqDt-9" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-41" y="231" as="sourcePoint" />
-            <mxPoint x="9" y="181" as="targetPoint" />
+            <mxPoint x="-46" y="190" as="sourcePoint" />
+            <mxPoint x="4" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GH59362oq_Y7wK-HnqDt-2" target="GH59362oq_Y7wK-HnqDt-11" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="254" as="sourcePoint" />
-            <mxPoint x="-70" y="204" as="targetPoint" />
+            <mxPoint x="-125" y="213" as="sourcePoint" />
+            <mxPoint x="-75" y="163" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GH59362oq_Y7wK-HnqDt-2" target="GH59362oq_Y7wK-HnqDt-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3" y="433" as="sourcePoint" />
-            <mxPoint x="47" y="383" as="targetPoint" />
+            <mxPoint x="-8" y="392" as="sourcePoint" />
+            <mxPoint x="42" y="342" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GH59362oq_Y7wK-HnqDt-22" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="GH59362oq_Y7wK-HnqDt-5" target="GH59362oq_Y7wK-HnqDt-12" edge="1">
