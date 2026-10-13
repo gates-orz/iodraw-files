@@ -98,19 +98,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-2" value="人数初核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="392" width="30" height="60" as="geometry" />
+          <mxGeometry x="26" y="392" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-3" value="人事复核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="633" y="387.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-4" value="人事审核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="489" width="30" height="60" as="geometry" />
+          <mxGeometry x="26" y="489" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-5" value="人事审批" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="633" y="484.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-6" value="财务审核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="586" width="30" height="60" as="geometry" />
+          <mxGeometry x="26" y="586" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-7" value="财务审批" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="633" y="581.5" width="30" height="60" as="geometry" />
@@ -134,7 +134,7 @@
           <mxGeometry x="386" y="586" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-14" value="业务用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="32" y="683" width="30" height="60" as="geometry" />
+          <mxGeometry x="26" y="683" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-15" value="人员信息查询" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="156" y="664" width="161" height="51" as="geometry" />
