@@ -113,10 +113,10 @@
           <mxGeometry x="595" y="489" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-6" value="财务审核" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="710" y="347" width="30" height="60" as="geometry" />
+          <mxGeometry x="32" y="586" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-7" value="财务审批" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1273" y="347" width="30" height="60" as="geometry" />
+          <mxGeometry x="595" y="586" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-8" value="办理人事初核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="156" y="403" width="161" height="51" as="geometry" />
@@ -131,10 +131,10 @@
           <mxGeometry x="348" y="493.5" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-12" value="办理财务审核" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="834" y="351.5" width="161" height="51" as="geometry" />
+          <mxGeometry x="156" y="590.5" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-13" value="办理财务审批" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1026" y="351.5" width="161" height="51" as="geometry" />
+          <mxGeometry x="348" y="590.5" width="161" height="51" as="geometry" />
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-14" value="业务用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="710" y="478" width="30" height="60" as="geometry" />
@@ -159,8 +159,8 @@
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zoqWRUaQoKrkTprNuR4i-6" target="zoqWRUaQoKrkTprNuR4i-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="571" y="379" as="sourcePoint" />
-            <mxPoint x="621" y="329" as="targetPoint" />
+            <mxPoint x="-107" y="618" as="sourcePoint" />
+            <mxPoint x="-57" y="568" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="zoqWRUaQoKrkTprNuR4i-14" target="zoqWRUaQoKrkTprNuR4i-15">
@@ -189,8 +189,8 @@
         </mxCell>
         <mxCell id="zoqWRUaQoKrkTprNuR4i-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zoqWRUaQoKrkTprNuR4i-7" target="zoqWRUaQoKrkTprNuR4i-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="527" y="395" as="sourcePoint" />
-            <mxPoint x="577" y="345" as="targetPoint" />
+            <mxPoint x="-151" y="634" as="sourcePoint" />
+            <mxPoint x="-101" y="584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
