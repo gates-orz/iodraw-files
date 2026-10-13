@@ -1,12 +1,9 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="modules" name="功能模块图">
-    <mxGraphModel dx="3053" dy="1930" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="2300" math="0" shadow="0">
+    <mxGraphModel dx="3489" dy="2206" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1640" pageHeight="2300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="title" value="工资发放系统功能模块图&#xa;按当前文档第3章功能结构划分" style="rounded=0;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;strokeColor=#31465A;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="410" y="20" width="820" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="system" value="工资发放&#xa;系统" style="rounded=0;whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;strokeColor=#31465A;fillColor=#E8EEF4;" parent="1" vertex="1">
           <mxGeometry x="30" y="1070" width="130" height="100" as="geometry" />
         </mxCell>
