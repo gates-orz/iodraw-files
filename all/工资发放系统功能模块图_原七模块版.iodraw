@@ -160,7 +160,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n2_2" value="人事工资数据编辑" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
+        <mxCell id="n2_2" value="工资数据编辑" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="507.5" y="401" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_2" edge="1">
@@ -173,7 +173,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_3" value="人事工资数据导入" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="456" width="185" height="43" as="geometry" />
+          <mxGeometry x="512" y="456" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_3" edge="1">
           <mxGeometry relative="1" as="geometry">
