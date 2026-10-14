@@ -128,10 +128,11 @@
         <mxCell id="V_ReTWgdgnkzBlszddxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="m2" target="V_ReTWgdgnkzBlszddxu-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="495" y="258" />
+              <mxPoint x="600" y="275" />
+              <mxPoint x="495" y="275" />
               <mxPoint x="495" y="357" />
-              <mxPoint x="488" y="357" />
-              <mxPoint x="488" y="478" />
+              <mxPoint x="494" y="357" />
+              <mxPoint x="494" y="478" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -183,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_5" value="人事多级审批" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="520" width="185" height="43" as="geometry" />
+          <mxGeometry x="507.5" y="511" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_5" edge="1">
           <mxGeometry relative="1" as="geometry">
