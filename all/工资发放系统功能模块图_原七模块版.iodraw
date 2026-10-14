@@ -419,7 +419,7 @@
         <mxCell id="note2" value="按当前文档归类；各功能受角色、数据范围及项目状态控制；具体人事、财务工资项清单仍待确认。" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="732.5" width="1600" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="V_ReTWgdgnkzBlszddxu-1" value="人事多级审批" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="V_ReTWgdgnkzBlszddxu-1" value="查询统计工资数据" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="507.5" y="464" width="185" height="43" as="geometry" />
         </mxCell>
       </root>
