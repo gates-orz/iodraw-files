@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="modules-original" name="原版七模块功能图">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1720" pageHeight="830" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1103" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1720" pageHeight="830" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,7 +205,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="m3" value="财务工资办理" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="964.03" y="202.5" width="205" height="55" as="geometry" />
+          <mxGeometry x="1002.03" y="202.5" width="205" height="55" as="geometry" />
         </mxCell>
         <mxCell id="me3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="m3" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -217,67 +217,67 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n3_0" value="财务工资数据补录" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="974.03" y="291" width="185" height="43" as="geometry" />
+          <mxGeometry x="1012.03" y="291" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e3_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1066.53" y="275" />
-              <mxPoint x="961.03" y="275" />
-              <mxPoint x="961.03" y="312.5" />
+              <mxPoint x="1104.53" y="275" />
+              <mxPoint x="999.03" y="275" />
+              <mxPoint x="999.03" y="312.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n3_1" value="财务工资数据导入与编辑" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="974.03" y="346" width="185" height="43" as="geometry" />
+          <mxGeometry x="1012.03" y="346" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1066.53" y="275" />
-              <mxPoint x="961.03" y="275" />
-              <mxPoint x="961.03" y="367.5" />
+              <mxPoint x="1104.53" y="275" />
+              <mxPoint x="999.03" y="275" />
+              <mxPoint x="999.03" y="367.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n3_2" value="工资数据导出" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="974.03" y="401" width="185" height="43" as="geometry" />
+          <mxGeometry x="1012.03" y="401" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1066.53" y="275" />
-              <mxPoint x="961.03" y="275" />
-              <mxPoint x="961.03" y="422.5" />
+              <mxPoint x="1104.53" y="275" />
+              <mxPoint x="999.03" y="275" />
+              <mxPoint x="999.03" y="422.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n3_3" value="查询统计工资数据" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="974.03" y="456" width="185" height="43" as="geometry" />
+          <mxGeometry x="1012.03" y="456" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e3_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1066.53" y="275" />
-              <mxPoint x="961.03" y="275" />
-              <mxPoint x="961.03" y="477.5" />
+              <mxPoint x="1104.53" y="275" />
+              <mxPoint x="999.03" y="275" />
+              <mxPoint x="999.03" y="477.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n3_4" value="财务多级审批" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="974.03" y="511" width="185" height="43" as="geometry" />
+          <mxGeometry x="1012.03" y="511" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e3_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1066.53" y="275" />
-              <mxPoint x="961.03" y="275" />
-              <mxPoint x="961.03" y="532.5" />
+              <mxPoint x="1104.53" y="275" />
+              <mxPoint x="999.03" y="275" />
+              <mxPoint x="999.03" y="532.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m6" value="消息通知" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="1219" y="202.5" width="205" height="55" as="geometry" />
+          <mxGeometry x="1257" y="202.5" width="205" height="55" as="geometry" />
         </mxCell>
         <mxCell id="me6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="m6" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -289,26 +289,26 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n6_0" value="待办消息通知" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1229" y="291" width="185" height="43" as="geometry" />
+          <mxGeometry x="1267" y="291" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1321.5" y="275" />
-              <mxPoint x="1216" y="275" />
-              <mxPoint x="1216" y="312.5" />
+              <mxPoint x="1359.5" y="275" />
+              <mxPoint x="1254" y="275" />
+              <mxPoint x="1254" y="312.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n6_1" value="消息跳转处理" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1229" y="346" width="185" height="43" as="geometry" />
+          <mxGeometry x="1267" y="346" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e6_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1321.5" y="275" />
-              <mxPoint x="1216" y="275" />
-              <mxPoint x="1216" y="367.5" />
+              <mxPoint x="1359.5" y="275" />
+              <mxPoint x="1254" y="275" />
+              <mxPoint x="1254" y="367.5" />
             </Array>
           </mxGeometry>
         </mxCell>
