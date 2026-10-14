@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="modules-original" name="原版七模块功能图">
-    <mxGraphModel dx="488" dy="309" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1720" pageHeight="830" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1720" pageHeight="830" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -128,16 +128,16 @@
         <mxCell id="V_ReTWgdgnkzBlszddxu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="m2" target="V_ReTWgdgnkzBlszddxu-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="275" />
-              <mxPoint x="495" y="275" />
-              <mxPoint x="495" y="357" />
-              <mxPoint x="494" y="357" />
-              <mxPoint x="494" y="478" />
+              <mxPoint x="841.75" y="266.5" />
+              <mxPoint x="736.75" y="266.5" />
+              <mxPoint x="736.75" y="348.5" />
+              <mxPoint x="735.75" y="348.5" />
+              <mxPoint x="735.75" y="469.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="m2" value="人事业务办理" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="497.5" y="202.5" width="205" height="55" as="geometry" />
+          <mxGeometry x="739.25" y="194" width="205" height="55" as="geometry" />
         </mxCell>
         <mxCell id="me2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="m2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -148,64 +148,64 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_0" value="工资项目创建与继承" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="291" width="185" height="43" as="geometry" />
+          <mxGeometry x="749.25" y="282.5" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="275" />
-              <mxPoint x="494.5" y="275" />
-              <mxPoint x="494.5" y="312.5" />
+              <mxPoint x="841.75" y="266.5" />
+              <mxPoint x="736.25" y="266.5" />
+              <mxPoint x="736.25" y="304" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_1" value="工资项目编辑" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="346" width="185" height="43" as="geometry" />
+          <mxGeometry x="749.25" y="337.5" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="275" />
-              <mxPoint x="494.5" y="275" />
-              <mxPoint x="494.5" y="367.5" />
+              <mxPoint x="841.75" y="266.5" />
+              <mxPoint x="736.25" y="266.5" />
+              <mxPoint x="736.25" y="359" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_2" value="工资数据查询与编辑" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="401" width="185" height="43" as="geometry" />
+          <mxGeometry x="749.25" y="392.5" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="275" />
-              <mxPoint x="494.5" y="275" />
-              <mxPoint x="494.5" y="422.5" />
+              <mxPoint x="841.75" y="266.5" />
+              <mxPoint x="736.25" y="266.5" />
+              <mxPoint x="736.25" y="414" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_5" value="人事多级审批" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="511" width="185" height="43" as="geometry" />
+          <mxGeometry x="749.25" y="502.5" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_5" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="275" />
-              <mxPoint x="494" y="275" />
-              <mxPoint x="494" y="542" />
-              <mxPoint x="508" y="542" />
+              <mxPoint x="841.75" y="266.5" />
+              <mxPoint x="735.75" y="266.5" />
+              <mxPoint x="735.75" y="533.5" />
+              <mxPoint x="749.75" y="533.5" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="n2_6" value="提交财务经办补录" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="507.5" y="566" width="185" height="43" as="geometry" />
+          <mxGeometry x="749.25" y="557.5" width="185" height="43" as="geometry" />
         </mxCell>
         <mxCell id="e2_6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="275" />
-              <mxPoint x="494" y="275" />
-              <mxPoint x="494" y="588" />
-              <mxPoint x="508" y="588" />
+              <mxPoint x="841.75" y="266.5" />
+              <mxPoint x="735.75" y="266.5" />
+              <mxPoint x="735.75" y="579.5" />
+              <mxPoint x="749.75" y="579.5" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -324,7 +324,7 @@
           <mxGeometry x="40" y="732.5" width="1600" height="35" as="geometry" />
         </mxCell>
         <mxCell id="V_ReTWgdgnkzBlszddxu-1" value="查询统计工资数据" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="507.5" y="456" width="185" height="43" as="geometry" />
+          <mxGeometry x="749.25" y="447.5" width="185" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
