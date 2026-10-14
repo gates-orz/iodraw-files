@@ -316,18 +316,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n6_2" value="工资条系统对接&#xa;已完成工资数据" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1229" y="401" width="185" height="43" as="geometry" />
-        </mxCell>
-        <mxCell id="e6_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1321.5" y="275" />
-              <mxPoint x="1216" y="275" />
-              <mxPoint x="1216" y="422.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="note1" value="审批共用能力：明细及差异查看、通过或驳回、审批意见记录、审批日志留存。" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=17;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="40" y="702.5" width="1600" height="35" as="geometry" />
         </mxCell>
