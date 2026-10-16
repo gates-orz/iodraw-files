@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="24.7.17">
   <diagram id="revised-seven" name="七模块功能图">
-    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="780" math="0" shadow="0">
+    <mxGraphModel dx="2220" dy="1404" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="780" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -479,12 +479,6 @@
               <mxPoint x="1450" y="535" />
             </Array>
           </mxGeometry>
-        </mxCell>
-        <mxCell id="note" value="流程说明：人事四级审批通过后转财务；财务补录并完成审核、审批后，工资发放流程结束。" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16.5;align=center;verticalAlign=middle;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="35" y="656.25" width="1610" height="27.5" as="geometry" />
-        </mxCell>
-        <mxCell id="note2" value="工资条应用直接使用已完成的工资数据；税务人员在工资条应用中查看本人工资条。" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16.5;align=center;verticalAlign=middle;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="35" y="688.75" width="1610" height="27.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
