@@ -10,8 +10,13 @@
         <mxCell id="system" value="工资发放系统" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=20;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#E8EEF4;" parent="1" vertex="1">
           <mxGeometry x="665" y="87.5" width="350" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="9e9AZWaktnft0hUGgUwr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="m0" target="n1_0">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="9e9AZWaktnft0hUGgUwr-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="m0" target="n1_0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="258" />
+              <mxPoint x="227" y="588" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="m0" value="人员信息管理" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#E8EEF4;" parent="1" vertex="1">
           <mxGeometry x="237" y="202.5" width="205" height="55" as="geometry" />
