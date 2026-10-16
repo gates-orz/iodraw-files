@@ -468,18 +468,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n6_3" value="免除重复导出与导入" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1462.5" y="511" width="195" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="e6_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1560" y="312.5" />
-              <mxPoint x="1450" y="312.5" />
-              <mxPoint x="1450" y="535" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
