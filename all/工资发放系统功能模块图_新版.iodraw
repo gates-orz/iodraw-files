@@ -1,0 +1,492 @@
+<mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36" version="24.7.17">
+  <diagram id="revised-seven" name="七模块功能图">
+    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="780" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="工资发放系统功能模块图" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=27.0;align=center;verticalAlign=middle;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="8.75" width="1300" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="system" value="工资发放系统" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=20.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="665" y="60" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s0" value="发放前置功能" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=19.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="65" y="147.5" width="350" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rs0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="s0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="130" />
+              <mxPoint x="240" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m0" value="人员维护与查询" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="15" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s0" target="m0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="220" />
+              <mxPoint x="120" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0_0" value="市局机关人员信息维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="22.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e0_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m0" target="n0_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="312.5" />
+              <mxPoint x="10" y="312.5" />
+              <mxPoint x="10" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0_1" value="人员类别维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="22.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e0_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m0" target="n0_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="312.5" />
+              <mxPoint x="10" y="312.5" />
+              <mxPoint x="10" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0_2" value="职务、职级信息维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="22.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e0_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m0" target="n0_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="312.5" />
+              <mxPoint x="10" y="312.5" />
+              <mxPoint x="10" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0_3" value="人员信息查询" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="22.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e0_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m0" target="n0_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="312.5" />
+              <mxPoint x="10" y="312.5" />
+              <mxPoint x="10" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1" value="工资项及银行账号维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="255" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s0" target="m1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="220" />
+              <mxPoint x="360" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1_0" value="工资项目字段维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m1" target="n1_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="312.5" />
+              <mxPoint x="250" y="312.5" />
+              <mxPoint x="250" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1_1" value="工资项取数及计算配置" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m1" target="n1_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="312.5" />
+              <mxPoint x="250" y="312.5" />
+              <mxPoint x="250" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1_2" value="银行账号维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m1" target="n1_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="312.5" />
+              <mxPoint x="250" y="312.5" />
+              <mxPoint x="250" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n1_3" value="银行账号批量导入" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="262.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e1_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m1" target="n1_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="312.5" />
+              <mxPoint x="250" y="312.5" />
+              <mxPoint x="250" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1" value="工资录入与审核流程" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=19.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="665" y="147.5" width="350" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rs1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="s1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="130" />
+              <mxPoint x="840" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" value="人事工资录入与发起" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="495" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s1" target="m2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="220" />
+              <mxPoint x="600" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2_0" value="创建工资发放项目" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="502.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="312.5" />
+              <mxPoint x="490" y="312.5" />
+              <mxPoint x="490" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2_1" value="录入或导入人事工资" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="502.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="312.5" />
+              <mxPoint x="490" y="312.5" />
+              <mxPoint x="490" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2_2" value="工资数据校验与差异查看" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="502.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="312.5" />
+              <mxPoint x="490" y="312.5" />
+              <mxPoint x="490" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n2_3" value="发起人事审核流程" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="502.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e2_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="n2_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="312.5" />
+              <mxPoint x="490" y="312.5" />
+              <mxPoint x="490" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3" value="人事工资审核审批" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="735" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s1" target="m3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="220" />
+              <mxPoint x="840" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3_0" value="人事初核" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="312.5" />
+              <mxPoint x="730" y="312.5" />
+              <mxPoint x="730" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3_1" value="人事复核" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="312.5" />
+              <mxPoint x="730" y="312.5" />
+              <mxPoint x="730" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3_2" value="人事审核" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="312.5" />
+              <mxPoint x="730" y="312.5" />
+              <mxPoint x="730" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3_3" value="人事审批" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="312.5" />
+              <mxPoint x="730" y="312.5" />
+              <mxPoint x="730" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n3_4" value="审批通过后转财务" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="742.5" y="571" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e3_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="n3_4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="312.5" />
+              <mxPoint x="730" y="312.5" />
+              <mxPoint x="730" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4" value="财务补录与审核审批" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="975" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s1" target="m4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="220" />
+              <mxPoint x="1080" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4_0" value="补录或导入财务工资" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="982.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m4" target="n4_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="312.5" />
+              <mxPoint x="970" y="312.5" />
+              <mxPoint x="970" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4_1" value="发起财务审核流程" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="982.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m4" target="n4_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="312.5" />
+              <mxPoint x="970" y="312.5" />
+              <mxPoint x="970" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4_2" value="财务审核" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="982.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m4" target="n4_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="312.5" />
+              <mxPoint x="970" y="312.5" />
+              <mxPoint x="970" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4_3" value="财务审批" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="982.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m4" target="n4_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="312.5" />
+              <mxPoint x="970" y="312.5" />
+              <mxPoint x="970" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4_4" value="审批通过后流程结束" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="982.5" y="571" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e4_4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m4" target="n4_4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="312.5" />
+              <mxPoint x="970" y="312.5" />
+              <mxPoint x="970" y="595" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s2" value="发放后查询与使用" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=19.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="1265" y="147.5" width="350" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rs2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="s2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="130" />
+              <mxPoint x="1440" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" value="人事查询与汇总统计" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="1215" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s2" target="m5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="220" />
+              <mxPoint x="1320" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5_0" value="已完成工资项目查询" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1222.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m5" target="n5_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="312.5" />
+              <mxPoint x="1210" y="312.5" />
+              <mxPoint x="1210" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5_1" value="人事部门工资汇总统计" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1222.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m5" target="n5_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="312.5" />
+              <mxPoint x="1210" y="312.5" />
+              <mxPoint x="1210" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5_2" value="按部门、人员类型汇总" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1222.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m5" target="n5_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="312.5" />
+              <mxPoint x="1210" y="312.5" />
+              <mxPoint x="1210" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n5_3" value="按工资项目汇总" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1222.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e5_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m5" target="n5_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="312.5" />
+              <mxPoint x="1210" y="312.5" />
+              <mxPoint x="1210" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6" value="工资条对接与查看" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
+          <mxGeometry x="1455" y="245" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sm6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s2" target="m6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1440" y="220" />
+              <mxPoint x="1560" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6_0" value="提供已完成工资数据" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1462.5" y="331" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="312.5" />
+              <mxPoint x="1450" y="312.5" />
+              <mxPoint x="1450" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6_1" value="工资条应用直接取数" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1462.5" y="391" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="312.5" />
+              <mxPoint x="1450" y="312.5" />
+              <mxPoint x="1450" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6_2" value="税务人员查看本人工资条&#xa;（工资条应用中）" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=14.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1462.5" y="451" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="312.5" />
+              <mxPoint x="1450" y="312.5" />
+              <mxPoint x="1450" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n6_3" value="免除重复导出与导入" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1462.5" y="511" width="195" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="e6_3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1560" y="312.5" />
+              <mxPoint x="1450" y="312.5" />
+              <mxPoint x="1450" y="535" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="note" value="流程说明：人事四级审批通过后转财务；财务补录并完成审核、审批后，工资发放流程结束。" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16.5;align=center;verticalAlign=middle;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="35" y="656.25" width="1610" height="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" value="工资条应用直接使用已完成的工资数据；税务人员在工资条应用中查看本人工资条。" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=16.5;align=center;verticalAlign=middle;text;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="35" y="688.75" width="1610" height="27.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
