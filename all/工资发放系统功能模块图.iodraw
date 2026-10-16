@@ -109,16 +109,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m1" value="职务职级维护" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=18;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="477" y="202.5" width="205" height="55" as="geometry" />
-        </mxCell>
-        <mxCell id="me1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" target="m1" edge="1">
+        <mxCell id="me1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="system" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="840" y="175" />
               <mxPoint x="578" y="175" />
               <mxPoint x="578" y="202" />
             </Array>
+            <mxPoint x="579.5" y="202.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n1_0" value="职务信息维护" style="whiteSpace=wrap;html=0;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=16;rounded=0;strokeColor=#425567;strokeWidth=1.5;fillColor=#FFFFFF;" parent="1" vertex="1">
