@@ -79,88 +79,85 @@
         <mxCell id="fail4" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="1" source="n4" target="f4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="note" value="职务职级变更要求存在可编辑发放项目；银行卡由财务维护，自动取数金额不可直接编辑。" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="25" y="1235" width="890" height="95" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="page-2" name="02 人员逻辑删除">
-    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="1225" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="960" pageHeight="1225" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="pool" value="人员逻辑删除" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="20" y="20" width="900" height="1095" />
+        <mxCell id="pool" value="人员逻辑删除" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="900" height="1095" as="geometry" />
         </mxCell>
-        <mxCell id="lane0" value="前端" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" vertex="1" parent="pool">
-          <mxGeometry as="geometry" x="0" y="45" width="300" height="1050" />
+        <mxCell id="lane0" value="前端" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" parent="pool" vertex="1">
+          <mxGeometry y="45" width="300" height="1050" as="geometry" />
         </mxCell>
-        <mxCell id="lane1" value="后端" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" vertex="1" parent="pool">
-          <mxGeometry as="geometry" x="300" y="45" width="300" height="1050" />
+        <mxCell id="n0" value="开始" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" parent="lane0" vertex="1">
+          <mxGeometry x="45" y="65" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="lane2" value="数据库" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" vertex="1" parent="pool">
-          <mxGeometry as="geometry" x="600" y="45" width="300" height="1050" />
+        <mxCell id="n1" value="选择人员&#xa;点击删除并确认" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane0" vertex="1">
+          <mxGeometry x="45" y="170" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n0" value="开始" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" vertex="1" parent="lane0">
-          <mxGeometry as="geometry" x="45" y="65" width="210" height="62" />
+        <mxCell id="f4" value="提示有关联项目&#xa;禁止删除" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" parent="lane0" vertex="1">
+          <mxGeometry x="45" y="495" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n1" value="选择人员&#xa;点击删除并确认" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="lane0">
-          <mxGeometry as="geometry" x="45" y="170" width="210" height="62" />
+        <mxCell id="n7" value="显示删除成功&#xa;刷新人员列表" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane0" vertex="1">
+          <mxGeometry x="45" y="800" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n2" value="校验人事经办权限" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="lane1">
-          <mxGeometry as="geometry" x="45" y="275" width="210" height="62" />
+        <mxCell id="n8" value="结束" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" parent="lane0" vertex="1">
+          <mxGeometry x="45" y="905" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n3" value="查询人员是否参与&#xa;审批中或已发放项目" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="lane2">
-          <mxGeometry as="geometry" x="45" y="380" width="210" height="62" />
+        <mxCell id="lane1" value="后端" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" parent="pool" vertex="1">
+          <mxGeometry x="300" y="45" width="300" height="1050" as="geometry" />
         </mxCell>
-        <mxCell id="n4" value="是否允许删除？" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rhombus;" vertex="1" parent="lane1">
-          <mxGeometry as="geometry" x="40" y="485" width="220" height="82" />
+        <mxCell id="n2" value="校验人事经办权限" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane1" vertex="1">
+          <mxGeometry x="45" y="275" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="f4" value="提示有关联项目&#xa;禁止删除" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" vertex="1" parent="lane0">
-          <mxGeometry as="geometry" x="45" y="495" width="210" height="62" />
+        <mxCell id="n4" value="是否允许删除？" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rhombus;" parent="lane1" vertex="1">
+          <mxGeometry x="40" y="485" width="220" height="82" as="geometry" />
         </mxCell>
-        <mxCell id="n5" value="更新人员有效标志&#xa;执行逻辑删除" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="lane2">
-          <mxGeometry as="geometry" x="45" y="590" width="210" height="62" />
+        <mxCell id="n6" value="整理处理结果&#xa;返回前端" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane1" vertex="1">
+          <mxGeometry x="45" y="695" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n6" value="整理处理结果&#xa;返回前端" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="lane1">
-          <mxGeometry as="geometry" x="45" y="695" width="210" height="62" />
+        <mxCell id="lane2" value="数据库" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" parent="pool" vertex="1">
+          <mxGeometry x="600" y="45" width="300" height="1050" as="geometry" />
         </mxCell>
-        <mxCell id="n7" value="显示删除成功&#xa;刷新人员列表" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="lane0">
-          <mxGeometry as="geometry" x="45" y="800" width="210" height="62" />
+        <mxCell id="n3" value="查询人员是否参与&#xa;审批中或已发放项目" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane2" vertex="1">
+          <mxGeometry x="45" y="380" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n8" value="结束" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" vertex="1" parent="lane0">
-          <mxGeometry as="geometry" x="45" y="905" width="210" height="62" />
+        <mxCell id="n5" value="更新人员有效标志&#xa;执行逻辑删除" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane2" vertex="1">
+          <mxGeometry x="45" y="590" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n0" target="n1">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n0" target="n1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n1" target="n2">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n1" target="n2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n2" target="n3">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n2" target="n3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n3" target="n4">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n3" target="n4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n4" target="n5">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e5" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n4" target="n5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n5" target="n6">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n5" target="n6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n6" target="n7">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n6" target="n7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="n7" target="n8">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n7" target="n8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fail4" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" edge="1" parent="1" source="n4" target="f4">
-          <mxGeometry as="geometry" relative="1" />
+        <mxCell id="fail4" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="1" source="n4" target="f4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="note" value="后端校验权限、项目状态及业务数据；失败时返回原因，不推进业务状态。" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry as="geometry" x="25" y="1130" width="890" height="95" />
+        <mxCell id="note" value="后端校验权限、项目状态及业务数据；失败时返回原因，不推进业务状态。" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=SimSun;fontSize=14;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="25" y="1130" width="890" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
