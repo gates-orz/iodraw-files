@@ -336,62 +336,44 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m5" value="人事查询与汇总统计" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="1215" y="245" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sm5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s2" target="m5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1440" y="220" />
-              <mxPoint x="1320" y="220" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="n5_0" value="已完成工资项目查询" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1222.5" y="331" width="195" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e5_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m5" target="n5_0" edge="1">
+        <mxCell id="e5_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" target="n5_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1320" y="312.5" />
               <mxPoint x="1210" y="312.5" />
               <mxPoint x="1210" y="355" />
             </Array>
+            <mxPoint x="1320" y="295" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n5_1" value="人事部门工资汇总统计" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1222.5" y="391" width="195" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e5_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m5" target="n5_1" edge="1">
+        <mxCell id="e5_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" target="n5_1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1320" y="312.5" />
-              <mxPoint x="1210" y="312.5" />
+              <mxPoint x="1326" y="295" />
+              <mxPoint x="1326" y="313" />
+              <mxPoint x="1210" y="313" />
               <mxPoint x="1210" y="415" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="m6" value="工资条对接与查看" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=17.0;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#E8EEF4;" parent="1" vertex="1">
-          <mxGeometry x="1455" y="245" width="210" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="sm6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="s2" target="m6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1440" y="220" />
-              <mxPoint x="1560" y="220" />
-            </Array>
+            <mxPoint x="1320" y="295" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="n6_0" value="提供已完成工资数据" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1462.5" y="331" width="195" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m6" target="n6_0" edge="1">
+        <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" target="n6_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1560" y="312.5" />
               <mxPoint x="1450" y="312.5" />
               <mxPoint x="1450" y="355" />
             </Array>
+            <mxPoint x="1560" y="295" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
