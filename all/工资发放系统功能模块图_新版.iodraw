@@ -100,20 +100,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="n1_1" value="工资项取数及计算配置" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="262.5" y="391" width="195" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="e1_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m1" target="n1_1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="360" y="312.5" />
-              <mxPoint x="250" y="312.5" />
-              <mxPoint x="250" y="415" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="n1_2" value="银行账号维护" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="262.5" y="451" width="195" height="48" as="geometry" />
+          <mxGeometry x="270" y="391" width="195" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e1_2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m1" target="n1_2" edge="1">
           <mxGeometry relative="1" as="geometry">
