@@ -337,7 +337,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n5_0" value="已完成工资项目查询" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1342.5" y="331" width="195" height="48" as="geometry" />
+          <mxGeometry x="1340" y="331" width="195" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e5_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitDx=0;exitDy=0;" parent="1" source="s2" target="n5_0" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -350,14 +350,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n5_1" value="人事部门工资汇总统计" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
-          <mxGeometry x="1342.5" y="391" width="195" height="48" as="geometry" />
+          <mxGeometry x="1340" y="391" width="195" height="48" as="geometry" />
         </mxCell>
         <mxCell id="e5_1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitDx=0;exitDy=0;" parent="1" source="s2" target="n5_1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1440" y="312" />
-              <mxPoint x="1210" y="312" />
-              <mxPoint x="1210" y="415" />
+              <mxPoint x="1324" y="312" />
+              <mxPoint x="1324" y="415" />
             </Array>
             <mxPoint x="1320" y="295" as="sourcePoint" />
           </mxGeometry>
