@@ -365,12 +365,13 @@
         <mxCell id="n6_0" value="提供已完成工资数据" style="whiteSpace=wrap;html=0;fontFamily=Microsoft YaHei;fontSize=15.5;align=center;verticalAlign=middle;rounded=0;strokeWidth=1.5;strokeColor=#425567;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1340" y="451" width="195" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" target="n6_0" edge="1">
+        <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitDx=0;exitDy=0;" parent="1" source="s2" target="n6_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1437.5" y="432.5" />
-              <mxPoint x="1327.5" y="432.5" />
-              <mxPoint x="1327.5" y="475" />
+              <mxPoint x="1438" y="192" />
+              <mxPoint x="1438" y="432" />
+              <mxPoint x="1328" y="432" />
+              <mxPoint x="1328" y="475" />
             </Array>
             <mxPoint x="1437.5" y="415" as="sourcePoint" />
           </mxGeometry>
