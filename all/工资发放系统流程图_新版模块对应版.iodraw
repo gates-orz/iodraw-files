@@ -2187,7 +2187,7 @@
         <mxCell id="pool" value="工资条查询工资数据" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="900" height="990" as="geometry" />
         </mxCell>
-        <mxCell id="lane0" value="前端／工资条系统" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" parent="pool" vertex="1">
+        <mxCell id="lane0" value="工资条系统" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" parent="pool" vertex="1">
           <mxGeometry y="45" width="300" height="945" as="geometry" />
         </mxCell>
         <mxCell id="n0" value="开始" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=1;arcSize=25;" parent="lane0" vertex="1">
