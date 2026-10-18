@@ -626,6 +626,11 @@
         <mxCell id="n7" value="保存工资数据&#xa;批量时记录导入结果" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane2" vertex="1">
           <mxGeometry x="45" y="800" width="210" height="62" as="geometry" />
         </mxCell>
+        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="pool" source="n5" target="n7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="e1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n0" target="n1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -640,11 +645,6 @@
         </mxCell>
         <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n4" target="n5" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n5" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="470" y="760" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="e8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n7" target="n8" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -693,9 +693,6 @@
         <mxCell id="n4" value="检查必填、精度和实发金额&#xa;比较人员及工资项变化" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane1" vertex="1">
           <mxGeometry x="45" y="485" width="210" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="n5" value="整理校验错误及差异清单&#xa;无基准时明确提示" style="html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;rounded=0;" parent="lane1" vertex="1">
-          <mxGeometry x="45" y="590" width="210" height="62" as="geometry" />
-        </mxCell>
         <mxCell id="lane2" value="数据库" style="swimlane;horizontal=1;startSize=45;container=1;collapsible=0;html=0;whiteSpace=wrap;fontFamily=SimSun;fontSize=17;strokeColor=#000000;fillColor=#FFFFFF;strokeWidth=1.5;align=center;verticalAlign=middle;fontSize=22;" parent="pool" vertex="1">
           <mxGeometry x="600" y="45" width="300" height="945" as="geometry" />
         </mxCell>
@@ -714,11 +711,10 @@
         <mxCell id="e4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n3" target="n4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n4" target="n5" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="e6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n5" target="n6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="e5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="655" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="e7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;endArrow=block;endFill=1;strokeColor=#000000;strokeWidth=1.5;fontFamily=SimSun;fontSize=15;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="1" source="n6" target="n7" edge="1">
           <mxGeometry relative="1" as="geometry" />
