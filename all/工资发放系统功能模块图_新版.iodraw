@@ -368,9 +368,7 @@
         <mxCell id="e6_0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;endArrow=none;strokeColor=#425567;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0;entryY=0.5;exitDx=0;exitDy=0;" parent="1" source="s2" target="n6_0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1438" y="192" />
-              <mxPoint x="1438" y="432" />
-              <mxPoint x="1328" y="432" />
+              <mxPoint x="1328" y="192" />
               <mxPoint x="1328" y="475" />
             </Array>
             <mxPoint x="1437.5" y="415" as="sourcePoint" />
