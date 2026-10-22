@@ -253,18 +253,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="leaf2-3" value="作废与补办提示" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#526D7D;strokeWidth=1;fontColor=#000000;fontFamily=SimSun;fontSize=26;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="870" y="830" width="345" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="edge21" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#405B6B;strokeWidth=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m2" target="leaf2-3" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1030" y="495" />
-              <mxPoint x="848" y="495" />
-              <mxPoint x="848" y="870" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="m3" value="事前报告与申诉" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#E7EEF4;strokeColor=#526D7D;strokeWidth=1;fontColor=#000000;fontFamily=SimSun;fontSize=28;align=center;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1260" y="375" width="350" height="88" as="geometry" />
         </mxCell>
@@ -321,18 +309,6 @@
               <mxPoint x="1435" y="495" />
               <mxPoint x="1253" y="495" />
               <mxPoint x="1253" y="870" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="leaf3-4" value="审批办理与跟踪" style="rounded=0;whiteSpace=wrap;html=0;fillColor=#FFFFFF;strokeColor=#526D7D;strokeWidth=1;fontColor=#000000;fontFamily=SimSun;fontSize=26;align=center;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1275" y="930" width="345" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="edge27" style="endArrow=none;startArrow=none;rounded=0;strokeColor=#405B6B;strokeWidth=1;exitX=0.5;exitY=1;entryX=0;entryY=0.5;" parent="1" source="m3" target="leaf3-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1435" y="495" />
-              <mxPoint x="1253" y="495" />
-              <mxPoint x="1253" y="970" />
             </Array>
           </mxGeometry>
         </mxCell>
